@@ -44,3 +44,22 @@ git push origin work
 
 CI now fails if unresolved conflict markers exist (merge conflict separators).
 This is enforced by `scripts/validate_content.py` and workflow `.github/workflows/content-validation.yml`.
+
+
+## Web-only resolution (no local setup required)
+
+If you cannot use Git locally, you can resolve directly in GitHub UI:
+
+1. Open the PR page and click **Resolve conflicts**.
+2. For each conflicted file below, keep the branch version that contains the hardening changes, then remove conflict blocks and save:
+   - `engine/story_engine.py`
+   - `discord_layer/bot.py`
+   - `content/story/endings.json`
+3. Click **Mark as resolved** for each file, then **Commit merge**.
+4. Wait for the `content-validation` check to run.
+5. If checks pass, click **Merge pull request**.
+
+### What to keep (quick checklist)
+- In `engine/story_engine.py`: keep `load_endings`, `get_ending`, `ending_id` handling, and skill-check failure consequence return payload.
+- In `discord_layer/bot.py`: keep `is_ending` embed path and `check_failed` message prefix.
+- In `content/story/endings.json`: keep all 8 ending IDs with world-specific Arabic text.
