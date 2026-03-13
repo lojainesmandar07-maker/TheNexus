@@ -1,1704 +1,1704 @@
 {
   "nodes": {
-    "p03_a_node_000": {
-      "id": "p03_a_node_000",
-      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_001",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_085",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "p03_a_node_001": {
-      "id": "p03_a_node_001",
+    "p04_a_node_000": {
+      "id": "p04_a_node_000",
       "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_002",
+          "next_node": "p04_a_node_001",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_066",
+          "next_node": "p04_a_node_014",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 39
+      "reward_xp": 44
     },
-    "p03_a_node_002": {
-      "id": "p03_a_node_002",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_003",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p03_a_node_003": {
-      "id": "p03_a_node_003",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_004",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_074",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "p03_a_node_004": {
-      "id": "p03_a_node_004",
-      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_005",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_069",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "p03_a_node_005": {
-      "id": "p03_a_node_005",
-      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_006",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_099",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "p03_a_node_006": {
-      "id": "p03_a_node_006",
-      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_007",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_062",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 16
-    },
-    "p03_a_node_007": {
-      "id": "p03_a_node_007",
+    "p04_a_node_001": {
+      "id": "p04_a_node_001",
       "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_008",
+          "next_node": "p04_a_node_002",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_061",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p03_a_node_008": {
-      "id": "p03_a_node_008",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_009",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_032",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "p03_a_node_009": {
-      "id": "p03_a_node_009",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_010",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_028",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "p03_a_node_010": {
-      "id": "p03_a_node_010",
-      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_011",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_008",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p03_a_node_011": {
-      "id": "p03_a_node_011",
-      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_012",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_098",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p03_a_node_012": {
-      "id": "p03_a_node_012",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_013",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_060",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p03_a_node_013": {
-      "id": "p03_a_node_013",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_014",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_088",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "p03_a_node_014": {
-      "id": "p03_a_node_014",
-      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_015",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p03_a_node_015": {
-      "id": "p03_a_node_015",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_016",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_048",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p03_a_node_016": {
-      "id": "p03_a_node_016",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_017",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_087",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p03_a_node_017": {
-      "id": "p03_a_node_017",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_038",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_018": {
-      "id": "p03_a_node_018",
-      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_019",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_003",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "p03_a_node_019": {
-      "id": "p03_a_node_019",
-      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_020",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_018",
+          "next_node": "p04_a_node_095",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 21
     },
-    "p03_a_node_020": {
-      "id": "p03_a_node_020",
-      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+    "p04_a_node_002": {
+      "id": "p04_a_node_002",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_021",
+          "next_node": "p04_a_node_003",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_037",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "p03_a_node_021": {
-      "id": "p03_a_node_021",
-      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_022",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "p03_a_node_022": {
-      "id": "p03_a_node_022",
-      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_076",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p03_a_node_023": {
-      "id": "p03_a_node_023",
-      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_024",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_026",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "p03_a_node_024": {
-      "id": "p03_a_node_024",
-      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_025",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_061",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_025": {
-      "id": "p03_a_node_025",
-      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_026",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_091",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "p03_a_node_026": {
-      "id": "p03_a_node_026",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_078",
+          "next_node": "p04_a_node_015",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 24
     },
-    "p03_a_node_027": {
-      "id": "p03_a_node_027",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_028",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_089",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p03_a_node_028": {
-      "id": "p03_a_node_028",
-      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_029",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_091",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "p03_a_node_029": {
-      "id": "p03_a_node_029",
-      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_030",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_011",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p03_a_node_030": {
-      "id": "p03_a_node_030",
+    "p04_a_node_003": {
+      "id": "p04_a_node_003",
       "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_031",
+          "next_node": "p04_a_node_004",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_062",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p03_a_node_031": {
-      "id": "p03_a_node_031",
-      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_032",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "p03_a_node_032": {
-      "id": "p03_a_node_032",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_033",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_040",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "p03_a_node_033": {
-      "id": "p03_a_node_033",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_034",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_082",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "p03_a_node_034": {
-      "id": "p03_a_node_034",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_035",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_035",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "p03_a_node_035": {
-      "id": "p03_a_node_035",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_036",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_055",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "p03_a_node_036": {
-      "id": "p03_a_node_036",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_037",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_051",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "p03_a_node_037": {
-      "id": "p03_a_node_037",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_038",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 50
-    },
-    "p03_a_node_038": {
-      "id": "p03_a_node_038",
-      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_039",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_088",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "p03_a_node_039": {
-      "id": "p03_a_node_039",
-      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_040",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_016",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "p03_a_node_040": {
-      "id": "p03_a_node_040",
-      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_041",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "p03_a_node_041": {
-      "id": "p03_a_node_041",
-      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_042",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p03_a_node_042": {
-      "id": "p03_a_node_042",
-      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_043",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_060",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "p03_a_node_043": {
-      "id": "p03_a_node_043",
-      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_044",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_002",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_044": {
-      "id": "p03_a_node_044",
-      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_045",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_082",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "p03_a_node_045": {
-      "id": "p03_a_node_045",
-      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_046",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_082",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "p03_a_node_046": {
-      "id": "p03_a_node_046",
-      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_047",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_058",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p03_a_node_047": {
-      "id": "p03_a_node_047",
-      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_048",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "p03_a_node_048": {
-      "id": "p03_a_node_048",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_049",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_047",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p03_a_node_049": {
-      "id": "p03_a_node_049",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_050",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_063",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "p03_a_node_050": {
-      "id": "p03_a_node_050",
-      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_051",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_016",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_051": {
-      "id": "p03_a_node_051",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_052",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_097",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "p03_a_node_052": {
-      "id": "p03_a_node_052",
-      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_053",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_058",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_053": {
-      "id": "p03_a_node_053",
-      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_054",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "p03_a_node_054": {
-      "id": "p03_a_node_054",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_055",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_028",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p03_a_node_055": {
-      "id": "p03_a_node_055",
-      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_056",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_035",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p03_a_node_056": {
-      "id": "p03_a_node_056",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_057",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_055",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "p03_a_node_057": {
-      "id": "p03_a_node_057",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_058",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_059",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p03_a_node_058": {
-      "id": "p03_a_node_058",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_059",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_058",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p03_a_node_059": {
-      "id": "p03_a_node_059",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_060",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_089",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p03_a_node_060": {
-      "id": "p03_a_node_060",
-      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_061",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "p03_a_node_061": {
-      "id": "p03_a_node_061",
-      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_062",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_000",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p03_a_node_062": {
-      "id": "p03_a_node_062",
-      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_063",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_007",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "p03_a_node_063": {
-      "id": "p03_a_node_063",
-      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_064",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "p03_a_node_064": {
-      "id": "p03_a_node_064",
-      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_065",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_052",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p03_a_node_065": {
-      "id": "p03_a_node_065",
-      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_066",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_093",
+          "next_node": "p04_a_node_012",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 17
     },
-    "p03_a_node_066": {
-      "id": "p03_a_node_066",
-      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+    "p04_a_node_004": {
+      "id": "p04_a_node_004",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_067",
+          "next_node": "p04_a_node_005",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p03_a_node_067": {
-      "id": "p03_a_node_067",
-      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_068",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "p03_a_node_068": {
-      "id": "p03_a_node_068",
-      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_069",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_093",
+          "next_node": "p04_a_node_061",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 14
     },
-    "p03_a_node_069": {
-      "id": "p03_a_node_069",
+    "p04_a_node_005": {
+      "id": "p04_a_node_005",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_006",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_050",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_a_node_006": {
+      "id": "p04_a_node_006",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_007",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_a_node_007": {
+      "id": "p04_a_node_007",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_008",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_040",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_a_node_008": {
+      "id": "p04_a_node_008",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_009",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 43
+    },
+    "p04_a_node_009": {
+      "id": "p04_a_node_009",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_010",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_063",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 13
+    },
+    "p04_a_node_010": {
+      "id": "p04_a_node_010",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_011",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_024",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 31
+    },
+    "p04_a_node_011": {
+      "id": "p04_a_node_011",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_012",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_073",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p04_a_node_012": {
+      "id": "p04_a_node_012",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_013",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_061",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 43
+    },
+    "p04_a_node_013": {
+      "id": "p04_a_node_013",
       "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_070",
+          "next_node": "p04_a_node_014",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "p03_a_node_070": {
-      "id": "p03_a_node_070",
-      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_071",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_090",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p03_a_node_071": {
-      "id": "p03_a_node_071",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_072",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_036",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 50
-    },
-    "p03_a_node_072": {
-      "id": "p03_a_node_072",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_009",
+          "next_node": "p04_a_node_094",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 34
     },
-    "p03_a_node_073": {
-      "id": "p03_a_node_073",
-      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_074",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_069",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "p03_a_node_074": {
-      "id": "p03_a_node_074",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_075",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p03_a_node_075": {
-      "id": "p03_a_node_075",
-      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_076",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "p03_a_node_076": {
-      "id": "p03_a_node_076",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_077",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_062",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p03_a_node_077": {
-      "id": "p03_a_node_077",
+    "p04_a_node_014": {
+      "id": "p04_a_node_014",
       "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_078",
+          "next_node": "p04_a_node_015",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_090",
+          "next_node": "p04_a_node_003",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_a_node_015": {
+      "id": "p04_a_node_015",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_016",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_089",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_a_node_016": {
+      "id": "p04_a_node_016",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_017",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_064",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 23
+    },
+    "p04_a_node_017": {
+      "id": "p04_a_node_017",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_018",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_097",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p04_a_node_018": {
+      "id": "p04_a_node_018",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_019",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_044",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p04_a_node_019": {
+      "id": "p04_a_node_019",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_020",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_081",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_a_node_020": {
+      "id": "p04_a_node_020",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_021",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_023",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 29
     },
-    "p03_a_node_078": {
-      "id": "p03_a_node_078",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+    "p04_a_node_021": {
+      "id": "p04_a_node_021",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_079",
+          "next_node": "p04_a_node_022",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_060",
+          "next_node": "p04_a_node_048",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 37
+      "reward_xp": 22
     },
-    "p03_a_node_079": {
-      "id": "p03_a_node_079",
-      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_015",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "p03_a_node_080": {
-      "id": "p03_a_node_080",
-      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_081",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_019",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p03_a_node_081": {
-      "id": "p03_a_node_081",
+    "p04_a_node_022": {
+      "id": "p04_a_node_022",
       "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_082",
+          "next_node": "p04_a_node_023",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_004",
+          "next_node": "p04_a_node_023",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 42
+      "reward_xp": 19
     },
-    "p03_a_node_082": {
-      "id": "p03_a_node_082",
-      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+    "p04_a_node_023": {
+      "id": "p04_a_node_023",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_083",
+          "next_node": "p04_a_node_024",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_067",
+          "next_node": "p04_a_node_013",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 35
+      "reward_xp": 24
     },
-    "p03_a_node_083": {
-      "id": "p03_a_node_083",
-      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_084",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p03_a_node_084": {
-      "id": "p03_a_node_084",
-      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_085",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_095",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "p03_a_node_085": {
-      "id": "p03_a_node_085",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_086",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_012",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p03_a_node_086": {
-      "id": "p03_a_node_086",
-      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_087",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_022",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p03_a_node_087": {
-      "id": "p03_a_node_087",
+    "p04_a_node_024": {
+      "id": "p04_a_node_024",
       "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_088",
+          "next_node": "p04_a_node_025",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_044",
+          "next_node": "p04_a_node_021",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 10
+      "reward_xp": 45
     },
-    "p03_a_node_088": {
-      "id": "p03_a_node_088",
-      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_089",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_053",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p03_a_node_089": {
-      "id": "p03_a_node_089",
+    "p04_a_node_025": {
+      "id": "p04_a_node_025",
       "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_090",
+          "next_node": "p04_a_node_026",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_089",
+          "next_node": "p04_a_node_042",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p04_a_node_026": {
+      "id": "p04_a_node_026",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_027",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_006",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 49
     },
-    "p03_a_node_090": {
-      "id": "p03_a_node_090",
-      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_091",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_033",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "p03_a_node_091": {
-      "id": "p03_a_node_091",
+    "p04_a_node_027": {
+      "id": "p04_a_node_027",
       "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_092",
+          "next_node": "p04_a_node_028",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_072",
+          "next_node": "p04_a_node_071",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 41
+      "reward_xp": 15
     },
-    "p03_a_node_092": {
-      "id": "p03_a_node_092",
-      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_093",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_021",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "p03_a_node_093": {
-      "id": "p03_a_node_093",
-      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_094",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p03_a_node_094": {
-      "id": "p03_a_node_094",
-      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_095",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_002",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 32
-    },
-    "p03_a_node_095": {
-      "id": "p03_a_node_095",
+    "p04_a_node_028": {
+      "id": "p04_a_node_028",
       "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_096",
+          "next_node": "p04_a_node_029",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_015",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 50
-    },
-    "p03_a_node_096": {
-      "id": "p03_a_node_096",
-      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_097",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_010",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "p03_a_node_097": {
-      "id": "p03_a_node_097",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_098",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_061",
+          "next_node": "p04_a_node_020",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 12
     },
-    "p03_a_node_098": {
-      "id": "p03_a_node_098",
-      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+    "p04_a_node_029": {
+      "id": "p04_a_node_029",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_a_node_099",
+          "next_node": "p04_a_node_030",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_040",
+          "next_node": "p04_a_node_023",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p04_a_node_030": {
+      "id": "p04_a_node_030",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_031",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_090",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_a_node_031": {
+      "id": "p04_a_node_031",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_032",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_085",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p04_a_node_032": {
+      "id": "p04_a_node_032",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_033",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p04_a_node_033": {
+      "id": "p04_a_node_033",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_034",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_011",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_a_node_034": {
+      "id": "p04_a_node_034",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_035",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_023",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 16
+    },
+    "p04_a_node_035": {
+      "id": "p04_a_node_035",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_036",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_054",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p04_a_node_036": {
+      "id": "p04_a_node_036",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_037",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_080",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_a_node_037": {
+      "id": "p04_a_node_037",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_038",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_a_node_038": {
+      "id": "p04_a_node_038",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_039",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_092",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_a_node_039": {
+      "id": "p04_a_node_039",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_040",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_030",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p04_a_node_040": {
+      "id": "p04_a_node_040",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_041",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_002",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_a_node_041": {
+      "id": "p04_a_node_041",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_042",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_024",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p04_a_node_042": {
+      "id": "p04_a_node_042",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_043",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_023",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_a_node_043": {
+      "id": "p04_a_node_043",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_044",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_008",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_a_node_044": {
+      "id": "p04_a_node_044",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_045",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_015",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p04_a_node_045": {
+      "id": "p04_a_node_045",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_046",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_031",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_a_node_046": {
+      "id": "p04_a_node_046",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_047",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_011",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_a_node_047": {
+      "id": "p04_a_node_047",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_048",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_019",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_a_node_048": {
+      "id": "p04_a_node_048",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_049",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_054",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 37
+    },
+    "p04_a_node_049": {
+      "id": "p04_a_node_049",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_050",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_076",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 10
+    },
+    "p04_a_node_050": {
+      "id": "p04_a_node_050",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_051",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_a_node_051": {
+      "id": "p04_a_node_051",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_052",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_051",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p04_a_node_052": {
+      "id": "p04_a_node_052",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_053",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_009",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 38
+    },
+    "p04_a_node_053": {
+      "id": "p04_a_node_053",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_054",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_a_node_054": {
+      "id": "p04_a_node_054",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_055",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_060",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_a_node_055": {
+      "id": "p04_a_node_055",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_056",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_013",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_a_node_056": {
+      "id": "p04_a_node_056",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_057",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p04_a_node_057": {
+      "id": "p04_a_node_057",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_058",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_002",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 10
+    },
+    "p04_a_node_058": {
+      "id": "p04_a_node_058",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_059",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_017",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p04_a_node_059": {
+      "id": "p04_a_node_059",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_060",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_033",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 12
+    },
+    "p04_a_node_060": {
+      "id": "p04_a_node_060",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_061",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_062",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_a_node_061": {
+      "id": "p04_a_node_061",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_062",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_002",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_a_node_062": {
+      "id": "p04_a_node_062",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_063",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_079",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p04_a_node_063": {
+      "id": "p04_a_node_063",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_064",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_067",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 47
+    },
+    "p04_a_node_064": {
+      "id": "p04_a_node_064",
+      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_065",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_014",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p04_a_node_065": {
+      "id": "p04_a_node_065",
+      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_066",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_019",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_a_node_066": {
+      "id": "p04_a_node_066",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_067",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_010",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_a_node_067": {
+      "id": "p04_a_node_067",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_068",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_027",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p04_a_node_068": {
+      "id": "p04_a_node_068",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_069",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_085",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_a_node_069": {
+      "id": "p04_a_node_069",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_070",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_073",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 38
+    },
+    "p04_a_node_070": {
+      "id": "p04_a_node_070",
+      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_071",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p04_a_node_071": {
+      "id": "p04_a_node_071",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_072",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_012",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p04_a_node_072": {
+      "id": "p04_a_node_072",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_073",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_084",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_a_node_073": {
+      "id": "p04_a_node_073",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_074",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_037",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 10
+    },
+    "p04_a_node_074": {
+      "id": "p04_a_node_074",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_075",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_004",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p04_a_node_075": {
+      "id": "p04_a_node_075",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_076",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_084",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 27
     },
-    "p03_a_node_099": {
-      "id": "p03_a_node_099",
-      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+    "p04_a_node_076": {
+      "id": "p04_a_node_076",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
       "choices": [
         {
           "text_ar": "واجه انعكاسك وتحدى الواقع",
-          "next_node": "p03_b_node_000",
+          "next_node": "p04_a_node_077",
           "skill_check": "intellect"
         },
         {
           "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
-          "next_node": "p03_a_node_015",
+          "next_node": "p04_a_node_097",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 10
+    },
+    "p04_a_node_077": {
+      "id": "p04_a_node_077",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_078",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_038",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p04_a_node_078": {
+      "id": "p04_a_node_078",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_079",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_099",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p04_a_node_079": {
+      "id": "p04_a_node_079",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_080",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_096",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 44
+    },
+    "p04_a_node_080": {
+      "id": "p04_a_node_080",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_081",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_036",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p04_a_node_081": {
+      "id": "p04_a_node_081",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_082",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_061",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p04_a_node_082": {
+      "id": "p04_a_node_082",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_083",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_079",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p04_a_node_083": {
+      "id": "p04_a_node_083",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_084",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_045",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p04_a_node_084": {
+      "id": "p04_a_node_084",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_085",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_064",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_a_node_085": {
+      "id": "p04_a_node_085",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_086",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_080",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_a_node_086": {
+      "id": "p04_a_node_086",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_087",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_081",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p04_a_node_087": {
+      "id": "p04_a_node_087",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_088",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_063",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p04_a_node_088": {
+      "id": "p04_a_node_088",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_089",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_006",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p04_a_node_089": {
+      "id": "p04_a_node_089",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_090",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_015",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 31
+    },
+    "p04_a_node_090": {
+      "id": "p04_a_node_090",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_091",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_064",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 20
+    },
+    "p04_a_node_091": {
+      "id": "p04_a_node_091",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_092",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_016",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_a_node_092": {
+      "id": "p04_a_node_092",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_093",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_014",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_a_node_093": {
+      "id": "p04_a_node_093",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_094",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p04_a_node_094": {
+      "id": "p04_a_node_094",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_095",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_075",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 37
+    },
+    "p04_a_node_095": {
+      "id": "p04_a_node_095",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_096",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_045",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p04_a_node_096": {
+      "id": "p04_a_node_096",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_097",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_036",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_a_node_097": {
+      "id": "p04_a_node_097",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_098",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p04_a_node_098": {
+      "id": "p04_a_node_098",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_a_node_099",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_054",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 35
+    },
+    "p04_a_node_099": {
+      "id": "p04_a_node_099",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_000",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_a_node_094",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
     }
   }
 }

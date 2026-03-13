@@ -1,1704 +1,1704 @@
 {
   "nodes": {
-    "node_000": {
-      "id": "node_000",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 0)",
+    "p04_b_node_000": {
+      "id": "p04_b_node_000",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_026",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_001",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "node_001": {
-      "id": "node_001",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 1)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_022",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_002": {
-      "id": "node_002",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 2)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_051",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_011",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "node_003": {
-      "id": "node_003",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 3)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_049",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_035",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "node_004": {
-      "id": "node_004",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 4)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_040",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_058",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "node_005": {
-      "id": "node_005",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 5)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_055",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "node_006": {
-      "id": "node_006",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 6)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_077",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_094",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_007": {
-      "id": "node_007",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 7)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_068",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_002",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_036",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 26
     },
-    "node_008": {
-      "id": "node_008",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 8)",
+    "p04_b_node_001": {
+      "id": "p04_b_node_001",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_006",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_002",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_078",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_009": {
-      "id": "node_009",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 9)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_005",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_018",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_010": {
-      "id": "node_010",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 10)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "node_011": {
-      "id": "node_011",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 11)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_051",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_080",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_012": {
-      "id": "node_012",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 12)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_061",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_032",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_013": {
-      "id": "node_013",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 13)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_086",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_039",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_014": {
-      "id": "node_014",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 14)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_010",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_085",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "node_015": {
-      "id": "node_015",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 15)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_036",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_016": {
-      "id": "node_016",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 16)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_082",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_008",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "node_017": {
-      "id": "node_017",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 17)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_074",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_021",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_018": {
-      "id": "node_018",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 18)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_009",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_019": {
-      "id": "node_019",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 19)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_053",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 22
-    },
-    "node_020": {
-      "id": "node_020",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 20)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_021": {
-      "id": "node_021",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 21)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_059",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_030",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "node_022": {
-      "id": "node_022",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 22)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_039",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_086",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "node_023": {
-      "id": "node_023",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 23)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_089",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_046",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 14
-    },
-    "node_024": {
-      "id": "node_024",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 24)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_032",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_025": {
-      "id": "node_025",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 25)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_060",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_026": {
-      "id": "node_026",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 26)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_015",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_020",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "node_027": {
-      "id": "node_027",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 27)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_043",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_042",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "node_028": {
-      "id": "node_028",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 28)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_062",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_029": {
-      "id": "node_029",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 29)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_056",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_003",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_030": {
-      "id": "node_030",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 30)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_029",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_070",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "node_031": {
-      "id": "node_031",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 31)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_034",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_042",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "node_032": {
-      "id": "node_032",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 32)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_032",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_069",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_033": {
-      "id": "node_033",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 33)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_078",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_015",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "node_034": {
-      "id": "node_034",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 34)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_009",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_004",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_035": {
-      "id": "node_035",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 35)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_036",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_003",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "node_036": {
-      "id": "node_036",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 36)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_097",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_044",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_037": {
-      "id": "node_037",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 37)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_099",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_028",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "node_038": {
-      "id": "node_038",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 38)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_082",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_079",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_039": {
-      "id": "node_039",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 39)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_044",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_035",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_040": {
-      "id": "node_040",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 40)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_022",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "node_041": {
-      "id": "node_041",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 41)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_004",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_042": {
-      "id": "node_042",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 42)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_093",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_043": {
-      "id": "node_043",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 43)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_013",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_056",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_044": {
-      "id": "node_044",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 44)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_079",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "node_045": {
-      "id": "node_045",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 45)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_045",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_015",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_046": {
-      "id": "node_046",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 46)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_095",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_002",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "node_047": {
-      "id": "node_047",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 47)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_017",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_090",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "node_048": {
-      "id": "node_048",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 48)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "node_049": {
-      "id": "node_049",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 49)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_067",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_060",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_050": {
-      "id": "node_050",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 50)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_098",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_051": {
-      "id": "node_051",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 51)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_059",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_081",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_052": {
-      "id": "node_052",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 52)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_001",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "node_053": {
-      "id": "node_053",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 53)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_054",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "node_054": {
-      "id": "node_054",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 54)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_008",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_054",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "node_055": {
-      "id": "node_055",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 55)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_052",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_053",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_056": {
-      "id": "node_056",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 56)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_076",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_057": {
-      "id": "node_057",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 57)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_067",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_000",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_058": {
-      "id": "node_058",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 58)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_075",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_022",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_059": {
-      "id": "node_059",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 59)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_074",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_006",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "node_060": {
-      "id": "node_060",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 60)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_011",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 22
-    },
-    "node_061": {
-      "id": "node_061",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 61)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_040",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_055",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_062": {
-      "id": "node_062",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 62)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_068",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_076",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "node_063": {
-      "id": "node_063",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 63)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_045",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_025",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_099",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 23
     },
-    "node_064": {
-      "id": "node_064",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 64)",
+    "p04_b_node_002": {
+      "id": "p04_b_node_002",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_087",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_003",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_008",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_036",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 37
+      "reward_xp": 22
     },
-    "node_065": {
-      "id": "node_065",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 65)",
+    "p04_b_node_003": {
+      "id": "p04_b_node_003",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_059",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_004",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "node_066": {
-      "id": "node_066",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 66)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_019",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_049",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 14
-    },
-    "node_067": {
-      "id": "node_067",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 67)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_005",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_031",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_068": {
-      "id": "node_068",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 68)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_010",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_007",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "node_069": {
-      "id": "node_069",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 69)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_090",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_068",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "node_070": {
-      "id": "node_070",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 70)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_098",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_002",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_071": {
-      "id": "node_071",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 71)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_079",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_069",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "node_072": {
-      "id": "node_072",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 72)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_091",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_076",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_073": {
-      "id": "node_073",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 73)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_081",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_040",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_087",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 36
     },
-    "node_074": {
-      "id": "node_074",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 74)",
+    "p04_b_node_004": {
+      "id": "p04_b_node_004",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_061",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_005",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_032",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_050",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 13
+      "reward_xp": 49
     },
-    "node_075": {
-      "id": "node_075",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 75)",
+    "p04_b_node_005": {
+      "id": "p04_b_node_005",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_034",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_006",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_046",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_055",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 44
     },
-    "node_076": {
-      "id": "node_076",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 76)",
+    "p04_b_node_006": {
+      "id": "p04_b_node_006",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_056",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_007",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_009",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_092",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 32
+    },
+    "p04_b_node_007": {
+      "id": "p04_b_node_007",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_008",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_048",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p04_b_node_008": {
+      "id": "p04_b_node_008",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_009",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_051",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_009": {
+      "id": "p04_b_node_009",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_010",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_095",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p04_b_node_010": {
+      "id": "p04_b_node_010",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_011",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_081",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 27
+    },
+    "p04_b_node_011": {
+      "id": "p04_b_node_011",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_012",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_b_node_012": {
+      "id": "p04_b_node_012",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_013",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_051",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_b_node_013": {
+      "id": "p04_b_node_013",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_014",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_017",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_b_node_014": {
+      "id": "p04_b_node_014",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_015",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_001",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 12
     },
-    "node_077": {
-      "id": "node_077",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 77)",
+    "p04_b_node_015": {
+      "id": "p04_b_node_015",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_035",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_016",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_088",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_066",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 22
+      "reward_xp": 50
     },
-    "node_078": {
-      "id": "node_078",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 78)",
+    "p04_b_node_016": {
+      "id": "p04_b_node_016",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_051",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_017",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_097",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "node_079": {
-      "id": "node_079",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 79)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_047",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_005",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_080": {
-      "id": "node_080",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 80)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_057",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "node_081": {
-      "id": "node_081",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 81)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_052",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "node_082": {
-      "id": "node_082",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 82)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_081",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "node_083": {
-      "id": "node_083",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 83)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_009",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 22
-    },
-    "node_084": {
-      "id": "node_084",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 84)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_087",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_085": {
-      "id": "node_085",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 85)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_063",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_096",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "node_086": {
-      "id": "node_086",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 86)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_081",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_022",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "node_087": {
-      "id": "node_087",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 87)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_068",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_024",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "node_088": {
-      "id": "node_088",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 88)",
-      "choices": [
-        {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_059",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_026",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_090",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 18
     },
-    "node_089": {
-      "id": "node_089",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 89)",
+    "p04_b_node_017": {
+      "id": "p04_b_node_017",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_077",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_018",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_044",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_058",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 28
+      "reward_xp": 17
     },
-    "node_090": {
-      "id": "node_090",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 90)",
+    "p04_b_node_018": {
+      "id": "p04_b_node_018",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_047",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_019",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_013",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_084",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 37
+    },
+    "p04_b_node_019": {
+      "id": "p04_b_node_019",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_020",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_059",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 47
     },
-    "node_091": {
-      "id": "node_091",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 91)",
+    "p04_b_node_020": {
+      "id": "p04_b_node_020",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_060",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_021",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_084",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_008",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 11
+      "reward_xp": 49
     },
-    "node_092": {
-      "id": "node_092",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 92)",
+    "p04_b_node_021": {
+      "id": "p04_b_node_021",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_066",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_022",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_030",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_023",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 33
+      "reward_xp": 17
     },
-    "node_093": {
-      "id": "node_093",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 93)",
+    "p04_b_node_022": {
+      "id": "p04_b_node_022",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_000",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_023",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_027",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_096",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 36
+      "reward_xp": 23
     },
-    "node_094": {
-      "id": "node_094",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 94)",
+    "p04_b_node_023": {
+      "id": "p04_b_node_023",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_011",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_024",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_008",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_079",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_b_node_024": {
+      "id": "p04_b_node_024",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_025",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_012",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 38
     },
-    "node_095": {
-      "id": "node_095",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 95)",
+    "p04_b_node_025": {
+      "id": "p04_b_node_025",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_008",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_026",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_031",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_052",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 39
+      "reward_xp": 26
     },
-    "node_096": {
-      "id": "node_096",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 96)",
+    "p04_b_node_026": {
+      "id": "p04_b_node_026",
+      "text_ar": "تواجه كائناً مصنوعاً من الدخان الأبيض، يحاول سرقة أفكارك.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_083",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_027",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_037",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_037",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 12
+      "reward_xp": 19
     },
-    "node_097": {
-      "id": "node_097",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 97)",
+    "p04_b_node_027": {
+      "id": "p04_b_node_027",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_073",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_028",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_018",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_052",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 12
+      "reward_xp": 33
     },
-    "node_098": {
-      "id": "node_098",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 98)",
+    "p04_b_node_028": {
+      "id": "p04_b_node_028",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_023",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_029",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_010",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_043",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 39
+      "reward_xp": 35
     },
-    "node_099": {
-      "id": "node_099",
-      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك. (العقدة 99)",
+    "p04_b_node_029": {
+      "id": "p04_b_node_029",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
       "choices": [
         {
-          "text_ar": "واجه انعكاسك",
-          "next_node": "node_068",
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_030",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "حاول إيجاد بوابة",
-          "next_node": "node_066",
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_039",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 27
+    },
+    "p04_b_node_030": {
+      "id": "p04_b_node_030",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_031",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_095",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 16
+    },
+    "p04_b_node_031": {
+      "id": "p04_b_node_031",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_032",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_050",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p04_b_node_032": {
+      "id": "p04_b_node_032",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_033",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_038",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p04_b_node_033": {
+      "id": "p04_b_node_033",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_034",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_012",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p04_b_node_034": {
+      "id": "p04_b_node_034",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_035",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_b_node_035": {
+      "id": "p04_b_node_035",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_036",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_019",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p04_b_node_036": {
+      "id": "p04_b_node_036",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_037",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_094",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_b_node_037": {
+      "id": "p04_b_node_037",
+      "text_ar": "تكتشف سلماً يمتد إلى ما لا نهاية، وكل درجة تغير لون العالم.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_038",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_039",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p04_b_node_038": {
+      "id": "p04_b_node_038",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_039",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_011",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p04_b_node_039": {
+      "id": "p04_b_node_039",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_040",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_057",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_040": {
+      "id": "p04_b_node_040",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_041",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_087",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 32
+    },
+    "p04_b_node_041": {
+      "id": "p04_b_node_041",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_042",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_000",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_b_node_042": {
+      "id": "p04_b_node_042",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_043",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_051",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_b_node_043": {
+      "id": "p04_b_node_043",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_044",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_045",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p04_b_node_044": {
+      "id": "p04_b_node_044",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_045",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_063",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p04_b_node_045": {
+      "id": "p04_b_node_045",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_046",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_080",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p04_b_node_046": {
+      "id": "p04_b_node_046",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_047",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_088",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_b_node_047": {
+      "id": "p04_b_node_047",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_048",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_010",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 32
+    },
+    "p04_b_node_048": {
+      "id": "p04_b_node_048",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_049",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_035",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_b_node_049": {
+      "id": "p04_b_node_049",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_050",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_048",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p04_b_node_050": {
+      "id": "p04_b_node_050",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_051",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_017",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p04_b_node_051": {
+      "id": "p04_b_node_051",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_052",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_018",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 38
+    },
+    "p04_b_node_052": {
+      "id": "p04_b_node_052",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_053",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_013",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p04_b_node_053": {
+      "id": "p04_b_node_053",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_054",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_005",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p04_b_node_054": {
+      "id": "p04_b_node_054",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_055",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_053",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p04_b_node_055": {
+      "id": "p04_b_node_055",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_056",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_091",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_b_node_056": {
+      "id": "p04_b_node_056",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_057",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_032",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 35
+    },
+    "p04_b_node_057": {
+      "id": "p04_b_node_057",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_058",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_016",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_b_node_058": {
+      "id": "p04_b_node_058",
+      "text_ar": "تصل إلى مدينة مبنية من الزجاج الهش، والهمس هنا قد يحطم المباني.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_059",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_003",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_b_node_059": {
+      "id": "p04_b_node_059",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_060",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_b_node_060": {
+      "id": "p04_b_node_060",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_061",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_055",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p04_b_node_061": {
+      "id": "p04_b_node_061",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_062",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_002",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 20
+    },
+    "p04_b_node_062": {
+      "id": "p04_b_node_062",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_063",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_065",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 12
+    },
+    "p04_b_node_063": {
+      "id": "p04_b_node_063",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_064",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_088",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_064": {
+      "id": "p04_b_node_064",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_065",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_057",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p04_b_node_065": {
+      "id": "p04_b_node_065",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_066",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_021",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_066": {
+      "id": "p04_b_node_066",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_067",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_023",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p04_b_node_067": {
+      "id": "p04_b_node_067",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_068",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_060",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p04_b_node_068": {
+      "id": "p04_b_node_068",
+      "text_ar": "تصل إلى حديقة حيث الأزهار تصرخ عندما تقطفها.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_069",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_039",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p04_b_node_069": {
+      "id": "p04_b_node_069",
+      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_070",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_026",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 32
+    },
+    "p04_b_node_070": {
+      "id": "p04_b_node_070",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_071",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_081",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 29
+    },
+    "p04_b_node_071": {
+      "id": "p04_b_node_071",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_072",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_054",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p04_b_node_072": {
+      "id": "p04_b_node_072",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_073",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_030",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p04_b_node_073": {
+      "id": "p04_b_node_073",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_074",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_073",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p04_b_node_074": {
+      "id": "p04_b_node_074",
+      "text_ar": "تمشي في غابة حيث الأشجار تنمو للأسفل والجذور تمتد نحو السماء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_075",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_078",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p04_b_node_075": {
+      "id": "p04_b_node_075",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_076",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_041",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p04_b_node_076": {
+      "id": "p04_b_node_076",
+      "text_ar": "تجد صندوقاً موسيقياً يعزف لحناً يجعلك تنسى من أنت.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_077",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 46
+    },
+    "p04_b_node_077": {
+      "id": "p04_b_node_077",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_078",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_036",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p04_b_node_078": {
+      "id": "p04_b_node_078",
+      "text_ar": "تجد نفسك في لعبة شطرنج عملاقة، وأنت أحد البيادق.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_079",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_098",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_b_node_079": {
+      "id": "p04_b_node_079",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_080",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_017",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 38
+    },
+    "p04_b_node_080": {
+      "id": "p04_b_node_080",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_081",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_083",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 10
+    },
+    "p04_b_node_081": {
+      "id": "p04_b_node_081",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_082",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_065",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_082": {
+      "id": "p04_b_node_082",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_083",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_082",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 27
+    },
+    "p04_b_node_083": {
+      "id": "p04_b_node_083",
+      "text_ar": "الأشياء من حولك تذوب وتتشكل من جديد كأنها في حلم لا ينتهي.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_084",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_045",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p04_b_node_084": {
+      "id": "p04_b_node_084",
+      "text_ar": "تواجه ظلاً يتحرك بشكل مستقل عن صاحبه، ويبدو أنه يحمل رسالة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_085",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_062",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 47
+    },
+    "p04_b_node_085": {
+      "id": "p04_b_node_085",
+      "text_ar": "ترى نسخة منك تتحدث بلغة غير مفهومة وتحاول إرشادك لشيء ما.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_086",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_067",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p04_b_node_086": {
+      "id": "p04_b_node_086",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_087",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p04_b_node_087": {
+      "id": "p04_b_node_087",
+      "text_ar": "تصل إلى باب يفتح على ذكريات لم تعشها أبداً.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_088",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_032",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p04_b_node_088": {
+      "id": "p04_b_node_088",
+      "text_ar": "تكتشف ساعة ضخمة تدور عقاربها بالعكس، وكل تكة تعيدك خطوة للوراء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_089",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_015",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 12
+    },
+    "p04_b_node_089": {
+      "id": "p04_b_node_089",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_090",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_085",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p04_b_node_090": {
+      "id": "p04_b_node_090",
+      "text_ar": "ترى وجوهاً تظهر وتختفي في جدران الكهف المحيط بك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_091",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_059",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 12
+    },
+    "p04_b_node_091": {
+      "id": "p04_b_node_091",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_092",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 43
+    },
+    "p04_b_node_092": {
+      "id": "p04_b_node_092",
+      "text_ar": "تواجه مرآة لا تعكس صورتك، بل تعكس ما تخافه أكثر.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_093",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_089",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p04_b_node_093": {
+      "id": "p04_b_node_093",
+      "text_ar": "تكتشف مكتبة حيث الكتب فارغة حتى تقرأها بصوت عالٍ.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_094",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_046",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 43
+    },
+    "p04_b_node_094": {
+      "id": "p04_b_node_094",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_095",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_032",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 22
+    },
+    "p04_b_node_095": {
+      "id": "p04_b_node_095",
+      "text_ar": "ترى نجوماً تتساقط كالمطر، وعندما تلمس الأرض تتحول إلى رماد بارد.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_096",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_083",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p04_b_node_096": {
+      "id": "p04_b_node_096",
+      "text_ar": "ترى شمساً زرقاء تبعث برودة قاسية بدلاً من الدفء.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_097",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p04_b_node_097": {
+      "id": "p04_b_node_097",
+      "text_ar": "العالم يبدو مقلوباً، السماء حمراء والأرض كأنها مرآة تعكس كوابيسك.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_098",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_004",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 38
+    },
+    "p04_b_node_098": {
+      "id": "p04_b_node_098",
+      "text_ar": "تجد نفسك في غرفة بلا أبواب ولا نوافذ، والجاذبية تبدو منعدمة.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p04_b_node_099",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_025",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p04_b_node_099": {
+      "id": "p04_b_node_099",
+      "text_ar": "تجد بحراً من الكلمات المكتوبة، وعليك السباحة فيها لتفهم المعنى.",
+      "choices": [
+        {
+          "text_ar": "واجه انعكاسك وتحدى الواقع",
+          "next_node": "p05_a_node_000",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "حاول إيجاد بوابة للهروب من هذا الكابوس",
+          "next_node": "p04_b_node_087",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
     }
   }
 }

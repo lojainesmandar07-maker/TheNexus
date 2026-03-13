@@ -1,1704 +1,1704 @@
 {
   "nodes": {
-    "node_000": {
-      "id": "node_000",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 0)",
+    "p01_a_node_000": {
+      "id": "p01_a_node_000",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_090",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_001",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_065",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_019",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 10
+      "reward_xp": 15
     },
-    "node_001": {
-      "id": "node_001",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 1)",
+    "p01_a_node_001": {
+      "id": "p01_a_node_001",
+      "text_ar": "تجد جداراً مليئاً بالثقوب، ويبدو أن سهاماً قديمة لا تزال عالقة فيه.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_007",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_002",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_026",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_002": {
-      "id": "node_002",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 2)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_035",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_068",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "node_003": {
-      "id": "node_003",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 3)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_050",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_004": {
-      "id": "node_004",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 4)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "node_005": {
-      "id": "node_005",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 5)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_027",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_006": {
-      "id": "node_006",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 6)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_044",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_086",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "node_007": {
-      "id": "node_007",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 7)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_075",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "node_008": {
-      "id": "node_008",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 8)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_056",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "node_009": {
-      "id": "node_009",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 9)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_060",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "node_010": {
-      "id": "node_010",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 10)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_035",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "node_011": {
-      "id": "node_011",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 11)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_043",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_074",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_012": {
-      "id": "node_012",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 12)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_088",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "node_013": {
-      "id": "node_013",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 13)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_057",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_014": {
-      "id": "node_014",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 14)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_066",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "node_015": {
-      "id": "node_015",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 15)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_014",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_045",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "node_016": {
-      "id": "node_016",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 16)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_000",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_025",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "node_017": {
-      "id": "node_017",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 17)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_039",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_086",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_018": {
-      "id": "node_018",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 18)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_019",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_066",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "node_019": {
-      "id": "node_019",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 19)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_079",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_020": {
-      "id": "node_020",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 20)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_051",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "node_021": {
-      "id": "node_021",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 21)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_092",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "node_022": {
-      "id": "node_022",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 22)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_012",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_085",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "node_023": {
-      "id": "node_023",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 23)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_001",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_003",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_024": {
-      "id": "node_024",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 24)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_002",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "node_025": {
-      "id": "node_025",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 25)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_091",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_078",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "node_026": {
-      "id": "node_026",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 26)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_026",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_027": {
-      "id": "node_027",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 27)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "node_028": {
-      "id": "node_028",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 28)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_037",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_001",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_029": {
-      "id": "node_029",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 29)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_010",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_089",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_030": {
-      "id": "node_030",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 30)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_009",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_086",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "node_031": {
-      "id": "node_031",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 31)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_016",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_097",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_032": {
-      "id": "node_032",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 32)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_028",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_085",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "node_033": {
-      "id": "node_033",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 33)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_051",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_079",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_034": {
-      "id": "node_034",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 34)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_048",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "node_035": {
-      "id": "node_035",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 35)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_042",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_077",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_036": {
-      "id": "node_036",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 36)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_013",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "node_037": {
-      "id": "node_037",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 37)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "node_038": {
-      "id": "node_038",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 38)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_066",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_025",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_039": {
-      "id": "node_039",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 39)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_005",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_033",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "node_040": {
-      "id": "node_040",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 40)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_086",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_006",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 12
-    },
-    "node_041": {
-      "id": "node_041",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 41)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_085",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_042": {
-      "id": "node_042",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 42)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_063",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_026",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_043": {
-      "id": "node_043",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 43)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_001",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_094",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "node_044": {
-      "id": "node_044",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 44)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_001",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_059",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 16
     },
-    "node_045": {
-      "id": "node_045",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 45)",
+    "p01_a_node_002": {
+      "id": "p01_a_node_002",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_070",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_003",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_039",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_057",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 27
+      "reward_xp": 15
     },
-    "node_046": {
-      "id": "node_046",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 46)",
+    "p01_a_node_003": {
+      "id": "p01_a_node_003",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_005",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_004",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_028",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "node_047": {
-      "id": "node_047",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 47)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_040",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_048": {
-      "id": "node_048",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 48)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_033",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "node_049": {
-      "id": "node_049",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 49)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_032",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_078",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_050": {
-      "id": "node_050",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 50)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_021",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_018",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "node_051": {
-      "id": "node_051",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 51)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_069",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_088",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_052": {
-      "id": "node_052",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 52)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_062",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_082",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "node_053": {
-      "id": "node_053",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 53)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_054",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_087",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "node_054": {
-      "id": "node_054",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 54)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_060",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "node_055": {
-      "id": "node_055",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 55)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_050",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_007",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "node_056": {
-      "id": "node_056",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 56)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_097",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_041",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 12
-    },
-    "node_057": {
-      "id": "node_057",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 57)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_090",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_026",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_079",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 13
     },
-    "node_058": {
-      "id": "node_058",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 58)",
+    "p01_a_node_004": {
+      "id": "p01_a_node_004",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_093",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_005",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_070",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_059",
           "skill_check": "agility"
         }
       ],
-      "reward_xp": 22
+      "reward_xp": 41
     },
-    "node_059": {
-      "id": "node_059",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 59)",
+    "p01_a_node_005": {
+      "id": "p01_a_node_005",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_037",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_006",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_028",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_060": {
-      "id": "node_060",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 60)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_034",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_061": {
-      "id": "node_061",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 61)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_022",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_046",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "node_062": {
-      "id": "node_062",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 62)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_093",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_049",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 42
-    },
-    "node_063": {
-      "id": "node_063",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 63)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_033",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_077",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_064": {
-      "id": "node_064",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 64)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_015",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_065": {
-      "id": "node_065",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 65)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_001",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_031",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_066": {
-      "id": "node_066",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 66)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_092",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_041",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "node_067": {
-      "id": "node_067",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 67)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_030",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_022",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "node_068": {
-      "id": "node_068",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 68)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_007",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_069": {
-      "id": "node_069",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 69)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_065",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_065",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_070": {
-      "id": "node_070",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 70)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_030",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "node_071": {
-      "id": "node_071",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 71)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_013",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_015",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "node_072": {
-      "id": "node_072",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 72)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_033",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_098",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 50
-    },
-    "node_073": {
-      "id": "node_073",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 73)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_045",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_010",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_074": {
-      "id": "node_074",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 74)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_075": {
-      "id": "node_075",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 75)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_036",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_018",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "node_076": {
-      "id": "node_076",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 76)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_082",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_083",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "node_077": {
-      "id": "node_077",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 77)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_031",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_024",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "node_078": {
-      "id": "node_078",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 78)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_012",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_065",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "node_079": {
-      "id": "node_079",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 79)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_054",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "node_080": {
-      "id": "node_080",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 80)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_062",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_079",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "node_081": {
-      "id": "node_081",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 81)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_034",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_056",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "node_082": {
-      "id": "node_082",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 82)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_082",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 32
-    },
-    "node_083": {
-      "id": "node_083",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 83)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_099",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_088",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "node_084": {
-      "id": "node_084",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 84)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_088",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 22
-    },
-    "node_085": {
-      "id": "node_085",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 85)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_017",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_023",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "node_086": {
-      "id": "node_086",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 86)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_076",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_019",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_087": {
-      "id": "node_087",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 87)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_020",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_088": {
-      "id": "node_088",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 88)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_061",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 12
-    },
-    "node_089": {
-      "id": "node_089",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 89)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_076",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 50
-    },
-    "node_090": {
-      "id": "node_090",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 90)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_046",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_039",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "node_091": {
-      "id": "node_091",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 91)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_075",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_045",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "node_092": {
-      "id": "node_092",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 92)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_093": {
-      "id": "node_093",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 93)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_039",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "node_094": {
-      "id": "node_094",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 94)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_071",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "node_095": {
-      "id": "node_095",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 95)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_016",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_055",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "node_096": {
-      "id": "node_096",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 96)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_046",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "node_097": {
-      "id": "node_097",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 97)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_014",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_023",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "node_098": {
-      "id": "node_098",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 98)",
-      "choices": [
-        {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_008",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_050",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_004",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 24
     },
-    "node_099": {
-      "id": "node_099",
-      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة. (العقدة 99)",
+    "p01_a_node_006": {
+      "id": "p01_a_node_006",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
       "choices": [
         {
-          "text_ar": "حاول قراءة النقوش",
-          "next_node": "node_056",
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_007",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "ابحث عن مدخل سري",
-          "next_node": "node_094",
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_089",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p01_a_node_007": {
+      "id": "p01_a_node_007",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_008",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_021",
           "skill_check": "agility"
         }
       ],
       "reward_xp": 25
+    },
+    "p01_a_node_008": {
+      "id": "p01_a_node_008",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_009",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_048",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 20
+    },
+    "p01_a_node_009": {
+      "id": "p01_a_node_009",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_010",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_032",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p01_a_node_010": {
+      "id": "p01_a_node_010",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_011",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_036",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p01_a_node_011": {
+      "id": "p01_a_node_011",
+      "text_ar": "تواجه متاهة تحت الأرض صُممت لاختبار ذكاء الملوك القدامى.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_012",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_013",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p01_a_node_012": {
+      "id": "p01_a_node_012",
+      "text_ar": "تكتشف مكتبة قديمة مدفونة تحت الرمال، الكتب فيها مصنوعة من ألواح طينية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_013",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_010",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p01_a_node_013": {
+      "id": "p01_a_node_013",
+      "text_ar": "تكتشف نقوداً ذهبية تحمل صور ملوك لم يذكرهم التاريخ.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_014",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_064",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_014": {
+      "id": "p01_a_node_014",
+      "text_ar": "ترى نقشاً يصف سلاحاً أسطورياً مخبأً في جبل مجاور.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_015",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_097",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p01_a_node_015": {
+      "id": "p01_a_node_015",
+      "text_ar": "تستكشف مقبرة فرعونية، الفخاخ لا تزال نشطة والظلام دامس.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_016",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_037",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p01_a_node_016": {
+      "id": "p01_a_node_016",
+      "text_ar": "تكتشف مكتبة قديمة مدفونة تحت الرمال، الكتب فيها مصنوعة من ألواح طينية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_017",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_011",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p01_a_node_017": {
+      "id": "p01_a_node_017",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_018",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_013",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 16
+    },
+    "p01_a_node_018": {
+      "id": "p01_a_node_018",
+      "text_ar": "تجد جداراً مليئاً بالثقوب، ويبدو أن سهاماً قديمة لا تزال عالقة فيه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_019",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_095",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 32
+    },
+    "p01_a_node_019": {
+      "id": "p01_a_node_019",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_020",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_090",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 12
+    },
+    "p01_a_node_020": {
+      "id": "p01_a_node_020",
+      "text_ar": "تصل إلى واحة مخفية، المياه فيها صافية ولكن هناك هياكل عظمية حولها.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_021",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_001",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p01_a_node_021": {
+      "id": "p01_a_node_021",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_022",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 16
+    },
+    "p01_a_node_022": {
+      "id": "p01_a_node_022",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_023",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_000",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_023": {
+      "id": "p01_a_node_023",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_024",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_009",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p01_a_node_024": {
+      "id": "p01_a_node_024",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_025",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_093",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p01_a_node_025": {
+      "id": "p01_a_node_025",
+      "text_ar": "تسمع أصوات حوافر خيول تقترب، وتدرك أنك في وسط معركة تاريخية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_026",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_039",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p01_a_node_026": {
+      "id": "p01_a_node_026",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_027",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p01_a_node_027": {
+      "id": "p01_a_node_027",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_028",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_029",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p01_a_node_028": {
+      "id": "p01_a_node_028",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_029",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_041",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p01_a_node_029": {
+      "id": "p01_a_node_029",
+      "text_ar": "تجد لوحة جدارية تروي قصة حضارة زالت بسبب غضب الآلهة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_030",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_073",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p01_a_node_030": {
+      "id": "p01_a_node_030",
+      "text_ar": "تواجه متاهة تحت الأرض صُممت لاختبار ذكاء الملوك القدامى.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_031",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_017",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p01_a_node_031": {
+      "id": "p01_a_node_031",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_032",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_099",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 25
+    },
+    "p01_a_node_032": {
+      "id": "p01_a_node_032",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_033",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_092",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 14
+    },
+    "p01_a_node_033": {
+      "id": "p01_a_node_033",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_034",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_078",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p01_a_node_034": {
+      "id": "p01_a_node_034",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_035",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 23
+    },
+    "p01_a_node_035": {
+      "id": "p01_a_node_035",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_036",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_001",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 31
+    },
+    "p01_a_node_036": {
+      "id": "p01_a_node_036",
+      "text_ar": "تواجه متاهة تحت الأرض صُممت لاختبار ذكاء الملوك القدامى.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_037",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_072",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p01_a_node_037": {
+      "id": "p01_a_node_037",
+      "text_ar": "ترى نقشاً يصف سلاحاً أسطورياً مخبأً في جبل مجاور.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_038",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_020",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p01_a_node_038": {
+      "id": "p01_a_node_038",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_039",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_084",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p01_a_node_039": {
+      "id": "p01_a_node_039",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_040",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_081",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p01_a_node_040": {
+      "id": "p01_a_node_040",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_041",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_051",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 37
+    },
+    "p01_a_node_041": {
+      "id": "p01_a_node_041",
+      "text_ar": "تكتشف سيفاً صدئاً مغروزة في حجر، وحوله نقوش تحذر من لمسه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_042",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_091",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p01_a_node_042": {
+      "id": "p01_a_node_042",
+      "text_ar": "ترى نقشاً يصف سلاحاً أسطورياً مخبأً في جبل مجاور.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_043",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_057",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 46
+    },
+    "p01_a_node_043": {
+      "id": "p01_a_node_043",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_044",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_089",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p01_a_node_044": {
+      "id": "p01_a_node_044",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_045",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_057",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p01_a_node_045": {
+      "id": "p01_a_node_045",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_046",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_053",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p01_a_node_046": {
+      "id": "p01_a_node_046",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_047",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_044",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 27
+    },
+    "p01_a_node_047": {
+      "id": "p01_a_node_047",
+      "text_ar": "تستكشف مقبرة فرعونية، الفخاخ لا تزال نشطة والظلام دامس.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_048",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p01_a_node_048": {
+      "id": "p01_a_node_048",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_049",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_058",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 27
+    },
+    "p01_a_node_049": {
+      "id": "p01_a_node_049",
+      "text_ar": "تكتشف سيفاً صدئاً مغروزة في حجر، وحوله نقوش تحذر من لمسه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_050",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p01_a_node_050": {
+      "id": "p01_a_node_050",
+      "text_ar": "ترى نقشاً يصف سلاحاً أسطورياً مخبأً في جبل مجاور.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_051",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_021",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_051": {
+      "id": "p01_a_node_051",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_052",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_075",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_052": {
+      "id": "p01_a_node_052",
+      "text_ar": "تصل إلى واحة مخفية، المياه فيها صافية ولكن هناك هياكل عظمية حولها.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_053",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_035",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 26
+    },
+    "p01_a_node_053": {
+      "id": "p01_a_node_053",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_054",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_094",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p01_a_node_054": {
+      "id": "p01_a_node_054",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_055",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_094",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 19
+    },
+    "p01_a_node_055": {
+      "id": "p01_a_node_055",
+      "text_ar": "تسمع أصوات حوافر خيول تقترب، وتدرك أنك في وسط معركة تاريخية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_056",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_030",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p01_a_node_056": {
+      "id": "p01_a_node_056",
+      "text_ar": "ترى نقشاً يصف سلاحاً أسطورياً مخبأً في جبل مجاور.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_057",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_030",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_057": {
+      "id": "p01_a_node_057",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_058",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p01_a_node_058": {
+      "id": "p01_a_node_058",
+      "text_ar": "تواجه متاهة تحت الأرض صُممت لاختبار ذكاء الملوك القدامى.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_059",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_095",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 43
+    },
+    "p01_a_node_059": {
+      "id": "p01_a_node_059",
+      "text_ar": "تسمع أصوات حوافر خيول تقترب، وتدرك أنك في وسط معركة تاريخية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_060",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_090",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p01_a_node_060": {
+      "id": "p01_a_node_060",
+      "text_ar": "تواجه متاهة تحت الأرض صُممت لاختبار ذكاء الملوك القدامى.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_061",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_070",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p01_a_node_061": {
+      "id": "p01_a_node_061",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_062",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_049",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 15
+    },
+    "p01_a_node_062": {
+      "id": "p01_a_node_062",
+      "text_ar": "تستكشف مقبرة فرعونية، الفخاخ لا تزال نشطة والظلام دامس.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_063",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_079",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 41
+    },
+    "p01_a_node_063": {
+      "id": "p01_a_node_063",
+      "text_ar": "تكتشف سيفاً صدئاً مغروزة في حجر، وحوله نقوش تحذر من لمسه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_064",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_087",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p01_a_node_064": {
+      "id": "p01_a_node_064",
+      "text_ar": "تصل إلى واحة مخفية، المياه فيها صافية ولكن هناك هياكل عظمية حولها.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_065",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_053",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p01_a_node_065": {
+      "id": "p01_a_node_065",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_066",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_052",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 39
+    },
+    "p01_a_node_066": {
+      "id": "p01_a_node_066",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_067",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_064",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_067": {
+      "id": "p01_a_node_067",
+      "text_ar": "تسمع أصوات حوافر خيول تقترب، وتدرك أنك في وسط معركة تاريخية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_068",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_003",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p01_a_node_068": {
+      "id": "p01_a_node_068",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_069",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_005",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 50
+    },
+    "p01_a_node_069": {
+      "id": "p01_a_node_069",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_070",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_067",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p01_a_node_070": {
+      "id": "p01_a_node_070",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_071",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_072",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 48
+    },
+    "p01_a_node_071": {
+      "id": "p01_a_node_071",
+      "text_ar": "تكتشف نقوداً ذهبية تحمل صور ملوك لم يذكرهم التاريخ.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_072",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_090",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p01_a_node_072": {
+      "id": "p01_a_node_072",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_073",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 31
+    },
+    "p01_a_node_073": {
+      "id": "p01_a_node_073",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_074",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_007",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 33
+    },
+    "p01_a_node_074": {
+      "id": "p01_a_node_074",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_075",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_009",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 18
+    },
+    "p01_a_node_075": {
+      "id": "p01_a_node_075",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_076",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_008",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p01_a_node_076": {
+      "id": "p01_a_node_076",
+      "text_ar": "تجد جداراً مليئاً بالثقوب، ويبدو أن سهاماً قديمة لا تزال عالقة فيه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_077",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_004",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 40
+    },
+    "p01_a_node_077": {
+      "id": "p01_a_node_077",
+      "text_ar": "تسمع أصوات حوافر خيول تقترب، وتدرك أنك في وسط معركة تاريخية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_078",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_053",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 47
+    },
+    "p01_a_node_078": {
+      "id": "p01_a_node_078",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_079",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_031",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 36
+    },
+    "p01_a_node_079": {
+      "id": "p01_a_node_079",
+      "text_ar": "تصل إلى واحة مخفية، المياه فيها صافية ولكن هناك هياكل عظمية حولها.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_080",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_060",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 30
+    },
+    "p01_a_node_080": {
+      "id": "p01_a_node_080",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_081",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_018",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p01_a_node_081": {
+      "id": "p01_a_node_081",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_082",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_056",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p01_a_node_082": {
+      "id": "p01_a_node_082",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_083",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_069",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 24
+    },
+    "p01_a_node_083": {
+      "id": "p01_a_node_083",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_084",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_045",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 13
+    },
+    "p01_a_node_084": {
+      "id": "p01_a_node_084",
+      "text_ar": "غبار الصحراء يغطي بقايا الإمبراطورية العظيمة. تجد أطلالاً تحتوي على نقوش غريبة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_085",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_091",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p01_a_node_085": {
+      "id": "p01_a_node_085",
+      "text_ar": "تلتقي بحكيم أعمى يجلس تحت شجرة زيتون معمرة، يبدو أنه كان ينتظرك.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_086",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_070",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p01_a_node_086": {
+      "id": "p01_a_node_086",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_087",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_021",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p01_a_node_087": {
+      "id": "p01_a_node_087",
+      "text_ar": "تقف أمام معبد مهجور، رائحة البخور القديم لا تزال تعبق في الهواء.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_088",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_016",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
+    },
+    "p01_a_node_088": {
+      "id": "p01_a_node_088",
+      "text_ar": "تستكشف مقبرة فرعونية، الفخاخ لا تزال نشطة والظلام دامس.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_089",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_042",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 16
+    },
+    "p01_a_node_089": {
+      "id": "p01_a_node_089",
+      "text_ar": "تجد جداراً مليئاً بالثقوب، ويبدو أن سهاماً قديمة لا تزال عالقة فيه.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_090",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_099",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 42
+    },
+    "p01_a_node_090": {
+      "id": "p01_a_node_090",
+      "text_ar": "تصل إلى واحة مخفية، المياه فيها صافية ولكن هناك هياكل عظمية حولها.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_091",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_040",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 45
+    },
+    "p01_a_node_091": {
+      "id": "p01_a_node_091",
+      "text_ar": "تصل إلى أطلال قصر فخم، وتتخيل الحفلات التي كانت تقام هنا.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_092",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_071",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 49
+    },
+    "p01_a_node_092": {
+      "id": "p01_a_node_092",
+      "text_ar": "تلتقي بقافلة تجارية من زمن غابر، يعرضون عليك بضائع لم ترها من قبل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_093",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_063",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 34
+    },
+    "p01_a_node_093": {
+      "id": "p01_a_node_093",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_094",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_092",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 37
+    },
+    "p01_a_node_094": {
+      "id": "p01_a_node_094",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_095",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_044",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 21
+    },
+    "p01_a_node_095": {
+      "id": "p01_a_node_095",
+      "text_ar": "تواجه حارساً حجرياً عملاقاً يبدو أنه استيقظ من سباته الطويل.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_096",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 28
+    },
+    "p01_a_node_096": {
+      "id": "p01_a_node_096",
+      "text_ar": "تصل إلى مدينة مبنية بالكامل من الطين، ويبدو أن سكانها اختفوا فجأة.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_097",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_043",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 35
+    },
+    "p01_a_node_097": {
+      "id": "p01_a_node_097",
+      "text_ar": "تجد نفسك في ساحة معركة قديمة، بقايا الدروع والأسلحة تتناثر في كل مكان.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_098",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_076",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 17
+    },
+    "p01_a_node_098": {
+      "id": "p01_a_node_098",
+      "text_ar": "تجد قناعاً ذهبياً ملقى على الأرض، وما إن تلمسه حتى تسمع أصوات الماضي.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_a_node_099",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_092",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 44
+    },
+    "p01_a_node_099": {
+      "id": "p01_a_node_099",
+      "text_ar": "تكتشف مكتبة قديمة مدفونة تحت الرمال، الكتب فيها مصنوعة من ألواح طينية.",
+      "choices": [
+        {
+          "text_ar": "حاول قراءة النقوش وفهم التاريخ",
+          "next_node": "p01_b_node_000",
+          "skill_check": "intellect"
+        },
+        {
+          "text_ar": "ابحث عن مدخل سري أو طريق بديل",
+          "next_node": "p01_a_node_048",
+          "skill_check": "agility"
+        }
+      ],
+      "reward_xp": 11
     }
   }
 }
