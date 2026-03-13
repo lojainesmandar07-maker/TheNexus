@@ -94,6 +94,7 @@ class StoryEngine:
         if req_skill:
             difficulty = int(choice.get("difficulty", 15))
             if not self.evaluate_skill_check(player_stats, req_skill, difficulty):
+ main
                 fail_node_id = choice.get("fail_next_node") or current_node_id
                 fail_node = self.get_node(world, fail_node_id)
                 if fail_node:
@@ -105,6 +106,13 @@ class StoryEngine:
                         "outcome_message": "أخفقت في اختبار المهارة، فتعثرت خطتك وتبدّل مسارك.",
                     }
                 return {"success": False, "message": "أخفقت في اختبار المهارة ولم يتم العثور على مسار الفشل."}
+=======
+                # On failure, prevent progression and return an explicit failure state
+                return {
+                    "success": False,
+                    "message": "لقد فشلت في اجتياز اختبار المهارة المطلوب (D20). حاول اختيار مسار آخر أو ترقية مستواك."
+                }
+ arabic-rpg-bot-init-5663612515060521641
 
         ending_id = choice.get("ending_id")
         if ending_id:
