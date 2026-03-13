@@ -113,6 +113,8 @@ class StoryChoiceView(discord.ui.View):
 
             if result["success"]:
                 player.xp += result.get("reward_xp", 10)
+ codex/review-ai-for-arabic-rpg-discord-bot-fj3zye
+=======
 
                 if result.get("is_ending"):
                     ending = result["ending"]
@@ -130,7 +132,24 @@ class StoryChoiceView(discord.ui.View):
                 description = next_node["text_ar"]
                 if result.get("check_failed") and result.get("outcome_message"):
                     description = f"⚠️ {result['outcome_message']}\n\n{description}"
+ main
 
+                if result.get("is_ending"):
+                    ending = result["ending"]
+                    player.story_progress[self.world] = "p01_a_node_000"
+                    embed = create_story_embed(
+                        title=ending.get("title_ar", "نهاية الرحلة"),
+                        description=ending.get("text_ar", "وصلت إلى نهاية هذا المسار."),
+                        world=self.world
+                    )
+                    await interaction.response.edit_message(embed=embed, view=None)
+                    return
+
+                next_node = result["next_node"]
+                player.story_progress[self.world] = next_node["id"]
+                description = next_node["text_ar"]
+                if result.get("check_failed") and result.get("outcome_message"):
+                    description = f"⚠️ {result['outcome_message']}\n\n{description}"
                 embed = create_story_embed(
                     title="مغامرة مستمرة",
                     description=description,
