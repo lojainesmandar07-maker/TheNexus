@@ -1766,13 +1766,13 @@
       "text_ar": "في ساحة القلعة الطافية، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تثق في هذه الظاهرة الغريبة؟",
       "choices": [
         {
-          "text_ar": "تسلل نحو المصدر الغامض (1)",
-          "next_node": "p01_a_node_000",
+          "text_ar": "اختر مسار الخاتمة المتزنة",
+          "ending_id": "fantasy_ending_light",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "استكشف الأثر السحري (2)",
-          "next_node": "p05_b_node_037",
+          "text_ar": "اختر مسار الخاتمة الجريئة",
+          "ending_id": "fantasy_ending_shadow",
           "skill_check": "agility"
         }
       ],
