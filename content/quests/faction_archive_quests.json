@@ -11,7 +11,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -25,7 +25,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -39,7 +39,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -53,7 +53,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -67,7 +67,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -81,7 +81,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -109,7 +109,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -123,7 +123,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     },
     {
@@ -137,7 +137,7 @@
         }
       ],
       "reward_reputation": {
-        "scholars": 10
+        "f_1": 10
       }
     }
   ]
