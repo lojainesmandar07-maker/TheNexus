@@ -1,544 +1,184 @@
 {
   "jobs": [
     {
-      "id": "job_frontier_gen_001",
-      "title_ar": "العمل العام الحدود 1: تنسيق نوبات الحراسة",
-      "desc_ar": "مهمة الحدود رقم 1 في حزام الحدود تتطلب تنسيق نوبات الحراسة بيسر لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_021",
+      "title_ar": "مهمة عامة: تنظيف الحدود 21",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 47,
-      "base_reward_xp": 113,
-      "rare_drop_chance": 0.00147
+      "base_reward_gold": 97,
+      "base_reward_xp": 92,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_002",
-      "title_ar": "العمل العام الحدود 2: تأمين أجهزة الإنذار",
-      "desc_ar": "مهمة الحدود رقم 2 في حزام الحدود تتطلب تأمين أجهزة الإنذار بتنسيق لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_022",
+      "title_ar": "مهمة عامة: تنظيف الحدود 22",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 54,
-      "base_reward_xp": 126,
-      "rare_drop_chance": 0.00174
+      "base_reward_gold": 49,
+      "base_reward_xp": 189,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_003",
-      "title_ar": "العمل العام الحدود 3: فحص مصابيح الممرات",
-      "desc_ar": "مهمة الحدود رقم 3 في حزام الحدود تتطلب فحص مصابيح الممرات بانضباط لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_023",
+      "title_ar": "مهمة عامة: تنظيف الحدود 23",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 27,
+      "base_reward_xp": 138,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_024",
+      "title_ar": "مهمة عامة: تنظيف الحدود 24",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 90,
+      "base_reward_xp": 58,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_025",
+      "title_ar": "مهمة عامة: تنظيف الحدود 25",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 29,
+      "base_reward_xp": 189,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_026",
+      "title_ar": "مهمة عامة: تنظيف الحدود 26",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
       "base_reward_gold": 61,
-      "base_reward_xp": 139,
-      "rare_drop_chance": 0.00201
+      "base_reward_xp": 87,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_004",
-      "title_ar": "العمل العام الحدود 4: صيانة خرائط الدوريات",
-      "desc_ar": "مهمة الحدود رقم 4 في حزام الحدود تتطلب صيانة خرائط الدوريات بسرعة لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_027",
+      "title_ar": "مهمة عامة: تنظيف الحدود 27",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 37,
+      "base_reward_xp": 133,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_028",
+      "title_ar": "مهمة عامة: تنظيف الحدود 28",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 55,
+      "base_reward_xp": 89,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_029",
+      "title_ar": "مهمة عامة: تنظيف الحدود 29",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 88,
+      "base_reward_xp": 131,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_030",
+      "title_ar": "مهمة عامة: تنظيف الحدود 30",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 55,
+      "base_reward_xp": 196,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_031",
+      "title_ar": "مهمة عامة: تنظيف الحدود 31",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
       "base_reward_gold": 68,
-      "base_reward_xp": 152,
-      "rare_drop_chance": 0.00228
+      "base_reward_xp": 118,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_005",
-      "title_ar": "العمل العام الحدود 5: مرافقة نقاط التفتيش",
-      "desc_ar": "مهمة الحدود رقم 5 في حزام الحدود تتطلب مرافقة نقاط التفتيش بعناية لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_032",
+      "title_ar": "مهمة عامة: تنظيف الحدود 32",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 75,
-      "base_reward_xp": 165,
-      "rare_drop_chance": 0.00255
+      "base_reward_gold": 50,
+      "base_reward_xp": 192,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_006",
-      "title_ar": "العمل العام الحدود 6: إحصاء معدات الإسعاف",
-      "desc_ar": "مهمة الحدود رقم 6 في حزام الحدود تتطلب إحصاء معدات الإسعاف بحزم لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_033",
+      "title_ar": "مهمة عامة: تنظيف الحدود 33",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 82,
-      "base_reward_xp": 178,
-      "rare_drop_chance": 0.00282
+      "base_reward_gold": 80,
+      "base_reward_xp": 72,
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_007",
-      "title_ar": "العمل العام الحدود 7: تنظيف مفاتيح البوابات",
-      "desc_ar": "مهمة الحدود رقم 7 في حزام الحدود تتطلب تنظيف مفاتيح البوابات بهدوء لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_034",
+      "title_ar": "مهمة عامة: تنظيف الحدود 34",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 89,
+      "base_reward_gold": 28,
+      "base_reward_xp": 134,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_035",
+      "title_ar": "مهمة عامة: تنظيف الحدود 35",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 67,
+      "base_reward_xp": 154,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_036",
+      "title_ar": "مهمة عامة: تنظيف الحدود 36",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 63,
+      "base_reward_xp": 76,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_037",
+      "title_ar": "مهمة عامة: تنظيف الحدود 37",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 96,
+      "base_reward_xp": 99,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_038",
+      "title_ar": "مهمة عامة: تنظيف الحدود 38",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 58,
+      "base_reward_xp": 169,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_039",
+      "title_ar": "مهمة عامة: تنظيف الحدود 39",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 99,
       "base_reward_xp": 191,
-      "rare_drop_chance": 0.00309
+      "rare_drop_chance": 0.001
     },
     {
-      "id": "job_frontier_gen_008",
-      "title_ar": "العمل العام الحدود 8: معايرة أختام الشحن",
-      "desc_ar": "مهمة الحدود رقم 8 في حزام الحدود تتطلب معايرة أختام الشحن بدقة لضمان سير العمليات دون انقطاع.",
+      "id": "job_gen_040",
+      "title_ar": "مهمة عامة: تنظيف الحدود 40",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
       "archetype": "general",
-      "base_reward_gold": 96,
-      "base_reward_xp": 204,
-      "rare_drop_chance": 0.00336
-    },
-    {
-      "id": "job_frontier_gen_009",
-      "title_ar": "العمل العام الحدود 9: توثيق مخزون التموين",
-      "desc_ar": "مهمة الحدود رقم 9 في حزام الحدود تتطلب توثيق مخزون التموين بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 103,
-      "base_reward_xp": 217,
-      "rare_drop_chance": 0.00363
-    },
-    {
-      "id": "job_frontier_gen_010",
-      "title_ar": "العمل العام الحدود 10: تدعيم سجلات المخزن",
-      "desc_ar": "مهمة الحدود رقم 10 في حزام الحدود تتطلب تدعيم سجلات المخزن بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 110,
-      "base_reward_xp": 230,
-      "rare_drop_chance": 0.0039
-    },
-    {
-      "id": "job_frontier_gen_011",
-      "title_ar": "العمل العام الحدود 11: ترتيب المعابر الفرعية",
-      "desc_ar": "مهمة الحدود رقم 11 في حزام الحدود تتطلب ترتيب المعابر الفرعية بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 117,
-      "base_reward_xp": 243,
-      "rare_drop_chance": 0.0012
-    },
-    {
-      "id": "job_frontier_gen_012",
-      "title_ar": "العمل العام الحدود 12: مراقبة القوافل",
-      "desc_ar": "مهمة الحدود رقم 12 في حزام الحدود تتطلب مراقبة القوافل بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 124,
-      "base_reward_xp": 256,
-      "rare_drop_chance": 0.00147
-    },
-    {
-      "id": "job_frontier_gen_013",
-      "title_ar": "العمل العام الحدود 13: تنسيق نوبات الحراسة",
-      "desc_ar": "مهمة الحدود رقم 13 في حزام الحدود تتطلب تنسيق نوبات الحراسة بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 131,
-      "base_reward_xp": 269,
-      "rare_drop_chance": 0.00174
-    },
-    {
-      "id": "job_frontier_gen_014",
-      "title_ar": "العمل العام الحدود 14: تأمين أجهزة الإنذار",
-      "desc_ar": "مهمة الحدود رقم 14 في حزام الحدود تتطلب تأمين أجهزة الإنذار بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 40,
-      "base_reward_xp": 282,
-      "rare_drop_chance": 0.00201
-    },
-    {
-      "id": "job_frontier_gen_015",
-      "title_ar": "العمل العام الحدود 15: فحص مصابيح الممرات",
-      "desc_ar": "مهمة الحدود رقم 15 في حزام الحدود تتطلب فحص مصابيح الممرات بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 47,
-      "base_reward_xp": 295,
-      "rare_drop_chance": 0.00228
-    },
-    {
-      "id": "job_frontier_gen_016",
-      "title_ar": "العمل العام الحدود 16: صيانة خرائط الدوريات",
-      "desc_ar": "مهمة الحدود رقم 16 في حزام الحدود تتطلب صيانة خرائط الدوريات بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 54,
-      "base_reward_xp": 308,
-      "rare_drop_chance": 0.00255
-    },
-    {
-      "id": "job_frontier_gen_017",
-      "title_ar": "العمل العام الحدود 17: مرافقة نقاط التفتيش",
-      "desc_ar": "مهمة الحدود رقم 17 في حزام الحدود تتطلب مرافقة نقاط التفتيش بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 61,
-      "base_reward_xp": 321,
-      "rare_drop_chance": 0.00282
-    },
-    {
-      "id": "job_frontier_gen_018",
-      "title_ar": "العمل العام الحدود 18: إحصاء معدات الإسعاف",
-      "desc_ar": "مهمة الحدود رقم 18 في حزام الحدود تتطلب إحصاء معدات الإسعاف بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 68,
-      "base_reward_xp": 334,
-      "rare_drop_chance": 0.00309
-    },
-    {
-      "id": "job_frontier_gen_019",
-      "title_ar": "العمل العام الحدود 19: تنظيف مفاتيح البوابات",
-      "desc_ar": "مهمة الحدود رقم 19 في حزام الحدود تتطلب تنظيف مفاتيح البوابات بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 75,
-      "base_reward_xp": 100,
-      "rare_drop_chance": 0.00336
-    },
-    {
-      "id": "job_frontier_gen_020",
-      "title_ar": "العمل العام الحدود 20: معايرة أختام الشحن",
-      "desc_ar": "مهمة الحدود رقم 20 في حزام الحدود تتطلب معايرة أختام الشحن بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 82,
-      "base_reward_xp": 113,
-      "rare_drop_chance": 0.00363
-    },
-    {
-      "id": "job_frontier_gen_021",
-      "title_ar": "العمل العام الحدود 21: توثيق مخزون التموين",
-      "desc_ar": "مهمة الحدود رقم 21 في حزام الحدود تتطلب توثيق مخزون التموين بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 89,
-      "base_reward_xp": 126,
-      "rare_drop_chance": 0.0039
-    },
-    {
-      "id": "job_frontier_gen_022",
-      "title_ar": "العمل العام الحدود 22: تدعيم سجلات المخزن",
-      "desc_ar": "مهمة الحدود رقم 22 في حزام الحدود تتطلب تدعيم سجلات المخزن بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 96,
-      "base_reward_xp": 139,
-      "rare_drop_chance": 0.0012
-    },
-    {
-      "id": "job_frontier_gen_023",
-      "title_ar": "العمل العام الحدود 23: ترتيب المعابر الفرعية",
-      "desc_ar": "مهمة الحدود رقم 23 في حزام الحدود تتطلب ترتيب المعابر الفرعية بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 103,
-      "base_reward_xp": 152,
-      "rare_drop_chance": 0.00147
-    },
-    {
-      "id": "job_frontier_gen_024",
-      "title_ar": "العمل العام الحدود 24: مراقبة القوافل",
-      "desc_ar": "مهمة الحدود رقم 24 في حزام الحدود تتطلب مراقبة القوافل بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 110,
-      "base_reward_xp": 165,
-      "rare_drop_chance": 0.00174
-    },
-    {
-      "id": "job_frontier_gen_025",
-      "title_ar": "العمل العام الحدود 25: تنسيق نوبات الحراسة",
-      "desc_ar": "مهمة الحدود رقم 25 في حزام الحدود تتطلب تنسيق نوبات الحراسة بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 117,
-      "base_reward_xp": 178,
-      "rare_drop_chance": 0.00201
-    },
-    {
-      "id": "job_frontier_gen_026",
-      "title_ar": "العمل العام الحدود 26: تأمين أجهزة الإنذار",
-      "desc_ar": "مهمة الحدود رقم 26 في حزام الحدود تتطلب تأمين أجهزة الإنذار بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 124,
-      "base_reward_xp": 191,
-      "rare_drop_chance": 0.00228
-    },
-    {
-      "id": "job_frontier_gen_027",
-      "title_ar": "العمل العام الحدود 27: فحص مصابيح الممرات",
-      "desc_ar": "مهمة الحدود رقم 27 في حزام الحدود تتطلب فحص مصابيح الممرات بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 131,
-      "base_reward_xp": 204,
-      "rare_drop_chance": 0.00255
-    },
-    {
-      "id": "job_frontier_gen_028",
-      "title_ar": "العمل العام الحدود 28: صيانة خرائط الدوريات",
-      "desc_ar": "مهمة الحدود رقم 28 في حزام الحدود تتطلب صيانة خرائط الدوريات بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 40,
-      "base_reward_xp": 217,
-      "rare_drop_chance": 0.00282
-    },
-    {
-      "id": "job_frontier_gen_029",
-      "title_ar": "العمل العام الحدود 29: مرافقة نقاط التفتيش",
-      "desc_ar": "مهمة الحدود رقم 29 في حزام الحدود تتطلب مرافقة نقاط التفتيش بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 47,
-      "base_reward_xp": 230,
-      "rare_drop_chance": 0.00309
-    },
-    {
-      "id": "job_frontier_gen_030",
-      "title_ar": "العمل العام الحدود 30: إحصاء معدات الإسعاف",
-      "desc_ar": "مهمة الحدود رقم 30 في حزام الحدود تتطلب إحصاء معدات الإسعاف بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 54,
-      "base_reward_xp": 243,
-      "rare_drop_chance": 0.00336
-    },
-    {
-      "id": "job_frontier_gen_031",
-      "title_ar": "العمل العام الحدود 31: تنظيف مفاتيح البوابات",
-      "desc_ar": "مهمة الحدود رقم 31 في حزام الحدود تتطلب تنظيف مفاتيح البوابات بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 61,
-      "base_reward_xp": 256,
-      "rare_drop_chance": 0.00363
-    },
-    {
-      "id": "job_frontier_gen_032",
-      "title_ar": "العمل العام الحدود 32: معايرة أختام الشحن",
-      "desc_ar": "مهمة الحدود رقم 32 في حزام الحدود تتطلب معايرة أختام الشحن بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 68,
-      "base_reward_xp": 269,
-      "rare_drop_chance": 0.0039
-    },
-    {
-      "id": "job_frontier_gen_033",
-      "title_ar": "العمل العام الحدود 33: توثيق مخزون التموين",
-      "desc_ar": "مهمة الحدود رقم 33 في حزام الحدود تتطلب توثيق مخزون التموين بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 75,
-      "base_reward_xp": 282,
-      "rare_drop_chance": 0.0012
-    },
-    {
-      "id": "job_frontier_gen_034",
-      "title_ar": "العمل العام الحدود 34: تدعيم سجلات المخزن",
-      "desc_ar": "مهمة الحدود رقم 34 في حزام الحدود تتطلب تدعيم سجلات المخزن بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 82,
-      "base_reward_xp": 295,
-      "rare_drop_chance": 0.00147
-    },
-    {
-      "id": "job_frontier_gen_035",
-      "title_ar": "العمل العام الحدود 35: ترتيب المعابر الفرعية",
-      "desc_ar": "مهمة الحدود رقم 35 في حزام الحدود تتطلب ترتيب المعابر الفرعية بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 89,
-      "base_reward_xp": 308,
-      "rare_drop_chance": 0.00174
-    },
-    {
-      "id": "job_frontier_gen_036",
-      "title_ar": "العمل العام الحدود 36: مراقبة القوافل",
-      "desc_ar": "مهمة الحدود رقم 36 في حزام الحدود تتطلب مراقبة القوافل بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 96,
-      "base_reward_xp": 321,
-      "rare_drop_chance": 0.00201
-    },
-    {
-      "id": "job_frontier_gen_037",
-      "title_ar": "العمل العام الحدود 37: تنسيق نوبات الحراسة",
-      "desc_ar": "مهمة الحدود رقم 37 في حزام الحدود تتطلب تنسيق نوبات الحراسة بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 103,
-      "base_reward_xp": 334,
-      "rare_drop_chance": 0.00228
-    },
-    {
-      "id": "job_frontier_gen_038",
-      "title_ar": "العمل العام الحدود 38: تأمين أجهزة الإنذار",
-      "desc_ar": "مهمة الحدود رقم 38 في حزام الحدود تتطلب تأمين أجهزة الإنذار بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 110,
-      "base_reward_xp": 100,
-      "rare_drop_chance": 0.00255
-    },
-    {
-      "id": "job_frontier_gen_039",
-      "title_ar": "العمل العام الحدود 39: فحص مصابيح الممرات",
-      "desc_ar": "مهمة الحدود رقم 39 في حزام الحدود تتطلب فحص مصابيح الممرات بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 117,
-      "base_reward_xp": 113,
-      "rare_drop_chance": 0.00282
-    },
-    {
-      "id": "job_frontier_gen_040",
-      "title_ar": "العمل العام الحدود 40: صيانة خرائط الدوريات",
-      "desc_ar": "مهمة الحدود رقم 40 في حزام الحدود تتطلب صيانة خرائط الدوريات بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 124,
-      "base_reward_xp": 126,
-      "rare_drop_chance": 0.00309
-    },
-    {
-      "id": "job_frontier_gen_041",
-      "title_ar": "العمل العام الحدود 41: مرافقة نقاط التفتيش",
-      "desc_ar": "مهمة الحدود رقم 41 في حزام الحدود تتطلب مرافقة نقاط التفتيش بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 131,
-      "base_reward_xp": 139,
-      "rare_drop_chance": 0.00336
-    },
-    {
-      "id": "job_frontier_gen_042",
-      "title_ar": "العمل العام الحدود 42: إحصاء معدات الإسعاف",
-      "desc_ar": "مهمة الحدود رقم 42 في حزام الحدود تتطلب إحصاء معدات الإسعاف بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 40,
-      "base_reward_xp": 152,
-      "rare_drop_chance": 0.00363
-    },
-    {
-      "id": "job_frontier_gen_043",
-      "title_ar": "العمل العام الحدود 43: تنظيف مفاتيح البوابات",
-      "desc_ar": "مهمة الحدود رقم 43 في حزام الحدود تتطلب تنظيف مفاتيح البوابات بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 47,
-      "base_reward_xp": 165,
-      "rare_drop_chance": 0.0039
-    },
-    {
-      "id": "job_frontier_gen_044",
-      "title_ar": "العمل العام الحدود 44: معايرة أختام الشحن",
-      "desc_ar": "مهمة الحدود رقم 44 في حزام الحدود تتطلب معايرة أختام الشحن بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 54,
-      "base_reward_xp": 178,
-      "rare_drop_chance": 0.0012
-    },
-    {
-      "id": "job_frontier_gen_045",
-      "title_ar": "العمل العام الحدود 45: توثيق مخزون التموين",
-      "desc_ar": "مهمة الحدود رقم 45 في حزام الحدود تتطلب توثيق مخزون التموين بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 61,
-      "base_reward_xp": 191,
-      "rare_drop_chance": 0.00147
-    },
-    {
-      "id": "job_frontier_gen_046",
-      "title_ar": "العمل العام الحدود 46: تدعيم سجلات المخزن",
-      "desc_ar": "مهمة الحدود رقم 46 في حزام الحدود تتطلب تدعيم سجلات المخزن بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 68,
-      "base_reward_xp": 204,
-      "rare_drop_chance": 0.00174
-    },
-    {
-      "id": "job_frontier_gen_047",
-      "title_ar": "العمل العام الحدود 47: ترتيب المعابر الفرعية",
-      "desc_ar": "مهمة الحدود رقم 47 في حزام الحدود تتطلب ترتيب المعابر الفرعية بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 75,
-      "base_reward_xp": 217,
-      "rare_drop_chance": 0.00201
-    },
-    {
-      "id": "job_frontier_gen_048",
-      "title_ar": "العمل العام الحدود 48: مراقبة القوافل",
-      "desc_ar": "مهمة الحدود رقم 48 في حزام الحدود تتطلب مراقبة القوافل بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 82,
-      "base_reward_xp": 230,
-      "rare_drop_chance": 0.00228
-    },
-    {
-      "id": "job_frontier_gen_049",
-      "title_ar": "العمل العام الحدود 49: تنسيق نوبات الحراسة",
-      "desc_ar": "مهمة الحدود رقم 49 في حزام الحدود تتطلب تنسيق نوبات الحراسة بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 89,
-      "base_reward_xp": 243,
-      "rare_drop_chance": 0.00255
-    },
-    {
-      "id": "job_frontier_gen_050",
-      "title_ar": "العمل العام الحدود 50: تأمين أجهزة الإنذار",
-      "desc_ar": "مهمة الحدود رقم 50 في حزام الحدود تتطلب تأمين أجهزة الإنذار بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 96,
-      "base_reward_xp": 256,
-      "rare_drop_chance": 0.00282
-    },
-    {
-      "id": "job_frontier_gen_051",
-      "title_ar": "العمل العام الحدود 51: فحص مصابيح الممرات",
-      "desc_ar": "مهمة الحدود رقم 51 في حزام الحدود تتطلب فحص مصابيح الممرات بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 103,
-      "base_reward_xp": 269,
-      "rare_drop_chance": 0.00309
-    },
-    {
-      "id": "job_frontier_gen_052",
-      "title_ar": "العمل العام الحدود 52: صيانة خرائط الدوريات",
-      "desc_ar": "مهمة الحدود رقم 52 في حزام الحدود تتطلب صيانة خرائط الدوريات بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 110,
-      "base_reward_xp": 282,
-      "rare_drop_chance": 0.00336
-    },
-    {
-      "id": "job_frontier_gen_053",
-      "title_ar": "العمل العام الحدود 53: مرافقة نقاط التفتيش",
-      "desc_ar": "مهمة الحدود رقم 53 في حزام الحدود تتطلب مرافقة نقاط التفتيش بعناية لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 117,
-      "base_reward_xp": 295,
-      "rare_drop_chance": 0.00363
-    },
-    {
-      "id": "job_frontier_gen_054",
-      "title_ar": "العمل العام الحدود 54: إحصاء معدات الإسعاف",
-      "desc_ar": "مهمة الحدود رقم 54 في حزام الحدود تتطلب إحصاء معدات الإسعاف بحزم لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 124,
-      "base_reward_xp": 308,
-      "rare_drop_chance": 0.0039
-    },
-    {
-      "id": "job_frontier_gen_055",
-      "title_ar": "العمل العام الحدود 55: تنظيف مفاتيح البوابات",
-      "desc_ar": "مهمة الحدود رقم 55 في حزام الحدود تتطلب تنظيف مفاتيح البوابات بهدوء لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 131,
-      "base_reward_xp": 321,
-      "rare_drop_chance": 0.0012
-    },
-    {
-      "id": "job_frontier_gen_056",
-      "title_ar": "العمل العام الحدود 56: معايرة أختام الشحن",
-      "desc_ar": "مهمة الحدود رقم 56 في حزام الحدود تتطلب معايرة أختام الشحن بدقة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 40,
-      "base_reward_xp": 334,
-      "rare_drop_chance": 0.00147
-    },
-    {
-      "id": "job_frontier_gen_057",
-      "title_ar": "العمل العام الحدود 57: توثيق مخزون التموين",
-      "desc_ar": "مهمة الحدود رقم 57 في حزام الحدود تتطلب توثيق مخزون التموين بيسر لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 47,
-      "base_reward_xp": 100,
-      "rare_drop_chance": 0.00174
-    },
-    {
-      "id": "job_frontier_gen_058",
-      "title_ar": "العمل العام الحدود 58: تدعيم سجلات المخزن",
-      "desc_ar": "مهمة الحدود رقم 58 في حزام الحدود تتطلب تدعيم سجلات المخزن بتنسيق لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 54,
-      "base_reward_xp": 113,
-      "rare_drop_chance": 0.00201
-    },
-    {
-      "id": "job_frontier_gen_059",
-      "title_ar": "العمل العام الحدود 59: ترتيب المعابر الفرعية",
-      "desc_ar": "مهمة الحدود رقم 59 في حزام الحدود تتطلب ترتيب المعابر الفرعية بانضباط لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 61,
-      "base_reward_xp": 126,
-      "rare_drop_chance": 0.00228
-    },
-    {
-      "id": "job_frontier_gen_060",
-      "title_ar": "العمل العام الحدود 60: مراقبة القوافل",
-      "desc_ar": "مهمة الحدود رقم 60 في حزام الحدود تتطلب مراقبة القوافل بسرعة لضمان سير العمليات دون انقطاع.",
-      "archetype": "general",
-      "base_reward_gold": 68,
-      "base_reward_xp": 139,
-      "rare_drop_chance": 0.00255
+      "base_reward_gold": 86,
+      "base_reward_xp": 74,
+      "rare_drop_chance": 0.001
     }
   ]
 }

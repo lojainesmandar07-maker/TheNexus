@@ -1786,13 +1786,13 @@
       "text_ar": "بينما تتقدم في هذا العالم المجهول، تنبت زهور نارية أينما وطئت قدمك.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
       "choices": [
         {
-          "text_ar": "اختر مسار الخاتمة المتزنة",
-          "ending_id": "past_ending_light",
+          "text_ar": "تسلل نحو المصدر الغامض (1)",
+          "next_node": "p01_a_node_000",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "اختر مسار الخاتمة الجريئة",
-          "ending_id": "past_ending_shadow",
+          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
+          "next_node": "p05_b_node_082",
           "skill_check": "agility"
         }
       ],

@@ -1,4 +1,5 @@
 import discord
+from discord import app_commands
 from discord.ext import commands
 from discord_layer.embeds import (
     create_story_embed, create_status_embed, create_shop_embed,
@@ -9,6 +10,7 @@ from engine.game_engine import GameEngine
 from services.logic import complete_job, buy_item, complete_quest
 from domain.models import Player
 import json
+from typing import Union
 
 # In a real app, use a DB. Here we use an in-memory dictionary.
 players = {}
@@ -16,7 +18,7 @@ story_engine = StoryEngine()
 game_engine = GameEngine()
 
 # Dummy Data for tests
-def get_or_create_player(user: discord.User) -> Player:
+def get_or_create_player(user: Union[discord.User, discord.Member]) -> Player:
     if user.id not in players:
         players[user.id] = Player(
             id=user.id,
@@ -112,28 +114,13 @@ class StoryChoiceView(discord.ui.View):
             result = story_engine.process_choice(self.world, self.node_id, idx, player.archetype, player.stats)
 
             if result["success"]:
-                player.xp += result.get("reward_xp", 10)
-
-                if result.get("is_ending"):
-                    ending = result["ending"]
-                    player.story_progress[self.world] = "p01_a_node_000"
-                    embed = create_story_embed(
-                        title=ending.get("title_ar", "نهاية الرحلة"),
-                        description=ending.get("text_ar", "وصلت إلى نهاية هذا المسار."),
-                        world=self.world
-                    )
-                    await interaction.response.edit_message(embed=embed, view=None)
-                    return
-
                 next_node = result["next_node"]
                 player.story_progress[self.world] = next_node["id"]
-                description = next_node["text_ar"]
-                if result.get("check_failed") and result.get("outcome_message"):
-                    description = f"⚠️ {result['outcome_message']}\n\n{description}"
+                player.xp += result.get("reward_xp", 10)
 
                 embed = create_story_embed(
                     title="مغامرة مستمرة",
-                    description=description,
+                    description=next_node["text_ar"],
                     world=self.world
                 )
                 view = StoryChoiceView(self.bot, self.user_id, self.world, next_node["id"])
@@ -148,22 +135,28 @@ def setup_bot(bot: commands.Bot):
     @bot.event
     async def on_ready():
         print(f"Logged in as {bot.user} (ID: {bot.user.id})")
+        print("Syncing slash commands...")
+        try:
+            synced = await bot.tree.sync()
+            print(f"Synced {len(synced)} command(s)")
+        except Exception as e:
+            print(f"Failed to sync commands: {e}")
         print("Bot is ready for EPIC ARABIC ADVENTURES!")
 
-    @bot.command()
-    async def start(ctx, world: str = "fantasy"):
-        """يبدأ أو يكمل مغامرتك في عالم معين"""
+    @bot.tree.command(name="ابدأ", description="يبدأ أو يكمل مغامرتك في عالم معين")
+    @app_commands.describe(world="اختر العالم: fantasy, past, future, alternate")
+    async def start(interaction: discord.Interaction, world: str = "fantasy"):
         if world not in story_engine.worlds:
-            await ctx.send(f"العالم '{world}' غير موجود. العوالم المتاحة: fantasy, past, future, alternate")
+            await interaction.response.send_message(f"العالم '{world}' غير موجود. العوالم المتاحة: fantasy, past, future, alternate", ephemeral=True)
             return
 
-        player = get_or_create_player(ctx.author)
+        player = get_or_create_player(interaction.user)
         current_node_id = player.story_progress.get(world)
 
         if not current_node_id:
             start_node = story_engine.get_start_node(world)
             if not start_node:
-                await ctx.send("تعذر العثور على بداية القصة لهذا العالم.")
+                await interaction.response.send_message("تعذر العثور على بداية القصة لهذا العالم.", ephemeral=True)
                 return
             current_node_id = start_node["id"]
             player.story_progress[world] = current_node_id
@@ -176,13 +169,12 @@ def setup_bot(bot: commands.Bot):
             world=world
         )
 
-        view = StoryChoiceView(bot, ctx.author.id, world, current_node_id)
-        await ctx.send(embed=embed, view=view)
+        view = StoryChoiceView(bot, interaction.user.id, world, current_node_id)
+        await interaction.response.send_message(embed=embed, view=view)
 
-    @bot.command()
-    async def profile(ctx):
-        """يعرض ملفك الشخصي وإنجازاتك"""
-        player = get_or_create_player(ctx.author)
+    @bot.tree.command(name="ملفي", description="يعرض ملفك الشخصي وإنجازاتك")
+    async def profile(interaction: discord.Interaction):
+        player = get_or_create_player(interaction.user)
         embed = create_status_embed(
             player_name=player.name,
             archetype=player.archetype,
@@ -192,16 +184,15 @@ def setup_bot(bot: commands.Bot):
             tokens=player.tokens,
             active_title=player.active_title
         )
-        await ctx.send(embed=embed)
+        await interaction.response.send_message(embed=embed)
 
-    @bot.command()
-    async def jobs(ctx):
-        """يعرض المهام المتاحة لنمطك من ملفات اللعبة الفعلية"""
-        player = get_or_create_player(ctx.author)
+    @bot.tree.command(name="المهام", description="يعرض المهام المتاحة لنمطك")
+    async def jobs(interaction: discord.Interaction):
+        player = get_or_create_player(interaction.user)
         available_jobs = game_engine.get_available_jobs(player.archetype, 3)
 
         if not available_jobs:
-            await ctx.send("لا توجد مهام متاحة لك في الوقت الحالي.")
+            await interaction.response.send_message("لا توجد مهام متاحة لك في الوقت الحالي.", ephemeral=True)
             return
 
         embed = create_job_embed("لوحة المهام المفتوحة", "اختر إحدى المهام أدناه لإنجازها وجمع الغنائم.")
@@ -220,15 +211,13 @@ def setup_bot(bot: commands.Bot):
                 custom_id=f"job_accept_{job.id}"
             )
 
-            # Using default args in lambda prevents closure scope issues in loop
-            async def button_callback(interaction: discord.Interaction, btn=button, j=job, v=view):
-                if interaction.user.id != ctx.author.id:
-                    await interaction.response.send_message("هذه المهمة ليست لك!", ephemeral=True)
+            async def button_callback(inter: discord.Interaction, btn=button, j=job, v=view):
+                if inter.user.id != interaction.user.id:
+                    await inter.response.send_message("هذه المهمة ليست لك!", ephemeral=True)
                     return
 
-                # Prevent farming by disabling the button after use
                 btn.disabled = True
-                await interaction.response.edit_message(view=v)
+                await inter.response.edit_message(view=v)
 
                 result = complete_job(player, j)
                 msg = f"لقد أنجزت {j.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} نقطة خبرة."
@@ -238,33 +227,31 @@ def setup_bot(bot: commands.Bot):
                 if result.get("dropped_rare"):
                     msg += f"\n🌟 **حدث نادر:** {result['rare_event_text']}"
 
-                await interaction.followup.send(msg, ephemeral=False)
+                await inter.followup.send(msg, ephemeral=False)
 
             button.callback = button_callback
             view.add_item(button)
 
-        await ctx.send(embed=embed, view=view)
+        await interaction.response.send_message(embed=embed, view=view)
 
-    @bot.command()
-    async def test(ctx):
-        """يبدأ اختبار تحديد المصير (النمط)"""
+    @bot.tree.command(name="اختبار", description="يبدأ اختبار تحديد المصير (النمط)")
+    async def test(interaction: discord.Interaction):
         questions = game_engine.character_questions_cache
         if not questions:
-            await ctx.send("الاختبار غير متوفر حالياً.")
+            await interaction.response.send_message("الاختبار غير متوفر حالياً.", ephemeral=True)
             return
 
         embed = create_test_embed(questions[0]["text_ar"], 1, len(questions))
-        view = TestView(bot, ctx.author.id)
-        await ctx.send(embed=embed, view=view)
+        view = TestView(bot, interaction.user.id)
+        await interaction.response.send_message(embed=embed, view=view)
 
-    @bot.command()
-    async def quests(ctx):
-        """يعرض المهام الطويلة المتاحة"""
-        player = get_or_create_player(ctx.author)
+    @bot.tree.command(name="مهمات_كبرى", description="يعرض المهام الطويلة المتاحة")
+    async def quests(interaction: discord.Interaction):
+        player = get_or_create_player(interaction.user)
         available_quests = game_engine.get_available_quests(player.archetype, 2)
 
         if not available_quests:
-            await ctx.send("لا توجد مهام كبرى متاحة لك.")
+            await interaction.response.send_message("لا توجد مهام كبرى متاحة لك.", ephemeral=True)
             return
 
         embed = create_quests_embed(available_quests)
@@ -277,47 +264,45 @@ def setup_bot(bot: commands.Bot):
                 custom_id=f"quest_start_{quest.id}"
             )
 
-            async def quest_callback(interaction: discord.Interaction, btn=button, q=quest, v=view):
-                if interaction.user.id != ctx.author.id:
-                    await interaction.response.send_message("هذه المهمة لغيرك!", ephemeral=True)
+            async def quest_callback(inter: discord.Interaction, btn=button, q=quest, v=view):
+                if inter.user.id != interaction.user.id:
+                    await inter.response.send_message("هذه المهمة لغيرك!", ephemeral=True)
                     return
 
                 btn.disabled = True
-                await interaction.response.edit_message(view=v)
+                await inter.response.edit_message(view=v)
 
                 result = complete_quest(player, q)
                 msg = f"لقد أكملت المهمة {q.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} نقطة خبرة."
                 if result.get("item_gained"):
                     msg += f"\n🎁 **حصلت على أداة:** {result['item_gained']}"
 
-                await interaction.followup.send(msg, ephemeral=False)
+                await inter.followup.send(msg, ephemeral=False)
 
             button.callback = quest_callback
             view.add_item(button)
 
-        await ctx.send(embed=embed, view=view)
+        await interaction.response.send_message(embed=embed, view=view)
 
-    @bot.command()
-    async def achievements(ctx):
-        """يعرض لوحة الإنجازات"""
+    @bot.tree.command(name="انجازات", description="يعرض لوحة الإنجازات")
+    async def achievements(interaction: discord.Interaction):
         import random
         achv_list = game_engine.achievements_cache
         if not achv_list:
-            await ctx.send("لا توجد إنجازات مسجلة.")
+            await interaction.response.send_message("لا توجد إنجازات مسجلة.", ephemeral=True)
             return
 
         sample = random.sample(achv_list, min(len(achv_list), 5))
         embed = create_achievements_embed(sample)
-        await ctx.send(embed=embed)
+        await interaction.response.send_message(embed=embed)
 
-    @bot.command()
-    async def shop(ctx):
-        """يعرض متجر اللعبة من الملفات الفعلية"""
-        player = get_or_create_player(ctx.author)
+    @bot.tree.command(name="متجر", description="يعرض متجر اللعبة")
+    async def shop(interaction: discord.Interaction):
+        player = get_or_create_player(interaction.user)
         shop_items = game_engine.get_shop_items(5)
 
         if not shop_items:
-            await ctx.send("المتجر مغلق حالياً.")
+            await interaction.response.send_message("المتجر مغلق حالياً.", ephemeral=True)
             return
 
         embed = create_shop_embed(shop_items)
@@ -331,22 +316,21 @@ def setup_bot(bot: commands.Bot):
                 custom_id=f"shop_buy_{item.id}"
             )
 
-            async def shop_callback(interaction: discord.Interaction, btn=button, i=item, v=view):
-                if interaction.user.id != ctx.author.id:
-                    await interaction.response.send_message("تحدث مع التاجر من حسابك الخاص!", ephemeral=True)
+            async def shop_callback(inter: discord.Interaction, btn=button, i=item, v=view):
+                if inter.user.id != interaction.user.id:
+                    await inter.response.send_message("تحدث مع التاجر من حسابك الخاص!", ephemeral=True)
                     return
 
                 result = buy_item(player, i)
 
-                # If successful, optionally disable button to prevent double-charging by mistake
                 if result["success"]:
                     btn.disabled = True
-                    await interaction.response.edit_message(view=v)
-                    await interaction.followup.send(result["message"], ephemeral=False)
+                    await inter.response.edit_message(view=v)
+                    await inter.followup.send(result["message"], ephemeral=False)
                 else:
-                    await interaction.response.send_message(result["message"], ephemeral=True)
+                    await inter.response.send_message(result["message"], ephemeral=True)
 
             button.callback = shop_callback
             view.add_item(button)
 
-        await ctx.send(embed=embed, view=view)
+        await interaction.response.send_message(embed=embed, view=view)
