@@ -1791,13 +1791,13 @@
       "text_ar": "في أزقة النيون المظلمة في نيو-بابل، يتم تفعيل نظام أمني آلي ويبدأ في مسح هويتك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
       "choices": [
         {
-          "text_ar": "تفاوض بشأن التهديد الواضح (1)",
-          "next_node": "p01_a_node_000",
+          "text_ar": "اختر مسار الخاتمة المتزنة",
+          "ending_id": "future_ending_light",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "هاجم المصدر الغامض (2)",
-          "next_node": "p05_b_node_043",
+          "text_ar": "اختر مسار الخاتمة الجريئة",
+          "ending_id": "future_ending_shadow",
           "skill_check": "agility"
         }
       ],
