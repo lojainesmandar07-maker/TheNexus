@@ -92,8 +92,19 @@ class StoryEngine:
 
         req_skill = choice.get("skill_check")
         if req_skill:
-            difficulty = 15
-            self.evaluate_skill_check(player_stats, req_skill, difficulty)
+            difficulty = int(choice.get("difficulty", 15))
+            if not self.evaluate_skill_check(player_stats, req_skill, difficulty):
+                fail_node_id = choice.get("fail_next_node") or current_node_id
+                fail_node = self.get_node(world, fail_node_id)
+                if fail_node:
+                    return {
+                        "success": True,
+                        "next_node": fail_node,
+                        "reward_xp": max(1, node.get("reward_xp", 10) // 3),
+                        "check_failed": True,
+                        "outcome_message": "أخفقت في اختبار المهارة، فتعثرت خطتك وتبدّل مسارك.",
+                    }
+                return {"success": False, "message": "أخفقت في اختبار المهارة ولم يتم العثور على مسار الفشل."}
 
         ending_id = choice.get("ending_id")
         if ending_id:
