@@ -1,0 +1,264 @@
+{
+  "jobs": [
+    {
+      "id": "job_scholar_001",
+      "title_ar": "مهمة حصرية: دروب العالم 1",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 481,
+      "base_reward_xp": 875,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_002",
+      "title_ar": "مهمة حصرية: دروب العالم 2",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 250,
+      "base_reward_xp": 480,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_003",
+      "title_ar": "مهمة حصرية: دروب العالم 3",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 166,
+      "base_reward_xp": 402,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_004",
+      "title_ar": "مهمة حصرية: دروب العالم 4",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 482,
+      "base_reward_xp": 788,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_005",
+      "title_ar": "مهمة حصرية: دروب العالم 5",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 101,
+      "base_reward_xp": 953,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_006",
+      "title_ar": "مهمة حصرية: دروب العالم 6",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 353,
+      "base_reward_xp": 725,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_007",
+      "title_ar": "مهمة حصرية: دروب العالم 7",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 298,
+      "base_reward_xp": 766,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_008",
+      "title_ar": "مهمة حصرية: دروب العالم 8",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 143,
+      "base_reward_xp": 426,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_009",
+      "title_ar": "مهمة حصرية: دروب العالم 9",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 438,
+      "base_reward_xp": 663,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_010",
+      "title_ar": "مهمة حصرية: دروب العالم 10",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 290,
+      "base_reward_xp": 505,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_011",
+      "title_ar": "مهمة حصرية: دروب العالم 11",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 428,
+      "base_reward_xp": 653,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_012",
+      "title_ar": "مهمة حصرية: دروب العالم 12",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 298,
+      "base_reward_xp": 372,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_013",
+      "title_ar": "مهمة حصرية: دروب العالم 13",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 353,
+      "base_reward_xp": 899,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_014",
+      "title_ar": "مهمة حصرية: دروب العالم 14",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 211,
+      "base_reward_xp": 980,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_015",
+      "title_ar": "مهمة حصرية: دروب العالم 15",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 146,
+      "base_reward_xp": 748,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_016",
+      "title_ar": "مهمة حصرية: دروب العالم 16",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 485,
+      "base_reward_xp": 392,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_017",
+      "title_ar": "مهمة حصرية: دروب العالم 17",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 154,
+      "base_reward_xp": 302,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_018",
+      "title_ar": "مهمة حصرية: دروب العالم 18",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 422,
+      "base_reward_xp": 504,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_019",
+      "title_ar": "مهمة حصرية: دروب العالم 19",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 499,
+      "base_reward_xp": 454,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_scholar_020",
+      "title_ar": "مهمة حصرية: دروب العالم 20",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ العالم. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "scholar",
+      "base_reward_gold": 394,
+      "base_reward_xp": 634,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ العالم لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    }
+  ]
+}

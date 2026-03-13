@@ -1,0 +1,264 @@
+{
+  "jobs": [
+    {
+      "id": "job_outlaw_001",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 1",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 403,
+      "base_reward_xp": 517,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_002",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 2",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 238,
+      "base_reward_xp": 478,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_003",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 3",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 436,
+      "base_reward_xp": 679,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_004",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 4",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 449,
+      "base_reward_xp": 697,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_005",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 5",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 290,
+      "base_reward_xp": 564,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_006",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 6",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 250,
+      "base_reward_xp": 468,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_007",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 7",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 200,
+      "base_reward_xp": 846,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_008",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 8",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 225,
+      "base_reward_xp": 868,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_009",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 9",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 101,
+      "base_reward_xp": 405,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_010",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 10",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 402,
+      "base_reward_xp": 912,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_011",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 11",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 183,
+      "base_reward_xp": 935,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_012",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 12",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 171,
+      "base_reward_xp": 417,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_013",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 13",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 183,
+      "base_reward_xp": 523,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_014",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 14",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 301,
+      "base_reward_xp": 459,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_015",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 15",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 279,
+      "base_reward_xp": 415,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_016",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 16",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 135,
+      "base_reward_xp": 626,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_017",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 17",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 363,
+      "base_reward_xp": 649,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_018",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 18",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 256,
+      "base_reward_xp": 508,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_019",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 19",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 457,
+      "base_reward_xp": 452,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_outlaw_020",
+      "title_ar": "مهمة حصرية: دروب الخارج عن القانون 20",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الخارج عن القانون. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "outlaw",
+      "base_reward_gold": 333,
+      "base_reward_xp": 979,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الخارج عن القانون لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "jobs": [
+    {
+      "id": "job_explorer_001",
+      "title_ar": "مهمة حصرية: دروب المستكشف 1",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 195,
+      "base_reward_xp": 628,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_002",
+      "title_ar": "مهمة حصرية: دروب المستكشف 2",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 181,
+      "base_reward_xp": 952,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_003",
+      "title_ar": "مهمة حصرية: دروب المستكشف 3",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 239,
+      "base_reward_xp": 721,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_004",
+      "title_ar": "مهمة حصرية: دروب المستكشف 4",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 148,
+      "base_reward_xp": 575,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_005",
+      "title_ar": "مهمة حصرية: دروب المستكشف 5",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 439,
+      "base_reward_xp": 752,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_006",
+      "title_ar": "مهمة حصرية: دروب المستكشف 6",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 476,
+      "base_reward_xp": 724,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_007",
+      "title_ar": "مهمة حصرية: دروب المستكشف 7",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 189,
+      "base_reward_xp": 733,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_008",
+      "title_ar": "مهمة حصرية: دروب المستكشف 8",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 413,
+      "base_reward_xp": 741,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_009",
+      "title_ar": "مهمة حصرية: دروب المستكشف 9",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 229,
+      "base_reward_xp": 314,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_010",
+      "title_ar": "مهمة حصرية: دروب المستكشف 10",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 272,
+      "base_reward_xp": 979,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_011",
+      "title_ar": "مهمة حصرية: دروب المستكشف 11",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 112,
+      "base_reward_xp": 456,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_012",
+      "title_ar": "مهمة حصرية: دروب المستكشف 12",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 154,
+      "base_reward_xp": 330,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_013",
+      "title_ar": "مهمة حصرية: دروب المستكشف 13",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 272,
+      "base_reward_xp": 695,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_014",
+      "title_ar": "مهمة حصرية: دروب المستكشف 14",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 292,
+      "base_reward_xp": 613,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_015",
+      "title_ar": "مهمة حصرية: دروب المستكشف 15",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 183,
+      "base_reward_xp": 941,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_016",
+      "title_ar": "مهمة حصرية: دروب المستكشف 16",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 228,
+      "base_reward_xp": 761,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_017",
+      "title_ar": "مهمة حصرية: دروب المستكشف 17",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 420,
+      "base_reward_xp": 665,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_018",
+      "title_ar": "مهمة حصرية: دروب المستكشف 18",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 297,
+      "base_reward_xp": 503,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_019",
+      "title_ar": "مهمة حصرية: دروب المستكشف 19",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 208,
+      "base_reward_xp": 367,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_explorer_020",
+      "title_ar": "مهمة حصرية: دروب المستكشف 20",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ المستكشف. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "explorer",
+      "base_reward_gold": 133,
+      "base_reward_xp": 942,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ المستكشف لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    }
+  ]
+}
