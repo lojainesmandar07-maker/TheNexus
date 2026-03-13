@@ -1,0 +1,364 @@
+{
+  "jobs": [
+    {
+      "id": "job_gen_001",
+      "title_ar": "مهمة عامة: تنظيف الحدود 1",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 38,
+      "base_reward_xp": 63,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_002",
+      "title_ar": "مهمة عامة: تنظيف الحدود 2",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 36,
+      "base_reward_xp": 89,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_003",
+      "title_ar": "مهمة عامة: تنظيف الحدود 3",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 100,
+      "base_reward_xp": 60,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_004",
+      "title_ar": "مهمة عامة: تنظيف الحدود 4",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 86,
+      "base_reward_xp": 199,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_005",
+      "title_ar": "مهمة عامة: تنظيف الحدود 5",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 40,
+      "base_reward_xp": 68,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_006",
+      "title_ar": "مهمة عامة: تنظيف الحدود 6",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 61,
+      "base_reward_xp": 164,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_007",
+      "title_ar": "مهمة عامة: تنظيف الحدود 7",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 43,
+      "base_reward_xp": 194,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_008",
+      "title_ar": "مهمة عامة: تنظيف الحدود 8",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 62,
+      "base_reward_xp": 171,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_009",
+      "title_ar": "مهمة عامة: تنظيف الحدود 9",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 77,
+      "base_reward_xp": 151,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_010",
+      "title_ar": "مهمة عامة: تنظيف الحدود 10",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 80,
+      "base_reward_xp": 79,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_011",
+      "title_ar": "مهمة عامة: تنظيف الحدود 11",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 50,
+      "base_reward_xp": 150,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_012",
+      "title_ar": "مهمة عامة: تنظيف الحدود 12",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 48,
+      "base_reward_xp": 162,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_013",
+      "title_ar": "مهمة عامة: تنظيف الحدود 13",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 98,
+      "base_reward_xp": 90,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_014",
+      "title_ar": "مهمة عامة: تنظيف الحدود 14",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 29,
+      "base_reward_xp": 93,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_015",
+      "title_ar": "مهمة عامة: تنظيف الحدود 15",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 83,
+      "base_reward_xp": 68,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_016",
+      "title_ar": "مهمة عامة: تنظيف الحدود 16",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 98,
+      "base_reward_xp": 126,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_017",
+      "title_ar": "مهمة عامة: تنظيف الحدود 17",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 39,
+      "base_reward_xp": 104,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_018",
+      "title_ar": "مهمة عامة: تنظيف الحدود 18",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 49,
+      "base_reward_xp": 68,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_019",
+      "title_ar": "مهمة عامة: تنظيف الحدود 19",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 39,
+      "base_reward_xp": 146,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_020",
+      "title_ar": "مهمة عامة: تنظيف الحدود 20",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 78,
+      "base_reward_xp": 70,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_021",
+      "title_ar": "مهمة عامة: تنظيف الحدود 21",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 79,
+      "base_reward_xp": 132,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_022",
+      "title_ar": "مهمة عامة: تنظيف الحدود 22",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 97,
+      "base_reward_xp": 148,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_023",
+      "title_ar": "مهمة عامة: تنظيف الحدود 23",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 96,
+      "base_reward_xp": 134,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_024",
+      "title_ar": "مهمة عامة: تنظيف الحدود 24",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 70,
+      "base_reward_xp": 68,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_025",
+      "title_ar": "مهمة عامة: تنظيف الحدود 25",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 28,
+      "base_reward_xp": 180,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_026",
+      "title_ar": "مهمة عامة: تنظيف الحدود 26",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 53,
+      "base_reward_xp": 82,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_027",
+      "title_ar": "مهمة عامة: تنظيف الحدود 27",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 61,
+      "base_reward_xp": 58,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_028",
+      "title_ar": "مهمة عامة: تنظيف الحدود 28",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 60,
+      "base_reward_xp": 95,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_029",
+      "title_ar": "مهمة عامة: تنظيف الحدود 29",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 42,
+      "base_reward_xp": 103,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_030",
+      "title_ar": "مهمة عامة: تنظيف الحدود 30",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 60,
+      "base_reward_xp": 157,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_031",
+      "title_ar": "مهمة عامة: تنظيف الحدود 31",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 81,
+      "base_reward_xp": 72,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_032",
+      "title_ar": "مهمة عامة: تنظيف الحدود 32",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 82,
+      "base_reward_xp": 163,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_033",
+      "title_ar": "مهمة عامة: تنظيف الحدود 33",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 46,
+      "base_reward_xp": 151,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_034",
+      "title_ar": "مهمة عامة: تنظيف الحدود 34",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 28,
+      "base_reward_xp": 120,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_035",
+      "title_ar": "مهمة عامة: تنظيف الحدود 35",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 95,
+      "base_reward_xp": 155,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_036",
+      "title_ar": "مهمة عامة: تنظيف الحدود 36",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 69,
+      "base_reward_xp": 197,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_037",
+      "title_ar": "مهمة عامة: تنظيف الحدود 37",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 22,
+      "base_reward_xp": 91,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_038",
+      "title_ar": "مهمة عامة: تنظيف الحدود 38",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 89,
+      "base_reward_xp": 189,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_039",
+      "title_ar": "مهمة عامة: تنظيف الحدود 39",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 87,
+      "base_reward_xp": 117,
+      "rare_drop_chance": 0.001
+    },
+    {
+      "id": "job_gen_040",
+      "title_ar": "مهمة عامة: تنظيف الحدود 40",
+      "desc_ar": "هناك تهديدات مستمرة على حدود المدينة. نحتاج إلى متطوعين لحماية القوافل التجارية من قطاع الطرق.",
+      "archetype": "general",
+      "base_reward_gold": 31,
+      "base_reward_xp": 123,
+      "rare_drop_chance": 0.001
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "quests": [
+    {
+      "id": "fac_city_001",
+      "title_ar": "ولاء المدينة 1",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_002",
+      "title_ar": "ولاء المدينة 2",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_003",
+      "title_ar": "ولاء المدينة 3",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_004",
+      "title_ar": "ولاء المدينة 4",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_005",
+      "title_ar": "ولاء المدينة 5",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_006",
+      "title_ar": "ولاء المدينة 6",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_007",
+      "title_ar": "ولاء المدينة 7",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_008",
+      "title_ar": "ولاء المدينة 8",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_009",
+      "title_ar": "ولاء المدينة 9",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    },
+    {
+      "id": "fac_city_010",
+      "title_ar": "ولاء المدينة 10",
+      "desc_ar": "عزز سمعتك مع فصائل المدينة.",
+      "stages": [
+        {
+          "stage_ar": "قم بدورية",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "city_guard": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "jobs": [
+    {
+      "id": "job_commander_001",
+      "title_ar": "مهمة حصرية: دروب القائد 1",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 172,
+      "base_reward_xp": 681,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_002",
+      "title_ar": "مهمة حصرية: دروب القائد 2",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 456,
+      "base_reward_xp": 420,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_003",
+      "title_ar": "مهمة حصرية: دروب القائد 3",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 148,
+      "base_reward_xp": 828,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_004",
+      "title_ar": "مهمة حصرية: دروب القائد 4",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 219,
+      "base_reward_xp": 337,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_005",
+      "title_ar": "مهمة حصرية: دروب القائد 5",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 328,
+      "base_reward_xp": 614,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_006",
+      "title_ar": "مهمة حصرية: دروب القائد 6",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 279,
+      "base_reward_xp": 835,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_007",
+      "title_ar": "مهمة حصرية: دروب القائد 7",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 440,
+      "base_reward_xp": 584,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_008",
+      "title_ar": "مهمة حصرية: دروب القائد 8",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 330,
+      "base_reward_xp": 303,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_009",
+      "title_ar": "مهمة حصرية: دروب القائد 9",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 320,
+      "base_reward_xp": 940,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_010",
+      "title_ar": "مهمة حصرية: دروب القائد 10",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 448,
+      "base_reward_xp": 958,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_011",
+      "title_ar": "مهمة حصرية: دروب القائد 11",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 247,
+      "base_reward_xp": 930,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_012",
+      "title_ar": "مهمة حصرية: دروب القائد 12",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 162,
+      "base_reward_xp": 574,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_013",
+      "title_ar": "مهمة حصرية: دروب القائد 13",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 219,
+      "base_reward_xp": 864,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_014",
+      "title_ar": "مهمة حصرية: دروب القائد 14",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 199,
+      "base_reward_xp": 500,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_015",
+      "title_ar": "مهمة حصرية: دروب القائد 15",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 405,
+      "base_reward_xp": 441,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_016",
+      "title_ar": "مهمة حصرية: دروب القائد 16",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 151,
+      "base_reward_xp": 476,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_017",
+      "title_ar": "مهمة حصرية: دروب القائد 17",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 116,
+      "base_reward_xp": 992,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_018",
+      "title_ar": "مهمة حصرية: دروب القائد 18",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 436,
+      "base_reward_xp": 879,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_019",
+      "title_ar": "مهمة حصرية: دروب القائد 19",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 113,
+      "base_reward_xp": 590,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_commander_020",
+      "title_ar": "مهمة حصرية: دروب القائد 20",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ القائد. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "commander",
+      "base_reward_gold": 148,
+      "base_reward_xp": 638,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ القائد لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    }
+  ]
+}

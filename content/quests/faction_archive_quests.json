@@ -1,0 +1,144 @@
+{
+  "quests": [
+    {
+      "id": "fac_arch_001",
+      "title_ar": "أسرار الأرشيف 1",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_002",
+      "title_ar": "أسرار الأرشيف 2",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_003",
+      "title_ar": "أسرار الأرشيف 3",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_004",
+      "title_ar": "أسرار الأرشيف 4",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_005",
+      "title_ar": "أسرار الأرشيف 5",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_006",
+      "title_ar": "أسرار الأرشيف 6",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_007",
+      "title_ar": "أسرار الأرشيف 7",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_008",
+      "title_ar": "أسرار الأرشيف 8",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_009",
+      "title_ar": "أسرار الأرشيف 9",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    },
+    {
+      "id": "fac_arch_010",
+      "title_ar": "أسرار الأرشيف 10",
+      "desc_ar": "اكتشف المعرفة المفقودة.",
+      "stages": [
+        {
+          "stage_ar": "ترجم الكتاب",
+          "xp": 50
+        }
+      ],
+      "reward_reputation": {
+        "scholars": 10
+      }
+    }
+  ]
+}

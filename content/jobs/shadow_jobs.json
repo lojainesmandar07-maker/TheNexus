@@ -1,0 +1,264 @@
+{
+  "jobs": [
+    {
+      "id": "job_shadow_001",
+      "title_ar": "مهمة حصرية: دروب الظل 1",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 424,
+      "base_reward_xp": 447,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_002",
+      "title_ar": "مهمة حصرية: دروب الظل 2",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 236,
+      "base_reward_xp": 445,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_003",
+      "title_ar": "مهمة حصرية: دروب الظل 3",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 317,
+      "base_reward_xp": 738,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_004",
+      "title_ar": "مهمة حصرية: دروب الظل 4",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 154,
+      "base_reward_xp": 876,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_005",
+      "title_ar": "مهمة حصرية: دروب الظل 5",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 121,
+      "base_reward_xp": 493,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_006",
+      "title_ar": "مهمة حصرية: دروب الظل 6",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 195,
+      "base_reward_xp": 898,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_007",
+      "title_ar": "مهمة حصرية: دروب الظل 7",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 324,
+      "base_reward_xp": 320,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_008",
+      "title_ar": "مهمة حصرية: دروب الظل 8",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 490,
+      "base_reward_xp": 898,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_009",
+      "title_ar": "مهمة حصرية: دروب الظل 9",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 378,
+      "base_reward_xp": 760,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_010",
+      "title_ar": "مهمة حصرية: دروب الظل 10",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 274,
+      "base_reward_xp": 377,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_011",
+      "title_ar": "مهمة حصرية: دروب الظل 11",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 157,
+      "base_reward_xp": 391,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_012",
+      "title_ar": "مهمة حصرية: دروب الظل 12",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 452,
+      "base_reward_xp": 811,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_013",
+      "title_ar": "مهمة حصرية: دروب الظل 13",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 120,
+      "base_reward_xp": 658,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_014",
+      "title_ar": "مهمة حصرية: دروب الظل 14",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 209,
+      "base_reward_xp": 757,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_015",
+      "title_ar": "مهمة حصرية: دروب الظل 15",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 348,
+      "base_reward_xp": 560,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_016",
+      "title_ar": "مهمة حصرية: دروب الظل 16",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 348,
+      "base_reward_xp": 397,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_017",
+      "title_ar": "مهمة حصرية: دروب الظل 17",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 473,
+      "base_reward_xp": 955,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_018",
+      "title_ar": "مهمة حصرية: دروب الظل 18",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 119,
+      "base_reward_xp": 895,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_019",
+      "title_ar": "مهمة حصرية: دروب الظل 19",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 216,
+      "base_reward_xp": 933,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    },
+    {
+      "id": "job_shadow_020",
+      "title_ar": "مهمة حصرية: دروب الظل 20",
+      "desc_ar": "هذه المهمة تتطلب خبرتك كـ الظل. فقط من يمتلك مهاراتك الخاصة يمكنه كشف الأسرار وحل الأزمة الحالية.",
+      "archetype": "shadow",
+      "base_reward_gold": 408,
+      "base_reward_xp": 446,
+      "rare_drop_chance": 0.05,
+      "rare_event": {
+        "event_text_ar": "أثناء إنجاز المهمة، استخدمت غريزتك كـ الظل لاكتشاف مخبأ سري!",
+        "bonus_item": "token_of_mastery"
+      }
+    }
+  ]
+}
