@@ -9,8 +9,47 @@ class StoryEngine:
         self.worlds = ["fantasy", "past", "future", "alternate"]
         self.story_cache: Dict[str, Dict[str, Any]] = {}
         self.endings_cache: Dict[str, Dict[str, Dict[str, Any]]] = {}
+        self.archetype_id_to_name: Dict[str, str] = {}
+        self.archetype_name_to_id: Dict[str, str] = {}
+        self.load_archetypes()
         self.load_stories()
         self.load_endings()
+
+    def load_archetypes(self):
+        """Load archetype id/name mapping so locks work with ID or Arabic name."""
+        self.archetype_id_to_name = {}
+        self.archetype_name_to_id = {}
+        defs_path = os.path.join(self.content_dir, "characters", "character_defs.json")
+        if not os.path.exists(defs_path):
+            return
+
+        try:
+            with open(defs_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            for a in data.get("archetypes", []):
+                archetype_id = a.get("id")
+                name_ar = a.get("name_ar")
+                if isinstance(archetype_id, str) and isinstance(name_ar, str):
+                    self.archetype_id_to_name[archetype_id] = name_ar
+                    self.archetype_name_to_id[name_ar] = archetype_id
+        except Exception as e:
+            print(f"Error loading archetypes {defs_path}: {e}")
+
+    def archetype_matches(self, required: str, player_archetype: str) -> bool:
+        """Allow comparing archetypes by either ID or Arabic display name."""
+        if not required or not player_archetype:
+            return False
+        if required == player_archetype:
+            return True
+
+        req_id = self.archetype_name_to_id.get(required, required)
+        ply_id = self.archetype_name_to_id.get(player_archetype, player_archetype)
+        if req_id == ply_id:
+            return True
+
+        req_name = self.archetype_id_to_name.get(required, required)
+        ply_name = self.archetype_id_to_name.get(player_archetype, player_archetype)
+        return req_name == ply_name
 
     def load_stories(self):
         """Load all story nodes across all parts for each world."""
@@ -87,7 +126,7 @@ class StoryEngine:
         choice = choices[choice_index]
 
         req_archetype = choice.get("required_archetype")
-        if req_archetype and req_archetype != player_archetype:
+        if req_archetype and not self.archetype_matches(req_archetype, player_archetype):
             return {"success": False, "message": "هذا المسار مغلق. يتطلب نمط شخصية مختلف."}
 
         req_skill = choice.get("skill_check")

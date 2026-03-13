@@ -18,7 +18,7 @@ def get_or_create_player(user: discord.User) -> Player:
         players[user.id] = Player(
             id=user.id,
             name=user.display_name,
-            archetype="المستكشف" # Default to Arabic equivalent to match JSON locks
+            archetype="explorer" # Canonical archetype ID
         )
     return players[user.id]
 
