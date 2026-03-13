@@ -150,20 +150,24 @@ def setup_bot(bot: commands.Bot):
             )
 
             # Using default args in lambda prevents closure scope issues in loop
-            async def button_callback(interaction: discord.Interaction, j=job):
+            async def button_callback(interaction: discord.Interaction, btn=button, j=job, v=view):
                 if interaction.user.id != ctx.author.id:
                     await interaction.response.send_message("هذه المهمة ليست لك!", ephemeral=True)
                     return
 
+                # Prevent farming by disabling the button after use
+                btn.disabled = True
+                await interaction.response.edit_message(view=v)
+
                 result = complete_job(player, j)
-                msg = f"لقد أنجزت {j.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} XP."
+                msg = f"لقد أنجزت {j.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} نقطة خبرة."
 
                 if result.get("leveled_up"):
                     msg += f"\n🎉 **لقد ارتفع مستواك إلى {player.level}!**"
                 if result.get("dropped_rare"):
                     msg += f"\n🌟 **حدث نادر:** {result['rare_event_text']}"
 
-                await interaction.response.send_message(msg, ephemeral=False)
+                await interaction.followup.send(msg, ephemeral=False)
 
             button.callback = button_callback
             view.add_item(button)
@@ -191,13 +195,20 @@ def setup_bot(bot: commands.Bot):
                 custom_id=f"shop_buy_{item.id}"
             )
 
-            async def shop_callback(interaction: discord.Interaction, i=item):
+            async def shop_callback(interaction: discord.Interaction, btn=button, i=item, v=view):
                 if interaction.user.id != ctx.author.id:
                     await interaction.response.send_message("تحدث مع التاجر من حسابك الخاص!", ephemeral=True)
                     return
 
                 result = buy_item(player, i)
-                await interaction.response.send_message(result["message"], ephemeral=not result["success"])
+
+                # If successful, optionally disable button to prevent double-charging by mistake
+                if result["success"]:
+                    btn.disabled = True
+                    await interaction.response.edit_message(view=v)
+                    await interaction.followup.send(result["message"], ephemeral=False)
+                else:
+                    await interaction.response.send_message(result["message"], ephemeral=True)
 
             button.callback = shop_callback
             view.add_item(button)

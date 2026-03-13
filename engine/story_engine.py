@@ -63,10 +63,11 @@ class StoryEngine:
             # Baseline difficulty
             difficulty = 15
             if not self.evaluate_skill_check(player_stats, req_skill, difficulty):
-                # On failure, maybe route them to a random node instead of the intended one, or apply a penalty.
-                # For this epic implementation, let's say they take a minor setback but still progress, or stay on the node.
-                # We'll just pass them through with a warning string for now.
-                pass
+                # On failure, prevent progression and return an explicit failure state
+                return {
+                    "success": False,
+                    "message": "لقد فشلت في اجتياز اختبار المهارة المطلوب (D20). حاول اختيار مسار آخر أو ترقية مستواك."
+                }
 
         next_node_id = choice.get("next_node")
         next_node = self.get_node(world, next_node_id)
