@@ -71,9 +71,13 @@ class StoryChoiceView(discord.ui.View):
 
                 next_node = result["next_node"]
                 player.story_progress[self.world] = next_node["id"]
+                description = next_node["text_ar"]
+                if result.get("check_failed") and result.get("outcome_message"):
+                    description = f"⚠️ {result['outcome_message']}\n\n{description}"
+
                 embed = create_story_embed(
                     title="مغامرة مستمرة",
-                    description=next_node["text_ar"],
+                    description=description,
                     world=self.world
                 )
                 view = StoryChoiceView(self.bot, self.user_id, self.world, next_node["id"])
