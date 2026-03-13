@@ -57,15 +57,24 @@ def create_job_embed(title: str, desc: str) -> discord.Embed:
     embed.set_footer(text="أنجز المهام للحصول على مكافآت نادرة.")
     return embed
 
-def create_shop_embed() -> discord.Embed:
-    """Embed for the shop."""
+from typing import Optional, List
+from domain.models import Item
+
+def create_shop_embed(items: List[Item]) -> discord.Embed:
+    """Embed for the shop loaded from live JSON data."""
     embed = discord.Embed(
         title="🛒 متجر المغامرين",
         description="استبدل ذهبك والتوكنز التي حصلت عليها بأدوات نادرة، ألقاب فخرية، ومخطوطات.",
         color=0xe67e22
     )
-    embed.add_field(name="أدوات", value="حقيبة إسعافات (500 🪙)", inline=True)
-    embed.add_field(name="ألقاب", value="قاهر الظلام (1000 🪙)", inline=True)
-    embed.add_field(name="أشياء خاصة", value="مخطوطة النسيان (5 🔮)", inline=True)
+
+    for item in items:
+        currency_icon = "🪙" if item.currency == "gold" else "🔮"
+        embed.add_field(
+            name=f"{item.name_ar} - {item.price} {currency_icon}",
+            value=f"{item.desc_ar}\n*الندرة: {item.rarity}*",
+            inline=False
+        )
+
     embed.set_footer(text="الأسعار قابلة للتغيير. البضائع المباعة لا ترد ولا تستبدل.")
     return embed

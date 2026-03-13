@@ -2,12 +2,15 @@ import discord
 from discord.ext import commands
 from discord_layer.embeds import create_story_embed, create_status_embed, create_shop_embed, create_job_embed
 from engine.story_engine import StoryEngine
+from engine.game_engine import GameEngine
+from services.logic import complete_job, buy_item
 from domain.models import Player
 import json
 
 # In a real app, use a DB. Here we use an in-memory dictionary.
 players = {}
 story_engine = StoryEngine()
+game_engine = GameEngine()
 
 # Dummy Data for tests
 def get_or_create_player(user: discord.User) -> Player:
@@ -15,7 +18,7 @@ def get_or_create_player(user: discord.User) -> Player:
         players[user.id] = Player(
             id=user.id,
             name=user.display_name,
-            archetype="explorer" # Default to explorer for now
+            archetype="المستكشف" # Default to Arabic equivalent to match JSON locks
         )
     return players[user.id]
 
@@ -122,17 +125,81 @@ def setup_bot(bot: commands.Bot):
 
     @bot.command()
     async def jobs(ctx):
-        """يعرض المهام المتاحة (محاكاة)"""
-        # In a real app we'd load these from the generator output
-        embed = create_job_embed("مهام الفصيل", "تتوفر مهام جديدة لنمطك الخاص. تفقدها الآن للحصول على موارد نادرة وتوكنز.")
-        # Mock view
+        """يعرض المهام المتاحة لنمطك من ملفات اللعبة الفعلية"""
+        player = get_or_create_player(ctx.author)
+        available_jobs = game_engine.get_available_jobs(player.archetype, 3)
+
+        if not available_jobs:
+            await ctx.send("لا توجد مهام متاحة لك في الوقت الحالي.")
+            return
+
+        embed = create_job_embed("لوحة المهام المفتوحة", "اختر إحدى المهام أدناه لإنجازها وجمع الغنائم.")
         view = discord.ui.View()
-        button_accept = discord.ui.Button(label="قبول المهمة العشوائية", style=discord.ButtonStyle.success, custom_id="job_accept")
-        view.add_item(button_accept)
+
+        for job in available_jobs:
+            embed.add_field(
+                name=job.title_ar,
+                value=f"{job.desc_ar}\n**المكافأة:** {job.base_reward_gold} 🪙 | {job.base_reward_xp} XP",
+                inline=False
+            )
+
+            button = discord.ui.Button(
+                label=f"قبول: {job.title_ar[:50]}",
+                style=discord.ButtonStyle.success,
+                custom_id=f"job_accept_{job.id}"
+            )
+
+            # Using default args in lambda prevents closure scope issues in loop
+            async def button_callback(interaction: discord.Interaction, j=job):
+                if interaction.user.id != ctx.author.id:
+                    await interaction.response.send_message("هذه المهمة ليست لك!", ephemeral=True)
+                    return
+
+                result = complete_job(player, j)
+                msg = f"لقد أنجزت {j.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} XP."
+
+                if result.get("leveled_up"):
+                    msg += f"\n🎉 **لقد ارتفع مستواك إلى {player.level}!**"
+                if result.get("dropped_rare"):
+                    msg += f"\n🌟 **حدث نادر:** {result['rare_event_text']}"
+
+                await interaction.response.send_message(msg, ephemeral=False)
+
+            button.callback = button_callback
+            view.add_item(button)
+
         await ctx.send(embed=embed, view=view)
 
     @bot.command()
     async def shop(ctx):
-        """يعرض متجر اللعبة"""
-        embed = create_shop_embed()
-        await ctx.send(embed=embed)
+        """يعرض متجر اللعبة من الملفات الفعلية"""
+        player = get_or_create_player(ctx.author)
+        shop_items = game_engine.get_shop_items(5)
+
+        if not shop_items:
+            await ctx.send("المتجر مغلق حالياً.")
+            return
+
+        embed = create_shop_embed(shop_items)
+        view = discord.ui.View()
+
+        for item in shop_items:
+            currency_icon = "🪙" if item.currency == "gold" else "🔮"
+            button = discord.ui.Button(
+                label=f"شراء: {item.name_ar[:50]} ({item.price} {currency_icon})",
+                style=discord.ButtonStyle.primary,
+                custom_id=f"shop_buy_{item.id}"
+            )
+
+            async def shop_callback(interaction: discord.Interaction, i=item):
+                if interaction.user.id != ctx.author.id:
+                    await interaction.response.send_message("تحدث مع التاجر من حسابك الخاص!", ephemeral=True)
+                    return
+
+                result = buy_item(player, i)
+                await interaction.response.send_message(result["message"], ephemeral=not result["success"])
+
+            button.callback = shop_callback
+            view.add_item(button)
+
+        await ctx.send(embed=embed, view=view)
