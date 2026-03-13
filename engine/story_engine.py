@@ -92,6 +92,7 @@ class StoryEngine:
 
         req_skill = choice.get("skill_check")
         if req_skill:
+ codex/review-ai-for-arabic-rpg-discord-bot-qstrqz
             difficulty = int(choice.get("difficulty", 15))
             if not self.evaluate_skill_check(player_stats, req_skill, difficulty):
                 fail_node_id = choice.get("fail_next_node") or current_node_id
@@ -105,6 +106,10 @@ class StoryEngine:
                         "outcome_message": "أخفقت في اختبار المهارة، فتعثرت خطتك وتبدّل مسارك.",
                     }
                 return {"success": False, "message": "أخفقت في اختبار المهارة ولم يتم العثور على مسار الفشل."}
+=======
+            difficulty = 15
+            self.evaluate_skill_check(player_stats, req_skill, difficulty)
+ main
 
         ending_id = choice.get("ending_id")
         if ending_id:
