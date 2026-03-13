@@ -9,6 +9,19 @@ json_files = list(root.rglob("*.json"))
 
 errors = []
 
+
+# 0) unresolved merge marker check (prevents broken merges)
+scan_ext = {".py", ".json", ".md", ".yml", ".yaml"}
+for f in pathlib.Path('.').rglob('*'):
+    if not f.is_file() or f.suffix not in scan_ext:
+        continue
+    try:
+        txt = f.read_text(encoding='utf-8')
+    except Exception:
+        continue
+    if ("<<<"+"<<<<") in txt or ("==="+"====") in txt or (">>>"+">>>>") in txt:
+        errors.append(f"Unresolved merge markers found: {f}")
+
 # 1) parse
 parsed = {}
 for f in json_files:
