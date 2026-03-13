@@ -1,9 +1,12 @@
 import discord
 from discord.ext import commands
-from discord_layer.embeds import create_story_embed, create_status_embed, create_shop_embed, create_job_embed
+from discord_layer.embeds import (
+    create_story_embed, create_status_embed, create_shop_embed,
+    create_job_embed, create_test_embed, create_quests_embed, create_achievements_embed
+)
 from engine.story_engine import StoryEngine
 from engine.game_engine import GameEngine
-from services.logic import complete_job, buy_item
+from services.logic import complete_job, buy_item, complete_quest
 from domain.models import Player
 import json
 
@@ -18,9 +21,62 @@ def get_or_create_player(user: discord.User) -> Player:
         players[user.id] = Player(
             id=user.id,
             name=user.display_name,
-            archetype="المستكشف" # Default to Arabic equivalent to match JSON locks
+            archetype="مبتدئ" # Starts as beginner until they take !test
         )
     return players[user.id]
+
+class TestView(discord.ui.View):
+    def __init__(self, bot, user_id: int, question_index: int = 0, scores: dict = None):
+        super().__init__(timeout=None)
+        self.bot = bot
+        self.user_id = user_id
+        self.question_index = question_index
+        self.scores = scores if scores is not None else {}
+
+        questions = game_engine.character_questions_cache
+
+        if self.question_index < len(questions):
+            q = questions[self.question_index]
+            for idx, ans in enumerate(q["answers"]):
+                button = discord.ui.Button(
+                    label=ans["text_ar"][:80],
+                    style=discord.ButtonStyle.primary,
+                    custom_id=f"test_ans_{self.question_index}_{idx}"
+                )
+
+                async def answer_callback(interaction: discord.Interaction, b=button, a=ans):
+                    if interaction.user.id != self.user_id:
+                        await interaction.response.send_message("هذا الاختبار ليس لك!", ephemeral=True)
+                        return
+
+                    # Tally scores
+                    for arch, weight in a["archetype_weight"].items():
+                        self.scores[arch] = self.scores.get(arch, 0) + weight
+
+                    next_idx = self.question_index + 1
+                    qs = game_engine.character_questions_cache
+
+                    if next_idx < len(qs):
+                        next_q = qs[next_idx]
+                        embed = create_test_embed(next_q["text_ar"], next_idx + 1, len(qs))
+                        view = TestView(self.bot, self.user_id, next_idx, self.scores)
+                        await interaction.response.edit_message(embed=embed, view=view)
+                    else:
+                        # Determine winning archetype
+                        best_arch = max(self.scores, key=self.scores.get)
+                        player = get_or_create_player(interaction.user)
+                        player.archetype = best_arch
+
+                        result_embed = discord.Embed(
+                            title="🎉 اكتمل الاختبار",
+                            description=f"لقد تحدد مصيرك! نمطك هو: **{best_arch}**.\nانطلق الآن واكتشف العالم بهذا النمط.",
+                            color=0x2ecc71
+                        )
+                        await interaction.response.edit_message(embed=result_embed, view=None)
+
+                button.callback = answer_callback
+                self.add_item(button)
+
 
 class StoryChoiceView(discord.ui.View):
     def __init__(self, bot, user_id: int, world: str, node_id: str):
@@ -173,6 +229,71 @@ def setup_bot(bot: commands.Bot):
             view.add_item(button)
 
         await ctx.send(embed=embed, view=view)
+
+    @bot.command()
+    async def test(ctx):
+        """يبدأ اختبار تحديد المصير (النمط)"""
+        questions = game_engine.character_questions_cache
+        if not questions:
+            await ctx.send("الاختبار غير متوفر حالياً.")
+            return
+
+        embed = create_test_embed(questions[0]["text_ar"], 1, len(questions))
+        view = TestView(bot, ctx.author.id)
+        await ctx.send(embed=embed, view=view)
+
+    @bot.command()
+    async def quests(ctx):
+        """يعرض المهام الطويلة المتاحة"""
+        player = get_or_create_player(ctx.author)
+        available_quests = game_engine.get_available_quests(player.archetype, 2)
+
+        if not available_quests:
+            await ctx.send("لا توجد مهام كبرى متاحة لك.")
+            return
+
+        embed = create_quests_embed(available_quests)
+        view = discord.ui.View()
+
+        for quest in available_quests:
+            button = discord.ui.Button(
+                label=f"ابدأ المهمة: {quest.title_ar[:50]}",
+                style=discord.ButtonStyle.success,
+                custom_id=f"quest_start_{quest.id}"
+            )
+
+            async def quest_callback(interaction: discord.Interaction, btn=button, q=quest, v=view):
+                if interaction.user.id != ctx.author.id:
+                    await interaction.response.send_message("هذه المهمة لغيرك!", ephemeral=True)
+                    return
+
+                btn.disabled = True
+                await interaction.response.edit_message(view=v)
+
+                result = complete_quest(player, q)
+                msg = f"لقد أكملت المهمة {q.title_ar}!\nحصلت على {result['gold_earned']} 🪙 و {result['xp_earned']} نقطة خبرة."
+                if result.get("item_gained"):
+                    msg += f"\n🎁 **حصلت على أداة:** {result['item_gained']}"
+
+                await interaction.followup.send(msg, ephemeral=False)
+
+            button.callback = quest_callback
+            view.add_item(button)
+
+        await ctx.send(embed=embed, view=view)
+
+    @bot.command()
+    async def achievements(ctx):
+        """يعرض لوحة الإنجازات"""
+        import random
+        achv_list = game_engine.achievements_cache
+        if not achv_list:
+            await ctx.send("لا توجد إنجازات مسجلة.")
+            return
+
+        sample = random.sample(achv_list, min(len(achv_list), 5))
+        embed = create_achievements_embed(sample)
+        await ctx.send(embed=embed)
 
     @bot.command()
     async def shop(ctx):
