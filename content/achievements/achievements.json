@@ -1,0 +1,64 @@
+{
+    "achievements": [
+        {
+            "id": "achv_first_blood",
+            "title_ar": "أول الدماء",
+            "description_ar": "أكمل أول مهمة قتالية بنجاح في أي عالم.",
+            "category": "قتال",
+            "trigger_type": "quest_completion",
+            "trigger_conditions": {
+                "quest_tag": "قتال",
+                "count": 1
+            },
+            "reward_block": {
+                "tokens": 1
+            },
+            "flavor_text": "لقد بدأ مسارك الحقيقي للتو."
+        },
+        {
+            "id": "achv_world_traveler",
+            "title_ar": "رحالة العوالم",
+            "description_ar": "افتح الوصول إلى جميع العوالم الأربعة.",
+            "category": "استكشاف",
+            "trigger_type": "world_unlock",
+            "trigger_conditions": {
+                "worlds_unlocked": 4
+            },
+            "reward_block": {
+                "tokens": 5,
+                "title": "السائر بين الأبعاد"
+            },
+            "flavor_text": "لا توجد حدود تقف في وجه فضولك."
+        },
+        {
+            "id": "achv_master_assassin",
+            "title_ar": "سيد الظلال",
+            "description_ar": "أكمل 10 عقود اغتيال بنجاح تام.",
+            "category": "عقود",
+            "trigger_type": "contract_completion",
+            "trigger_conditions": {
+                "contract_category": "اغتيال",
+                "count": 10
+            },
+            "reward_block": {
+                "gold": 5000,
+                "title": "همس الموت"
+            },
+            "flavor_text": "اسمك يثير الرعب حتى في قلوب أسياد الظلام."
+        },
+        {
+            "id": "achv_wealthy_merchant",
+            "title_ar": "ثروة طائلة",
+            "description_ar": "اجمع أكثر من 100,000 ذهبة في رصيدك.",
+            "category": "اقتصاد",
+            "trigger_type": "wealth_accumulation",
+            "trigger_conditions": {
+                "gold_amount": 100000
+            },
+            "reward_block": {
+                "title": "سيد العملات"
+            },
+            "flavor_text": "المال يصنع المعجزات في هذا العالم."
+        }
+    ]
+}
