@@ -1,0 +1,82 @@
+{
+    "currencies": [
+        {
+            "id": "gold",
+            "name_ar": "ذهب",
+            "type": "main",
+            "symbol": "🪙"
+        },
+        {
+            "id": "token",
+            "name_ar": "توكن الإنجاز",
+            "type": "premium",
+            "symbol": "💠"
+        }
+    ],
+    "resources": [
+        {
+            "id": "crystal_shard",
+            "name_ar": "شظية كريستال",
+            "rarity": "نادر",
+            "source_world": "fantasy"
+        },
+        {
+            "id": "ancient_coin",
+            "name_ar": "عملة أثرية",
+            "rarity": "نادر",
+            "source_world": "past"
+        },
+        {
+            "id": "data_chip",
+            "name_ar": "شريحة بيانات",
+            "rarity": "نادر",
+            "source_world": "future"
+        },
+        {
+            "id": "void_fragment",
+            "name_ar": "شظية الفراغ",
+            "rarity": "أسطوري",
+            "source_world": "alternate"
+        }
+    ],
+    "shops": [
+        {
+            "id": "general_store",
+            "name_ar": "المتجر العام",
+            "currency": "gold",
+            "items": [
+                {
+                    "item_id": "health_potion",
+                    "name_ar": "جرعة تعافي",
+                    "price": 50,
+                    "use": "استعادة الصحة"
+                },
+                {
+                    "item_id": "basic_ration",
+                    "name_ar": "زاد المسافر",
+                    "price": 20,
+                    "use": "تجديد الطاقة"
+                }
+            ]
+        },
+        {
+            "id": "black_market",
+            "name_ar": "السوق السوداء",
+            "currency": "token",
+            "items": [
+                {
+                    "item_id": "identity_scroll",
+                    "name_ar": "مخطوطة النسيان",
+                    "price": 10,
+                    "use": "إعادة تعيين الشخصية والتخصص"
+                },
+                {
+                    "item_id": "world_key",
+                    "name_ar": "مفتاح البوابات",
+                    "price": 50,
+                    "use": "فتح عالم مغلق مؤقتاً"
+                }
+            ]
+        }
+    ]
+}

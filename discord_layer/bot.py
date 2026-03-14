@@ -80,7 +80,7 @@ class StoryChoiceView(discord.ui.View):
                         if next_world not in player.unlocked_worlds:
                             player.unlocked_worlds.append(next_world)
                         player.story_progress[next_world] = f"{next_part}_node_000"
-                        del player.story_progress[self.world]
+                        player.story_progress.pop(self.world, None)
                     else:
                         player.story_progress[self.world] = "p01_a_node_000"
 

@@ -1,0 +1,93 @@
+{
+    "jobs": [
+        {
+            "id": "job_guard_caravan",
+            "name_ar": "حراسة قافلة",
+            "category": "مهمة حماية",
+            "description_ar": "مرافقة قافلة تجارية عبر طريق محفوف بالمخاطر لضمان وصولها بأمان.",
+            "linked_archetypes": [
+                "الحارس",
+                "القائد"
+            ],
+            "world_compatibility": [
+                "fantasy",
+                "past"
+            ],
+            "risk_level": "متوسط",
+            "rewards": {
+                "gold_min": 50,
+                "gold_max": 150,
+                "xp_min": 20,
+                "xp_max": 50
+            },
+            "possible_resources": [
+                {
+                    "id": "ancient_coin",
+                    "chance": 0.2
+                }
+            ],
+            "cooldown_minutes": 60,
+            "success_style": "تمكنت من ردع قطاع الطرق وتأمين البضائع بكفاءة عالية.",
+            "failure_style": "تعرضت القافلة لكمين، وفقدت جزءاً من البضائع وتعرضت لإصابات."
+        },
+        {
+            "id": "job_hack_terminal",
+            "name_ar": "اختراق محطة بيانات",
+            "category": "عمل تقني",
+            "description_ar": "التسلل لشبكة فرعية تابعة لأومني-كورب وسحب البيانات لبيعها للمتمردين.",
+            "linked_archetypes": [
+                "العالم",
+                "الخارج عن القانون"
+            ],
+            "world_compatibility": [
+                "future"
+            ],
+            "risk_level": "عالي",
+            "rewards": {
+                "gold_min": 100,
+                "gold_max": 300,
+                "xp_min": 40,
+                "xp_max": 80
+            },
+            "possible_resources": [
+                {
+                    "id": "data_chip",
+                    "chance": 0.4
+                }
+            ],
+            "cooldown_minutes": 120,
+            "success_style": "تجاوزت الجدار الناري بسلاسة وسحبت البيانات دون ترك أي أثر.",
+            "failure_style": "اكتشف النظام اختراقك وأطلق فيروساً تسبب في حرق معداتك المؤقتة."
+        },
+        {
+            "id": "job_gather_herbs",
+            "name_ar": "جمع الأعشاب النادرة",
+            "category": "استكشاف وجمع",
+            "description_ar": "البحث في الغابة الكريستالية عن زهور متوهجة تستخدم في الكيمياء.",
+            "linked_archetypes": [
+                "المستكشف",
+                "الرائي",
+                "الحرفي"
+            ],
+            "world_compatibility": [
+                "fantasy"
+            ],
+            "risk_level": "منخفض",
+            "rewards": {
+                "gold_min": 20,
+                "gold_max": 80,
+                "xp_min": 10,
+                "xp_max": 30
+            },
+            "possible_resources": [
+                {
+                    "id": "crystal_shard",
+                    "chance": 0.3
+                }
+            ],
+            "cooldown_minutes": 30,
+            "success_style": "عثرت على حققل مخفي مليء بالأعشاب الناضجة وجمعت كمية ممتازة.",
+            "failure_style": "ضللت الطريق وأضعت الكثير من الوقت قبل العودة بالقليل."
+        }
+    ]
+}

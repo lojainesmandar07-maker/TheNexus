@@ -1,0 +1,155 @@
+{
+    "worlds": [
+        {
+            "id": "fantasy",
+            "name_ar": "عالم الفانتازيا",
+            "overview_ar": "عالم يغمره السحر والوحوش الأسطورية، حيث تحرس الجنيات الغابات، وتنام التنانين في قمم الجبال.",
+            "theme": "سحر الأساطير القديمة",
+            "tone": "ملحمي وغامض",
+            "social_structure": "ممالك متفرقة ونقابات سحرية متناحرة",
+            "rooms": {
+                "story": "روم_قصة_الفانتازيا",
+                "lore": "شرح_الفانتازيا",
+                "style": "ستايلات_الفانتازيا",
+                "chat": "شات_الفانتازيا"
+            },
+            "unlock_conditions": {
+                "level": 1
+            },
+            "specific_resources": [
+                "crystal_shard",
+                "dragon_scale",
+                "mana_dust"
+            ],
+            "quest_tags": [
+                "سحر",
+                "وحوش",
+                "أرواح"
+            ],
+            "factions": [
+                {
+                    "id": "mages_guild",
+                    "name_ar": "نقابة السحرة"
+                },
+                {
+                    "id": "forest_guardians",
+                    "name_ar": "حراس الغابة"
+                }
+            ]
+        },
+        {
+            "id": "past",
+            "name_ar": "الماضي السحيق",
+            "overview_ar": "حقبة تاريخية دموية مليئة بالمؤامرات السياسية والحروب الإمبراطورية، حيث السيف والذهب يحكمان.",
+            "theme": "الإمبراطوريات والسيوف",
+            "tone": "واقعي وقاسٍ",
+            "social_structure": "إمبراطورية مركزية فاسدة وطبقات مجتمعية صارمة",
+            "rooms": {
+                "story": "روم_قصة_الماضي",
+                "lore": "شرح_الماضي",
+                "style": "ستايلات_الماضي",
+                "chat": "شات_الماضي"
+            },
+            "unlock_conditions": {
+                "level": 5,
+                "story_progress": "p01_b"
+            },
+            "specific_resources": [
+                "ancient_coin",
+                "royal_seal",
+                "silk_fabric"
+            ],
+            "quest_tags": [
+                "سياسة",
+                "قتال",
+                "تجسس"
+            ],
+            "factions": [
+                {
+                    "id": "royal_guard",
+                    "name_ar": "الحرس الملكي"
+                },
+                {
+                    "id": "mercenary_league",
+                    "name_ar": "رابطة المرتزقة"
+                }
+            ]
+        },
+        {
+            "id": "future",
+            "name_ar": "المستقبل المظلم",
+            "overview_ar": "مدينة سايبربانك تغرق في الأمطار الحمضية، تديرها شركات عملاقة وتستعبدها التكنولوجيا.",
+            "theme": "الديستوبيا التقنية",
+            "tone": "بارد ومظلم",
+            "social_structure": "حكم الشركات الكبرى، وعصابات الشوارع في القاع",
+            "rooms": {
+                "story": "روم_قصة_المستقبل",
+                "lore": "شرح_المستقبل",
+                "style": "ستايلات_المستقبل",
+                "chat": "شات_المستقبل"
+            },
+            "unlock_conditions": {
+                "level": 10,
+                "story_progress": "p02_b"
+            },
+            "specific_resources": [
+                "data_chip",
+                "neon_core",
+                "scrap_metal"
+            ],
+            "quest_tags": [
+                "تهكير",
+                "آلات",
+                "تسريب بيانات"
+            ],
+            "factions": [
+                {
+                    "id": "omni_corp",
+                    "name_ar": "أومني-كورب"
+                },
+                {
+                    "id": "neon_rebels",
+                    "name_ar": "متمردو النيون"
+                }
+            ]
+        },
+        {
+            "id": "alternate",
+            "name_ar": "الواقع البديل",
+            "overview_ar": "فراغ كوني تتشوه فيه قوانين الفيزياء والزمن، حيث تتلاقى نسخ متعددة من الواقع في متاهة أبعاد.",
+            "theme": "الجنون البعدي والزمني",
+            "tone": "سريالي ومربك",
+            "social_structure": "كيانات منعزلة وحراس أبعاد لا يتبعون للمنطق البشري",
+            "rooms": {
+                "story": "روم_قصة_البديل",
+                "lore": "شرح_البديل",
+                "style": "ستايلات_البديل",
+                "chat": "شات_البديل"
+            },
+            "unlock_conditions": {
+                "level": 15,
+                "story_progress": "p04_a"
+            },
+            "specific_resources": [
+                "void_fragment",
+                "time_dust",
+                "mirror_shard"
+            ],
+            "quest_tags": [
+                "زمن",
+                "أبعاد",
+                "جنون"
+            ],
+            "factions": [
+                {
+                    "id": "time_wardens",
+                    "name_ar": "حراس الزمن"
+                },
+                {
+                    "id": "lost_souls",
+                    "name_ar": "الأرواح التائهة"
+                }
+            ]
+        }
+    ]
+}
