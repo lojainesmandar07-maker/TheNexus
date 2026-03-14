@@ -1,4 +1,12 @@
 import os
+import sys
+from pathlib import Path
+
+# Ensure project root is importable when launched as `python app/main.py`
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 import discord
 from discord.ext import commands
 from discord_layer.bot import setup_bot
