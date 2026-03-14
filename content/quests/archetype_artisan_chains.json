@@ -1,0 +1,24 @@
+{
+  "quests": [
+    {
+      "id": "quest_artisan_chain_1",
+      "title_ar": "تحفة الحداد العظيم",
+      "desc_ar": "لقد وصلت أخبار عن معادن نادرة سقطت من السماء. بصفتك حرفياً ماهراً، عليك جمع هذه المواد وصياغتها لتصبح سلاحاً أسطورياً لم يسبق له مثيل. هل أنت مستعد للبدء؟",
+      "stages": 5,
+      "reward_xp": 500,
+      "reward_gold": 250,
+      "required_archetype": "artisan",
+      "success_rate": 0.85
+    },
+    {
+      "id": "quest_artisan_chain_2",
+      "title_ar": "إعادة بناء الجسر القديم",
+      "desc_ar": "الجسر الذي يربط بين مدينتين مهمتين قد انهار. استخدم مهاراتك الهندسية لجمع المواد اللازمة وإعادة بنائه أقوى من ذي قبل.",
+      "stages": 4,
+      "reward_xp": 400,
+      "reward_gold": 200,
+      "required_archetype": "artisan",
+      "success_rate": 0.90
+    }
+  ]
+}

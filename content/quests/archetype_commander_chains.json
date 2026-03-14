@@ -1,0 +1,24 @@
+{
+  "quests": [
+    {
+      "id": "quest_commander_chain_1",
+      "title_ar": "توحيد القبائل المتنازعة",
+      "desc_ar": "الحرب الأهلية توشك أن تمزق المنطقة. بصفتك قائداً حكيماً، يجب عليك جمع قادة القبائل، وتوحيد صفوفهم ضد عدو مشترك يهدد الجميع.",
+      "stages": 5,
+      "reward_xp": 600,
+      "reward_gold": 300,
+      "required_archetype": "commander",
+      "success_rate": 0.75
+    },
+    {
+      "id": "quest_commander_chain_2",
+      "title_ar": "الدفاع عن القلعة",
+      "desc_ar": "جيوش الظلام تقترب من قلعة الحدود. اجمع جنودك، خطط للدفاع، وانتصر في هذه المعركة الملحمية لحماية الأبرياء.",
+      "stages": 6,
+      "reward_xp": 800,
+      "reward_gold": 400,
+      "required_archetype": "commander",
+      "success_rate": 0.70
+    }
+  ]
+}
