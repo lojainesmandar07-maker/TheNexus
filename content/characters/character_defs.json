@@ -1,52 +1,261 @@
 {
-  "archetypes": [
-    {
-      "id": "explorer",
-      "name_ar": "المستكشف",
-      "desc_ar": "شخص يدفعه الفضول لكشف المجهول. لا يخاف من الغوص في أعماق العوالم المنسية.",
-      "bonus_skill": "agility"
-    },
-    {
-      "id": "guardian",
-      "name_ar": "الحارس",
-      "desc_ar": "درع يحمي الضعفاء، يعتمد على القوة والشجاعة للوقوف في وجه الخطر.",
-      "bonus_skill": "strength"
-    },
-    {
-      "id": "scholar",
-      "name_ar": "العالم",
-      "desc_ar": "باحث عن المعرفة، يحل الألغاز القديمة بذكائه وحكمته.",
-      "bonus_skill": "intellect"
-    },
-    {
-      "id": "outlaw",
-      "name_ar": "الخارج عن القانون",
-      "desc_ar": "يعيش بقواعده الخاصة، ماهر في الهروب والتلاعب.",
-      "bonus_skill": "agility"
-    },
-    {
-      "id": "artisan",
-      "name_ar": "الحرفي",
-      "desc_ar": "مبدع يرى في كل مادة خام فرصة لصنع شيء عظيم.",
-      "bonus_skill": "crafting"
-    },
-    {
-      "id": "seer",
-      "name_ar": "الرائي",
-      "desc_ar": "متصل بعوالم الروح، يرى ما لا يستطيع الآخرون رؤيته.",
-      "bonus_skill": "magic"
-    },
-    {
-      "id": "commander",
-      "name_ar": "القائد",
-      "desc_ar": "صاحب كاريزما ورؤية استراتيجية، يقود الآخرين نحو النصر.",
-      "bonus_skill": "charisma"
-    },
-    {
-      "id": "shadow",
-      "name_ar": "الظل",
-      "desc_ar": "يتحرك في الظلام بلا أثر، خبير في التخفي والتسلل.",
-      "bonus_skill": "stealth"
-    }
-  ]
+    "archetypes": [
+        {
+            "id": "explorer",
+            "name_ar": "المستكشف",
+            "summary_ar": "مغامر لا يخشى المجهول، يميل للبحث عن الأسرار في الخرائط القديمة.",
+            "description_ar": "المستكشف هو شخص يعيش من أجل اكتشاف ما وراء الأفق. يتميز بخفة حركته وقدرته العالية على التكيف مع البيئات القاسية. يفضل دائماً تجنب القتال المباشر لصالح العثور على ممرات سرية واستخدام ذكائه لتخطي الفخاخ.",
+            "theme": "البحث والاكتشاف",
+            "traits": [
+                "فضولي",
+                "سريع البديهة",
+                "حذر"
+            ],
+            "decision_style": "stealth_and_intellect",
+            "role_id": "role_explorer",
+            "quest_bias": [
+                "استكشاف",
+                "بحث"
+            ],
+            "job_bias": [
+                "تنقيب",
+                "رسم خرائط"
+            ],
+            "world_affinity": "fantasy",
+            "flavor_text": "العالم كتاب مفتوح، وأنا من يقرأ صفحاته المنسية.",
+            "base_stats": {
+                "strength": 3,
+                "agility": 8,
+                "intellect": 7,
+                "stealth": 6,
+                "magic": 2,
+                "charisma": 4
+            }
+        },
+        {
+            "id": "guardian",
+            "name_ar": "الحارس",
+            "summary_ar": "درع لا يكسر، يضع حماية الآخرين فوق كل اعتبار.",
+            "description_ar": "محارب متمرس يتميز بقوة بدنية هائلة وقدرة لا تضاهى على التحمل. يميل للاندفاع المباشر وحل النزاعات بالقوة لحماية الضعفاء.",
+            "theme": "الحماية والقوة",
+            "traits": [
+                "شجاع",
+                "مخلص",
+                "عنيد"
+            ],
+            "decision_style": "strength_and_direct",
+            "role_id": "role_guardian",
+            "quest_bias": [
+                "دفاع",
+                "قتال"
+            ],
+            "job_bias": [
+                "حراسة",
+                "مرافقة"
+            ],
+            "world_affinity": "past",
+            "flavor_text": "خلف كل جدار قوي، حارس لا ينام.",
+            "base_stats": {
+                "strength": 9,
+                "agility": 3,
+                "intellect": 3,
+                "stealth": 2,
+                "magic": 1,
+                "charisma": 5
+            }
+        },
+        {
+            "id": "scholar",
+            "name_ar": "العالم",
+            "summary_ar": "باحث في العلوم القديمة، يسعى وراء المعرفة المطلقة.",
+            "description_ar": "يستخدم عقله بدلاً من العضلات. العالم هو خبير في فك الشفرات وقراءة اللغات الميتة وتحليل العناصر الكيميائية والسحرية. في المعارك، يفضل استخدام الحيل والتعاويذ الاستراتيجية.",
+            "theme": "المعرفة والتحليل",
+            "traits": [
+                "ذكي",
+                "صبور",
+                "تحليلي"
+            ],
+            "decision_style": "intellect_and_magic",
+            "role_id": "role_scholar",
+            "quest_bias": [
+                "تحقيق",
+                "ألغاز"
+            ],
+            "job_bias": [
+                "ترجمة",
+                "خيمياء"
+            ],
+            "world_affinity": "future",
+            "flavor_text": "القوة الحقيقية تكمن في ما تعرفه، لا في ما تحمله من أسلحة.",
+            "base_stats": {
+                "strength": 2,
+                "agility": 4,
+                "intellect": 9,
+                "stealth": 4,
+                "magic": 8,
+                "charisma": 3
+            }
+        },
+        {
+            "id": "outlaw",
+            "name_ar": "الخارج عن القانون",
+            "summary_ar": "شخص يعمل خارج القواعد، يثق بغريزته ولا يتبع سوى قوانينه الخاصة.",
+            "description_ar": "سيد التخفي والخداع. الخارج عن القانون يمتلك شبكة واسعة من العلاقات المشبوهة، ويفضل دائماً الوصول لأهدافه عبر التسلل، السرقة، أو الإقناع الماكر.",
+            "theme": "التمرد والظل",
+            "traits": [
+                "ماكر",
+                "عملي",
+                "مستقل"
+            ],
+            "decision_style": "stealth_and_charisma",
+            "role_id": "role_outlaw",
+            "quest_bias": [
+                "سرقة",
+                "تسلل"
+            ],
+            "job_bias": [
+                "تهريب",
+                "تجسس"
+            ],
+            "world_affinity": "alternate",
+            "flavor_text": "القوانين كُتبت لمن يخشى كسرها.",
+            "base_stats": {
+                "strength": 4,
+                "agility": 8,
+                "intellect": 5,
+                "stealth": 9,
+                "magic": 1,
+                "charisma": 7
+            }
+        },
+        {
+            "id": "artisan",
+            "name_ar": "الحرفي",
+            "summary_ar": "صانع ماهر، يحول المواد البسيطة إلى أدوات مميتة.",
+            "description_ar": "يتميز بمهارة يدوية خارقة تسمح له بصناعة الأسلحة، الفخاخ، والدروع أثناء التنقل. يفضل إعداد ساحة المعركة قبل الاشتباك لضمان التفوق.",
+            "theme": "الابتكار والصناعة",
+            "traits": [
+                "مبدع",
+                "دقيق",
+                "مخطط"
+            ],
+            "decision_style": "crafting_and_intellect",
+            "role_id": "role_artisan",
+            "quest_bias": [
+                "صياغة",
+                "إصلاح"
+            ],
+            "job_bias": [
+                "حدادة",
+                "صيانة"
+            ],
+            "world_affinity": "future",
+            "flavor_text": "أعطني قطعة من الحديد، وسأصنع لك نصراً.",
+            "base_stats": {
+                "strength": 5,
+                "agility": 5,
+                "intellect": 6,
+                "stealth": 3,
+                "magic": 3,
+                "crafting": 9,
+                "charisma": 4
+            }
+        },
+        {
+            "id": "seer",
+            "name_ar": "الرائي",
+            "summary_ar": "مرتبط بالروحانيات، يرى ما لا يمكن للآخرين رؤيته.",
+            "description_ar": "يمتلك بصيرة نافذة وقدرة على استشعار الطاقات والأرواح. يعتمد على الحدس وقوى السحر الغامضة للتحكم في مسار الأحداث وتوقع المخاطر.",
+            "theme": "الروحانيات والبصيرة",
+            "traits": [
+                "حدسي",
+                "غامض",
+                "حكيم"
+            ],
+            "decision_style": "magic_and_intellect",
+            "role_id": "role_seer",
+            "quest_bias": [
+                "سحر",
+                "أرواح"
+            ],
+            "job_bias": [
+                "قراءة الطالع",
+                "تطهير"
+            ],
+            "world_affinity": "fantasy",
+            "flavor_text": "الماضي والمستقبل ينسجان في عقلي نسيجاً واحداً.",
+            "base_stats": {
+                "strength": 2,
+                "agility": 4,
+                "intellect": 8,
+                "stealth": 5,
+                "magic": 9,
+                "charisma": 6
+            }
+        },
+        {
+            "id": "commander",
+            "name_ar": "القائد",
+            "summary_ar": "شخصية ملهمة، يوجه الآخرين ويقلب موازين المعارك بحضوره.",
+            "description_ar": "يمتلك كاريزما طاغية ومهارات تفاوضية عالية. يمكنه إنهاء الصراعات دون إراقة دماء أو توجيه الحلفاء بفعالية تامة في ساحة المعركة.",
+            "theme": "القيادة والتأثير",
+            "traits": [
+                "حازم",
+                "ملهم",
+                "استراتيجي"
+            ],
+            "decision_style": "charisma_and_strength",
+            "role_id": "role_commander",
+            "quest_bias": [
+                "تفاوض",
+                "سياسة"
+            ],
+            "job_bias": [
+                "إدارة",
+                "تدريب"
+            ],
+            "world_affinity": "past",
+            "flavor_text": "المعركة الحقيقية تُكسب في العقول قبل السيوف.",
+            "base_stats": {
+                "strength": 6,
+                "agility": 3,
+                "intellect": 6,
+                "stealth": 2,
+                "magic": 2,
+                "charisma": 9
+            }
+        },
+        {
+            "id": "shadow",
+            "name_ar": "الظل",
+            "summary_ar": "قاتل صامت، يعيش ويتنفس في العتمة.",
+            "description_ar": "الظل هو التجسيد الحقيقي للموت الصامت. لا يعتمد على القوة بل على التوقيت المثالي والضربات القاتلة السريعة التي تنهي النزاع قبل أن يبدأ.",
+            "theme": "الاغتيال والظلام",
+            "traits": [
+                "صامت",
+                "دقيق",
+                "بارد"
+            ],
+            "decision_style": "stealth_and_agility",
+            "role_id": "role_shadow",
+            "quest_bias": [
+                "اغتيال",
+                "تخفي"
+            ],
+            "job_bias": [
+                "تصفية",
+                "مراقبة"
+            ],
+            "world_affinity": "alternate",
+            "flavor_text": "أنا النصل الذي لا تراه إلا حين يفوت الأوان.",
+            "base_stats": {
+                "strength": 4,
+                "agility": 9,
+                "intellect": 4,
+                "stealth": 10,
+                "magic": 2,
+                "charisma": 2
+            }
+        }
+    ]
 }
