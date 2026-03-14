@@ -4,248 +4,129 @@
   "nodes": {
     "p02_a_node_000": {
       "id": "p02_a_node_000",
-      "text_ar": "في قبو المكتبة الكبرى، حيث تتكدس المخطوطات القديمة المغبرة، تكتشف خريطة ممزقة تشير إلى موقع مجهول.\n\nتلتقي بمحارب مخضرم يحمل سيفاً مكسوراً، يروي لك حكاية عن معركة ملحمية لم تُسجل في كتب التاريخ.",
-      "reward_xp": 50,
+      "text_ar": "أثناء توجهك للقصر، تم إغلاق جميع بوابات المدينة. المتآمرون بدأوا تحركهم.",
+      "reward_xp": 27,
       "choices": [
         {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
+          "text_ar": "اعتمد على رشاقتك وسرعتك لتفادي الخطر المباشر.",
           "next_node": "p02_a_node_001",
-          "skill_check": "intellect",
-          "difficulty": 15,
+          "skill_check": "magic",
+          "difficulty": 16,
           "fail_next_node": "p02_a_node_000"
         },
         {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_001",
+          "text_ar": "توقف لحظة للتفكير وتحليل الموقف قبل التصرف.",
+          "next_node": "p02_a_node_002",
           "skill_check": "strength",
-          "difficulty": 11
+          "difficulty": 14,
+          "fail_next_node": "p02_a_node_000"
+        },
+        {
+          "text_ar": "استخدم بصيرتك (المستكشف) لفتح مسار خفي لا يراه الآخرون.",
+          "next_node": "p02_a_node_001",
+          "required_archetype": "المستكشف"
         }
       ]
     },
     "p02_a_node_001": {
       "id": "p02_a_node_001",
-      "text_ar": "بين أروقة القصر الإمبراطوري العتيق، حيث تفوح رائحة البخور العتيق والمؤامرات، تقف أمام باب مغلق يخفي أسراراً عظيمة.\n\nتكتشف باباً خفياً خلف رف الكتب، يؤدي إلى ممر مظلم مليء بالفخاخ القاتلة.",
-      "reward_xp": 24,
+      "text_ar": "اضطررت لاستخدام الممرات المائية السرية للوصول إلى القصر دون أن يُلاحظك أحد.",
+      "reward_xp": 42,
       "choices": [
         {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
-          "next_node": "p02_a_node_002",
-          "skill_check": "stealth",
-          "difficulty": 16
-        },
-        {
-          "text_ar": "استعن بخبرتك في القتال للتغلب على المحارب المخضرم.",
-          "next_node": "p02_a_node_002",
-          "skill_check": "crafting",
-          "difficulty": 15,
-          "fail_next_node": "p02_a_node_001"
-        },
-        {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
+          "text_ar": "توقف لحظة للتفكير وتحليل الموقف قبل التصرف.",
           "next_node": "p02_a_node_002",
           "skill_check": "magic",
-          "difficulty": 11,
+          "difficulty": 12,
           "fail_next_node": "p02_a_node_001"
+        },
+        {
+          "text_ar": "استغل البيئة المحيطة لصالحك وقم بنصب فخ.",
+          "next_node": "p02_a_node_003",
+          "skill_check": "agility",
+          "difficulty": 12
+        },
+        {
+          "text_ar": "استخدم دهاءك للبحث عن حل بديل وخفي.",
+          "next_node": "p02_a_node_002",
+          "skill_check": "crafting",
+          "difficulty": 16
         }
       ]
     },
     "p02_a_node_002": {
       "id": "p02_a_node_002",
-      "text_ar": "بين أروقة القصر الإمبراطوري العتيق، حيث تفوح رائحة البخور العتيق والمؤامرات، تقف أمام باب مغلق يخفي أسراراً عظيمة.\n\nتكتشف باباً خفياً خلف رف الكتب، يؤدي إلى ممر مظلم مليء بالفخاخ القاتلة.",
-      "reward_xp": 29,
+      "text_ar": "واجهت وحوشاً مائية كانت تحرس هذه الممرات منذ قرون.",
+      "reward_xp": 36,
       "choices": [
         {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
+          "text_ar": "حاول استخدام سحرك أو معرفتك التقنية لحل المعضلة.",
           "next_node": "p02_a_node_003",
+          "skill_check": "magic",
+          "difficulty": 16,
+          "fail_next_node": "p02_a_node_002"
+        },
+        {
+          "text_ar": "استغل البيئة المحيطة لصالحك وقم بنصب فخ.",
+          "next_node": "p02_a_node_004",
           "skill_check": "agility",
-          "difficulty": 14
+          "difficulty": 16,
+          "fail_next_node": "p02_a_node_002"
         },
         {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
+          "text_ar": "اندفع بقوة وواجه التحدي مباشرة.",
           "next_node": "p02_a_node_003",
-          "skill_check": "charisma",
-          "difficulty": 15
-        },
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_003",
-          "skill_check": "intellect",
-          "difficulty": 20
+          "skill_check": "strength",
+          "difficulty": 14,
+          "fail_next_node": "p02_a_node_002"
         }
       ]
     },
     "p02_a_node_003": {
       "id": "p02_a_node_003",
-      "text_ar": "أمام ساحة الإعدام الصامتة، حيث تركت الرياح أثرها على المشانق القديمة، تشعر بثقل التاريخ والظلم الذي شهده هذا المكان.\n\nتكتشف باباً خفياً خلف رف الكتب، يؤدي إلى ممر مظلم مليء بالفخاخ القاتلة.",
-      "reward_xp": 19,
+      "text_ar": "وصلت إلى الحدائق الملكية، لكن الحرس الشخصي للإمبراطور قد تم استبدالهم بالفعل.",
+      "reward_xp": 32,
       "choices": [
         {
-          "text_ar": "استعن بخبرتك في القتال للتغلب على المحارب المخضرم.",
+          "text_ar": "استغل البيئة المحيطة لصالحك وقم بنصب فخ.",
           "next_node": "p02_a_node_004",
-          "skill_check": "strength",
-          "difficulty": 19
+          "skill_check": "crafting",
+          "difficulty": 17
         },
         {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
+          "text_ar": "اعتمد على رشاقتك وسرعتك لتفادي الخطر المباشر.",
           "next_node": "p02_a_node_004",
-          "skill_check": "charisma",
-          "difficulty": 12
-        },
-        {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
-          "next_node": "p02_a_node_004",
-          "skill_check": "intellect",
-          "difficulty": 16
+          "skill_check": "stealth",
+          "difficulty": 13,
+          "fail_next_node": "p02_a_node_003"
         }
       ]
     },
     "p02_a_node_004": {
       "id": "p02_a_node_004",
-      "text_ar": "أمام ساحة الإعدام الصامتة، حيث تركت الرياح أثرها على المشانق القديمة، تشعر بثقل التاريخ والظلم الذي شهده هذا المكان.\n\nتلتقي بمحارب مخضرم يحمل سيفاً مكسوراً، يروي لك حكاية عن معركة ملحمية لم تُسجل في كتب التاريخ.",
-      "reward_xp": 13,
-      "choices": [
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_005",
-          "skill_check": "magic",
-          "difficulty": 12
-        },
-        {
-          "text_ar": "استعن بخبرتك في القتال للتغلب على المحارب المخضرم.",
-          "next_node": "p02_a_node_005",
-          "skill_check": "charisma",
-          "difficulty": 14,
-          "fail_next_node": "p02_a_node_004"
-        },
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_005",
-          "skill_check": "crafting",
-          "difficulty": 10
-        }
-      ]
-    },
-    "p02_a_node_005": {
-      "id": "p02_a_node_005",
-      "text_ar": "في قبو المكتبة الكبرى، حيث تتكدس المخطوطات القديمة المغبرة، تكتشف خريطة ممزقة تشير إلى موقع مجهول.\n\nتجد رسالة سرية مشفرة بختم الملك المفقود، تحمل تحذيراً من خيانة وشيكة.",
-      "reward_xp": 36,
-      "choices": [
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_006",
-          "skill_check": "stealth",
-          "difficulty": 17
-        },
-        {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
-          "next_node": "p02_a_node_006",
-          "skill_check": "crafting",
-          "difficulty": 12,
-          "fail_next_node": "p02_a_node_005"
-        },
-        {
-          "text_ar": "استخدم حدسك (الحرفي) لاكتشاف ممر خفي.",
-          "next_node": "p02_a_node_006",
-          "required_archetype": "الحرفي"
-        }
-      ]
-    },
-    "p02_a_node_006": {
-      "id": "p02_a_node_006",
-      "text_ar": "في قلب السوق المزدحم، حيث يختلط ضجيج التجار بصليل السيوف، تلتقط عيناك شخصاً غامضاً يراقبك من بعيد.\n\nتجد رسالة سرية مشفرة بختم الملك المفقود، تحمل تحذيراً من خيانة وشيكة.",
-      "reward_xp": 14,
-      "choices": [
-        {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
-          "next_node": "p02_a_node_007",
-          "skill_check": "magic",
-          "difficulty": 17
-        },
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_007",
-          "skill_check": "agility",
-          "difficulty": 14
-        },
-        {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
-          "next_node": "p02_a_node_007",
-          "skill_check": "strength",
-          "difficulty": 13
-        }
-      ]
-    },
-    "p02_a_node_007": {
-      "id": "p02_a_node_007",
-      "text_ar": "في قبو المكتبة الكبرى، حيث تتكدس المخطوطات القديمة المغبرة، تكتشف خريطة ممزقة تشير إلى موقع مجهول.\n\nتلتقي بمحارب مخضرم يحمل سيفاً مكسوراً، يروي لك حكاية عن معركة ملحمية لم تُسجل في كتب التاريخ.",
-      "reward_xp": 30,
-      "choices": [
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_008",
-          "skill_check": "charisma",
-          "difficulty": 16
-        },
-        {
-          "text_ar": "واجه المخاطر بشجاعة واقتحم الممر المظلم.",
-          "next_node": "p02_a_node_008",
-          "skill_check": "crafting",
-          "difficulty": 16,
-          "fail_next_node": "p02_a_node_007"
-        }
-      ]
-    },
-    "p02_a_node_008": {
-      "id": "p02_a_node_008",
-      "text_ar": "في قلب السوق المزدحم، حيث يختلط ضجيج التجار بصليل السيوف، تلتقط عيناك شخصاً غامضاً يراقبك من بعيد.\n\nتسمع همسات مؤامرة تحاك في الظلام، وتدرك أن حياتك قد تكون في خطر إذا لم تتصرف بسرعة.",
-      "reward_xp": 31,
-      "choices": [
-        {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
-          "next_node": "p02_a_node_009",
-          "skill_check": "strength",
-          "difficulty": 13
-        },
-        {
-          "text_ar": "استعن بخبرتك في القتال للتغلب على المحارب المخضرم.",
-          "next_node": "p02_a_node_009",
-          "skill_check": "crafting",
-          "difficulty": 11,
-          "fail_next_node": "p02_a_node_008"
-        },
-        {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
-          "next_node": "p02_a_node_009",
-          "skill_check": "stealth",
-          "difficulty": 12,
-          "fail_next_node": "p02_a_node_008"
-        },
-        {
-          "text_ar": "استخدم حدسك (القائد) لاكتشاف ممر خفي.",
-          "next_node": "p02_a_node_009",
-          "required_archetype": "القائد"
-        }
-      ]
-    },
-    "p02_a_node_009": {
-      "id": "p02_a_node_009",
-      "text_ar": "أمام ساحة الإعدام الصامتة، حيث تركت الرياح أثرها على المشانق القديمة، تشعر بثقل التاريخ والظلم الذي شهده هذا المكان.\n\nتسمع همسات مؤامرة تحاك في الظلام، وتدرك أن حياتك قد تكون في خطر إذا لم تتصرف بسرعة.",
-      "reward_xp": 12,
+      "text_ar": "كان عليك التسلل بحذر للوصول إلى جناح الإمبراطور الخاص.",
+      "reward_xp": 49,
       "next_part_id": "p02_b",
       "choices": [
         {
-          "text_ar": "استخدم براعتك في التخفي للتسلل خلف الأعداء.",
+          "text_ar": "اندفع بقوة وواجه التحدي مباشرة.",
           "next_node": "p02_b_node_000",
           "skill_check": "magic",
-          "difficulty": 10,
-          "fail_next_node": "p02_a_node_009"
+          "difficulty": 17
         },
         {
-          "text_ar": "حاول فك الشفرة واستخراج المعلومات السرية من الرسالة.",
+          "text_ar": "استغل البيئة المحيطة لصالحك وقم بنصب فخ.",
           "next_node": "p02_b_node_000",
-          "skill_check": "strength",
-          "difficulty": 17,
-          "fail_next_node": "p02_a_node_009"
+          "skill_check": "intellect",
+          "difficulty": 18,
+          "fail_next_node": "p02_a_node_004"
+        },
+        {
+          "text_ar": "تفاوض أو ابحث عن حلفاء في هذه اللحظة الحرجة.",
+          "next_node": "p02_b_node_000",
+          "skill_check": "charisma",
+          "difficulty": 16,
+          "fail_next_node": "p02_a_node_004"
         }
       ]
     }
