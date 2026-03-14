@@ -1,1803 +1,249 @@
 {
   "part_id": "p04_a",
   "world": "fantasy",
-  "next_part_id": "p04_b",
   "nodes": {
     "p04_a_node_000": {
       "id": "p04_a_node_000",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
+      "text_ar": "أمام بحيرة النسيان الهادئة، حيث تعكس المياه سماء مرصعة بنجوم لا تُحصى، تشعر بوجود كائن خفي يراقب تحركاتك.\n\nتكتشف تمثالاً حجرياً يتغير شكله كلما اقتربت منه، وتنبثق منه هالة من الضوء الساحر.",
+      "reward_xp": 26,
       "choices": [
         {
-          "text_ar": "استكشف المعدات المعطلة (1)",
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
           "next_node": "p04_a_node_001",
-          "skill_check": "intellect"
+          "skill_check": "charisma",
+          "difficulty": 10
         },
         {
-          "text_ar": "تفاوض بشأن الأثر السحري (2)",
-          "next_node": "p04_a_node_029",
-          "skill_check": "agility"
+          "text_ar": "تراجع وابحث عن طريق بديل لتجنب المواجهة المباشرة.",
+          "next_node": "p04_a_node_001",
+          "skill_check": "stealth",
+          "difficulty": 18
+        },
+        {
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
+          "next_node": "p04_a_node_001",
+          "skill_check": "magic",
+          "difficulty": 17,
+          "fail_next_node": "p04_a_node_000"
         }
-      ],
-      "reward_xp": 13
+      ]
     },
     "p04_a_node_001": {
       "id": "p04_a_node_001",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تجرؤ على لمس هذا اللغز؟",
+      "text_ar": "في أطلال القلعة المفقودة، حيث ينمو الطحلب المتوهج على الجدران المتصدعة، تسمع همسات أرواح سقطت في معارك قديمة.\n\nتجد لفيفة قديمة مغطاة بتعويذات متوهجة، وبمجرد لمسها تشعر بتيار من الطاقة يسري في جسدك.",
+      "reward_xp": 44,
       "choices": [
         {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (1)",
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
           "next_node": "p04_a_node_002",
-          "skill_check": "intellect"
+          "skill_check": "strength",
+          "difficulty": 13
         },
         {
-          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
-          "next_node": "p04_a_node_049",
-          "skill_check": "agility"
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
+          "next_node": "p04_a_node_002",
+          "skill_check": "charisma",
+          "difficulty": 13
         }
-      ],
-      "reward_xp": 42
+      ]
     },
     "p04_a_node_002": {
       "id": "p04_a_node_002",
-      "text_ar": "في وادي الهمسات السحيق، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
+      "text_ar": "أمام بحيرة النسيان الهادئة، حيث تعكس المياه سماء مرصعة بنجوم لا تُحصى، تشعر بوجود كائن خفي يراقب تحركاتك.\n\nتسمع صدى ضحكات خافتة تتردد بين الأشجار، وتدرك أن الجنيات تلعب في الجوار، ولكن نواياهن غير معروفة.",
+      "reward_xp": 14,
       "choices": [
         {
-          "text_ar": "هاجم التهديد الواضح (1)",
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
           "next_node": "p04_a_node_003",
-          "skill_check": "intellect"
+          "skill_check": "strength",
+          "difficulty": 13
         },
         {
-          "text_ar": "تسلل نحو الأثر السحري (2)",
-          "next_node": "p04_a_node_005",
-          "skill_check": "agility"
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
+          "next_node": "p04_a_node_003",
+          "skill_check": "charisma",
+          "difficulty": 12
+        },
+        {
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
+          "next_node": "p04_a_node_003",
+          "skill_check": "magic",
+          "difficulty": 16,
+          "fail_next_node": "p04_a_node_002"
         }
-      ],
-      "reward_xp": 36
+      ]
     },
     "p04_a_node_003": {
       "id": "p04_a_node_003",
-      "text_ar": "على ضفاف نهر الذهب السائل، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
+      "text_ar": "في قلب الغابة البلورية، حيث تتراقص الأضواء السحرية بين الأشجار القديمة، تقف أمام بوابة منسية تنبعث منها طاقة غامضة.\n\nتكتشف تمثالاً حجرياً يتغير شكله كلما اقتربت منه، وتنبثق منه هالة من الضوء الساحر.",
+      "reward_xp": 19,
       "choices": [
         {
-          "text_ar": "تراجع المنطقة المظلمة (1)",
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
           "next_node": "p04_a_node_004",
-          "skill_check": "intellect"
+          "skill_check": "crafting",
+          "difficulty": 11,
+          "fail_next_node": "p04_a_node_003"
         },
         {
-          "text_ar": "تسلل نحو المصدر الغامض (2)",
-          "next_node": "p04_a_node_063",
-          "skill_check": "agility"
+          "text_ar": "تراجع وابحث عن طريق بديل لتجنب المواجهة المباشرة.",
+          "next_node": "p04_a_node_004",
+          "skill_check": "magic",
+          "difficulty": 19
+        },
+        {
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
+          "next_node": "p04_a_node_004",
+          "skill_check": "stealth",
+          "difficulty": 14,
+          "fail_next_node": "p04_a_node_003"
         }
-      ],
-      "reward_xp": 41
+      ]
     },
     "p04_a_node_004": {
       "id": "p04_a_node_004",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تهب رياح قوية تحمل رائحة الرماد.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
+      "text_ar": "في قلب الغابة البلورية، حيث تتراقص الأضواء السحرية بين الأشجار القديمة، تقف أمام بوابة منسية تنبعث منها طاقة غامضة.\n\nيظهر أمامك ذئب أثيري يحمل في عينيه حكمة العصور، ويبدو أنه يحاول إيصال رسالة لك.",
+      "reward_xp": 15,
       "choices": [
         {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (1)",
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
           "next_node": "p04_a_node_005",
-          "skill_check": "intellect"
+          "skill_check": "magic",
+          "difficulty": 18,
+          "fail_next_node": "p04_a_node_004"
         },
         {
-          "text_ar": "تفاوض بشأن المصدر الغامض (2)",
-          "next_node": "p04_a_node_016",
-          "skill_check": "agility"
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
+          "next_node": "p04_a_node_005",
+          "skill_check": "agility",
+          "difficulty": 11
         }
-      ],
-      "reward_xp": 18
+      ]
     },
     "p04_a_node_005": {
       "id": "p04_a_node_005",
-      "text_ar": "بجوار أنقاض معبد الشمس، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
+      "text_ar": "في قلب الغابة البلورية، حيث تتراقص الأضواء السحرية بين الأشجار القديمة، تقف أمام بوابة منسية تنبعث منها طاقة غامضة.\n\nتكتشف تمثالاً حجرياً يتغير شكله كلما اقتربت منه، وتنبثق منه هالة من الضوء الساحر.",
+      "reward_xp": 42,
       "choices": [
         {
-          "text_ar": "تفاوض بشأن التهديد الواضح (1)",
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
           "next_node": "p04_a_node_006",
-          "skill_check": "intellect"
+          "skill_check": "intellect",
+          "difficulty": 11
         },
         {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_000",
-          "skill_check": "agility"
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
+          "next_node": "p04_a_node_006",
+          "skill_check": "magic",
+          "difficulty": 13,
+          "fail_next_node": "p04_a_node_005"
         },
         {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (3)",
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
           "next_node": "p04_a_node_006",
-          "required_archetype": "الظل"
+          "skill_check": "stealth",
+          "difficulty": 20
         }
-      ],
-      "reward_xp": 31
+      ]
     },
     "p04_a_node_006": {
       "id": "p04_a_node_006",
-      "text_ar": "داخل الكهف الكريستالي النابض، تسمع صوتاً يناديك باسمك القديم.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
+      "text_ar": "على قمة الجبل الشاهق الذي يعانق السحاب، تهب رياح باردة محملة بأصوات من الماضي السحيق، محذرة من الخطر القادم.\n\nيظهر أمامك ذئب أثيري يحمل في عينيه حكمة العصور، ويبدو أنه يحاول إيصال رسالة لك.",
+      "reward_xp": 27,
       "choices": [
         {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (1)",
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
           "next_node": "p04_a_node_007",
-          "skill_check": "intellect"
+          "skill_check": "stealth",
+          "difficulty": 10
         },
         {
-          "text_ar": "هاجم الأثر السحري (2)",
-          "next_node": "p04_a_node_035",
-          "skill_check": "agility"
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
+          "next_node": "p04_a_node_007",
+          "skill_check": "strength",
+          "difficulty": 15
         }
-      ],
-      "reward_xp": 30
+      ]
     },
     "p04_a_node_007": {
       "id": "p04_a_node_007",
-      "text_ar": "في وادي الهمسات السحيق، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nهل تجرؤ على لمس هذا اللغز؟",
+      "text_ar": "في أطلال القلعة المفقودة، حيث ينمو الطحلب المتوهج على الجدران المتصدعة، تسمع همسات أرواح سقطت في معارك قديمة.\n\nتسمع صدى ضحكات خافتة تتردد بين الأشجار، وتدرك أن الجنيات تلعب في الجوار، ولكن نواياهن غير معروفة.",
+      "reward_xp": 31,
       "choices": [
         {
-          "text_ar": "تراجع التهديد الواضح (1)",
+          "text_ar": "تراجع وابحث عن طريق بديل لتجنب المواجهة المباشرة.",
           "next_node": "p04_a_node_008",
-          "skill_check": "intellect"
+          "skill_check": "intellect",
+          "difficulty": 19
         },
         {
-          "text_ar": "تفاوض بشأن الأثر السحري (2)",
-          "next_node": "p04_a_node_056",
-          "skill_check": "agility"
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
+          "next_node": "p04_a_node_008",
+          "skill_check": "stealth",
+          "difficulty": 15
+        },
+        {
+          "text_ar": "استخدم حدسك (الظل) لاكتشاف ممر خفي.",
+          "next_node": "p04_a_node_008",
+          "required_archetype": "الظل"
         }
-      ],
-      "reward_xp": 20
+      ]
     },
     "p04_a_node_008": {
       "id": "p04_a_node_008",
-      "text_ar": "في أعماق غابة الأرواح المنسية، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nهل تجرؤ على لمس هذا اللغز؟",
+      "text_ar": "في أطلال القلعة المفقودة، حيث ينمو الطحلب المتوهج على الجدران المتصدعة، تسمع همسات أرواح سقطت في معارك قديمة.\n\nتكتشف تمثالاً حجرياً يتغير شكله كلما اقتربت منه، وتنبثق منه هالة من الضوء الساحر.",
+      "reward_xp": 45,
       "choices": [
         {
-          "text_ar": "تسلل نحو المصدر الغامض (1)",
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
           "next_node": "p04_a_node_009",
-          "skill_check": "intellect"
+          "skill_check": "agility",
+          "difficulty": 15
         },
         {
-          "text_ar": "استكشف المصدر الغامض (2)",
-          "next_node": "p04_a_node_099",
-          "skill_check": "agility"
+          "text_ar": "حاول التواصل مع الكائنات الروحية باستخدام سحرك.",
+          "next_node": "p04_a_node_009",
+          "skill_check": "crafting",
+          "difficulty": 13,
+          "fail_next_node": "p04_a_node_008"
+        },
+        {
+          "text_ar": "اقترب بحذر واستخدم قوتك لكشف الأسرار الخفية.",
+          "next_node": "p04_a_node_009",
+          "skill_check": "stealth",
+          "difficulty": 13
         }
-      ],
-      "reward_xp": 24
+      ]
     },
     "p04_a_node_009": {
       "id": "p04_a_node_009",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، تسمع صوتاً يناديك باسمك القديم.\n\nهل تجرؤ على لمس هذا اللغز؟",
+      "text_ar": "على قمة الجبل الشاهق الذي يعانق السحاب، تهب رياح باردة محملة بأصوات من الماضي السحيق، محذرة من الخطر القادم.\n\nتسمع صدى ضحكات خافتة تتردد بين الأشجار، وتدرك أن الجنيات تلعب في الجوار، ولكن نواياهن غير معروفة.",
+      "reward_xp": 25,
+      "next_part_id": "p04_b",
       "choices": [
         {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (1)",
-          "next_node": "p04_a_node_010",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_005",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "p04_a_node_010": {
-      "id": "p04_a_node_010",
-      "text_ar": "على ضفاف نهر الذهب السائل، تجد صندوقاً خشبياً يرتجف وكأن بداخله قلب ينبض.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_011",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (2)",
-          "next_node": "p04_a_node_067",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p04_a_node_011": {
-      "id": "p04_a_node_011",
-      "text_ar": "على ضفاف نهر الذهب السائل، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تراجع التهديد الواضح (1)",
-          "next_node": "p04_a_node_012",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو الأثر السحري (2)",
-          "next_node": "p04_a_node_029",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p04_a_node_012": {
-      "id": "p04_a_node_012",
-      "text_ar": "في أعماق غابة الأرواح المنسية، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو الأثر السحري (1)",
-          "next_node": "p04_a_node_013",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (2)",
-          "next_node": "p04_a_node_092",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (3)",
-          "next_node": "p04_a_node_013",
-          "required_archetype": "الرائي"
-        }
-      ],
-      "reward_xp": 19
-    },
-    "p04_a_node_013": {
-      "id": "p04_a_node_013",
-      "text_ar": "في وادي الهمسات السحيق، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المعدات المعطلة (1)",
-          "next_node": "p04_a_node_014",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف الأثر السحري (2)",
-          "next_node": "p04_a_node_099",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "هاجم المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_014",
-          "required_archetype": "الخارج عن القانون"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "p04_a_node_014": {
-      "id": "p04_a_node_014",
-      "text_ar": "في أعماق غابة الأرواح المنسية، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "هاجم التهديد الواضح (1)",
-          "next_node": "p04_a_node_015",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (2)",
-          "next_node": "p04_a_node_070",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "p04_a_node_015": {
-      "id": "p04_a_node_015",
-      "text_ar": "على ضفاف نهر الذهب السائل، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استكشف المعدات المعطلة (1)",
-          "next_node": "p04_a_node_016",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (2)",
-          "next_node": "p04_a_node_017",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_016",
-          "required_archetype": "الرائي"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p04_a_node_016": {
-      "id": "p04_a_node_016",
-      "text_ar": "في وادي الهمسات السحيق، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "تراجع التهديد الواضح (1)",
-          "next_node": "p04_a_node_017",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (2)",
-          "next_node": "p04_a_node_066",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p04_a_node_017": {
-      "id": "p04_a_node_017",
-      "text_ar": "بجوار أنقاض معبد الشمس، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تراجع المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_018",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_098",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "p04_a_node_018": {
-      "id": "p04_a_node_018",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_019",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم المعدات المعطلة (2)",
-          "next_node": "p04_a_node_068",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "p04_a_node_019": {
-      "id": "p04_a_node_019",
-      "text_ar": "على ضفاف نهر الذهب السائل، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_020",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (2)",
-          "next_node": "p04_a_node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 48
-    },
-    "p04_a_node_020": {
-      "id": "p04_a_node_020",
-      "text_ar": "في ساحة القلعة الطافية، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تراجع التهديد الواضح (1)",
-          "next_node": "p04_a_node_021",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (2)",
-          "next_node": "p04_a_node_018",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "p04_a_node_021": {
-      "id": "p04_a_node_021",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (1)",
-          "next_node": "p04_a_node_022",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف التهديد الواضح (2)",
-          "next_node": "p04_a_node_032",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "p04_a_node_022": {
-      "id": "p04_a_node_022",
-      "text_ar": "في أعماق غابة الأرواح المنسية، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المصدر الغامض (1)",
-          "next_node": "p04_a_node_023",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (2)",
-          "next_node": "p04_a_node_053",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (3)",
-          "next_node": "p04_a_node_023",
-          "required_archetype": "الظل"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "p04_a_node_023": {
-      "id": "p04_a_node_023",
-      "text_ar": "في ساحة القلعة الطافية، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "استكشف المصدر الغامض (1)",
-          "next_node": "p04_a_node_024",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_054",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "p04_a_node_024": {
-      "id": "p04_a_node_024",
-      "text_ar": "في ساحة القلعة الطافية، تهب رياح قوية تحمل رائحة الرماد.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_025",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
-          "next_node": "p04_a_node_004",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "p04_a_node_025": {
-      "id": "p04_a_node_025",
-      "text_ar": "بجوار أنقاض معبد الشمس، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المعدات المعطلة (1)",
-          "next_node": "p04_a_node_026",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_055",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "p04_a_node_026": {
-      "id": "p04_a_node_026",
-      "text_ar": "في ساحة القلعة الطافية، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ الأثر السحري (1)",
-          "next_node": "p04_a_node_027",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 34
-    },
-    "p04_a_node_027": {
-      "id": "p04_a_node_027",
-      "text_ar": "في وادي الهمسات السحيق، تسمع صوتاً يناديك باسمك القديم.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (1)",
-          "next_node": "p04_a_node_028",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع التهديد الواضح (2)",
-          "next_node": "p04_a_node_022",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "p04_a_node_028": {
-      "id": "p04_a_node_028",
-      "text_ar": "داخل الكهف الكريستالي النابض، تسمع صوتاً يناديك باسمك القديم.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_029",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_016",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p04_a_node_029": {
-      "id": "p04_a_node_029",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_030",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع التهديد الواضح (2)",
-          "next_node": "p04_a_node_061",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p04_a_node_030": {
-      "id": "p04_a_node_030",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو الأثر السحري (1)",
-          "next_node": "p04_a_node_031",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_035",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تراجع التهديد الواضح (3)",
-          "next_node": "p04_a_node_031",
-          "required_archetype": "الخارج عن القانون"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p04_a_node_031": {
-      "id": "p04_a_node_031",
-      "text_ar": "على ضفاف نهر الذهب السائل، تسمع صوتاً يناديك باسمك القديم.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استكشف المعدات المعطلة (1)",
-          "next_node": "p04_a_node_032",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (2)",
-          "next_node": "p04_a_node_090",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "p04_a_node_032": {
-      "id": "p04_a_node_032",
-      "text_ar": "في وادي الهمسات السحيق، تهب رياح قوية تحمل رائحة الرماد.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ الأثر السحري (1)",
-          "next_node": "p04_a_node_033",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (2)",
-          "next_node": "p04_a_node_042",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "p04_a_node_033": {
-      "id": "p04_a_node_033",
-      "text_ar": "بجوار أنقاض معبد الشمس، تجد صندوقاً خشبياً يرتجف وكأن بداخله قلب ينبض.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (1)",
-          "next_node": "p04_a_node_034",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (2)",
-          "next_node": "p04_a_node_031",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تراجع المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_034",
-          "required_archetype": "الظل"
-        }
-      ],
-      "reward_xp": 40
-    },
-    "p04_a_node_034": {
-      "id": "p04_a_node_034",
-      "text_ar": "في وادي الهمسات السحيق، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "هاجم الأثر السحري (1)",
-          "next_node": "p04_a_node_035",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (2)",
-          "next_node": "p04_a_node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p04_a_node_035": {
-      "id": "p04_a_node_035",
-      "text_ar": "داخل الكهف الكريستالي النابض، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_036",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 46
-    },
-    "p04_a_node_036": {
-      "id": "p04_a_node_036",
-      "text_ar": "داخل الكهف الكريستالي النابض، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (1)",
-          "next_node": "p04_a_node_037",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (2)",
-          "next_node": "p04_a_node_024",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "p04_a_node_037": {
-      "id": "p04_a_node_037",
-      "text_ar": "على ضفاف نهر الذهب السائل، تسمع صوتاً يناديك باسمك القديم.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (1)",
-          "next_node": "p04_a_node_038",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (2)",
-          "next_node": "p04_a_node_069",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p04_a_node_038": {
-      "id": "p04_a_node_038",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "هاجم التهديد الواضح (1)",
-          "next_node": "p04_a_node_039",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (2)",
-          "next_node": "p04_a_node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 26
-    },
-    "p04_a_node_039": {
-      "id": "p04_a_node_039",
-      "text_ar": "في ساحة القلعة الطافية، تهب رياح قوية تحمل رائحة الرماد.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (1)",
-          "next_node": "p04_a_node_040",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (2)",
-          "next_node": "p04_a_node_049",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (3)",
-          "next_node": "p04_a_node_040",
-          "required_archetype": "الرائي"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p04_a_node_040": {
-      "id": "p04_a_node_040",
-      "text_ar": "بجوار أنقاض معبد الشمس، تسمع صوتاً يناديك باسمك القديم.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_041",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_086",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p04_a_node_041": {
-      "id": "p04_a_node_041",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_042",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (2)",
-          "next_node": "p04_a_node_075",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تراجع المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_042",
-          "required_archetype": "المستكشف"
-        }
-      ],
-      "reward_xp": 14
-    },
-    "p04_a_node_042": {
-      "id": "p04_a_node_042",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (1)",
-          "next_node": "p04_a_node_043",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع الأثر السحري (2)",
-          "next_node": "p04_a_node_020",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "p04_a_node_043": {
-      "id": "p04_a_node_043",
-      "text_ar": "في ساحة القلعة الطافية، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المصدر الغامض (1)",
-          "next_node": "p04_a_node_044",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_014",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p04_a_node_044": {
-      "id": "p04_a_node_044",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_045",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "p04_a_node_045": {
-      "id": "p04_a_node_045",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تهب رياح قوية تحمل رائحة الرماد.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (1)",
-          "next_node": "p04_a_node_046",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
-          "next_node": "p04_a_node_048",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p04_a_node_046": {
-      "id": "p04_a_node_046",
-      "text_ar": "بجوار أنقاض معبد الشمس، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو الأثر السحري (1)",
-          "next_node": "p04_a_node_047",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_023",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (3)",
-          "next_node": "p04_a_node_047",
-          "required_archetype": "العالم"
-        }
-      ],
-      "reward_xp": 16
-    },
-    "p04_a_node_047": {
-      "id": "p04_a_node_047",
-      "text_ar": "داخل الكهف الكريستالي النابض، تهب رياح قوية تحمل رائحة الرماد.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (1)",
-          "next_node": "p04_a_node_048",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع الأثر السحري (2)",
-          "next_node": "p04_a_node_034",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p04_a_node_048": {
-      "id": "p04_a_node_048",
-      "text_ar": "داخل الكهف الكريستالي النابض، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_049",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_000",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 17
-    },
-    "p04_a_node_049": {
-      "id": "p04_a_node_049",
-      "text_ar": "بجوار أنقاض معبد الشمس، تجد صندوقاً خشبياً يرتجف وكأن بداخله قلب ينبض.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تراجع المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_050",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المعدات المعطلة (2)",
-          "next_node": "p04_a_node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p04_a_node_050": {
-      "id": "p04_a_node_050",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تراجع المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_051",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_085",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_051",
-          "required_archetype": "الحارس"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p04_a_node_051": {
-      "id": "p04_a_node_051",
-      "text_ar": "في وادي الهمسات السحيق، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (1)",
-          "next_node": "p04_a_node_052",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_076",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "p04_a_node_052": {
-      "id": "p04_a_node_052",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_053",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المعدات المعطلة (2)",
-          "next_node": "p04_a_node_013",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p04_a_node_053": {
-      "id": "p04_a_node_053",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو الأثر السحري (1)",
-          "next_node": "p04_a_node_054",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_066",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "p04_a_node_054": {
-      "id": "p04_a_node_054",
-      "text_ar": "في ساحة القلعة الطافية، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تراجع المعدات المعطلة (1)",
-          "next_node": "p04_a_node_055",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (2)",
-          "next_node": "p04_a_node_094",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "استكشف التهديد الواضح (3)",
-          "next_node": "p04_a_node_055",
-          "required_archetype": "العالم"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "p04_a_node_055": {
-      "id": "p04_a_node_055",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "هاجم الأثر السحري (1)",
-          "next_node": "p04_a_node_056",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_002",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 28
-    },
-    "p04_a_node_056": {
-      "id": "p04_a_node_056",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تنبت زهور نارية أينما وطئت قدمك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (1)",
-          "next_node": "p04_a_node_057",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (2)",
-          "next_node": "p04_a_node_099",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p04_a_node_057": {
-      "id": "p04_a_node_057",
-      "text_ar": "في وادي الهمسات السحيق، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_058",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (2)",
-          "next_node": "p04_a_node_052",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (3)",
-          "next_node": "p04_a_node_058",
-          "required_archetype": "الخارج عن القانون"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p04_a_node_058": {
-      "id": "p04_a_node_058",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (1)",
-          "next_node": "p04_a_node_059",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المصدر الغامض (2)",
-          "next_node": "p04_a_node_084",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 31
-    },
-    "p04_a_node_059": {
-      "id": "p04_a_node_059",
-      "text_ar": "داخل الكهف الكريستالي النابض، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (1)",
-          "next_node": "p04_a_node_060",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (2)",
-          "next_node": "p04_a_node_016",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p04_a_node_060": {
-      "id": "p04_a_node_060",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تنبت زهور نارية أينما وطئت قدمك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_061",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_012",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "p04_a_node_061": {
-      "id": "p04_a_node_061",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تراجع المصدر الغامض (1)",
-          "next_node": "p04_a_node_062",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف التهديد الواضح (2)",
-          "next_node": "p04_a_node_047",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تراجع الأثر السحري (3)",
-          "next_node": "p04_a_node_062",
-          "required_archetype": "الخارج عن القانون"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p04_a_node_062": {
-      "id": "p04_a_node_062",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_063",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم الأثر السحري (2)",
-          "next_node": "p04_a_node_078",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 22
-    },
-    "p04_a_node_063": {
-      "id": "p04_a_node_063",
-      "text_ar": "بجوار أنقاض معبد الشمس، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "استكشف المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_064",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف التهديد الواضح (2)",
-          "next_node": "p04_a_node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 39
-    },
-    "p04_a_node_064": {
-      "id": "p04_a_node_064",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (1)",
-          "next_node": "p04_a_node_065",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_094",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 49
-    },
-    "p04_a_node_065": {
-      "id": "p04_a_node_065",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استكشف الأثر السحري (1)",
-          "next_node": "p04_a_node_066",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم المصدر الغامض (2)",
-          "next_node": "p04_a_node_075",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 21
-    },
-    "p04_a_node_066": {
-      "id": "p04_a_node_066",
-      "text_ar": "بجوار أنقاض معبد الشمس، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (1)",
-          "next_node": "p04_a_node_067",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_036",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "p04_a_node_067": {
-      "id": "p04_a_node_067",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تراجع الأثر السحري (1)",
-          "next_node": "p04_a_node_068",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم الأثر السحري (2)",
-          "next_node": "p04_a_node_063",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "هاجم المعدات المعطلة (3)",
-          "next_node": "p04_a_node_068",
-          "required_archetype": "المستكشف"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "p04_a_node_068": {
-      "id": "p04_a_node_068",
-      "text_ar": "على ضفاف نهر الذهب السائل، تسمع صوتاً يناديك باسمك القديم.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "تراجع التهديد الواضح (1)",
-          "next_node": "p04_a_node_069",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (2)",
-          "next_node": "p04_a_node_009",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 10
-    },
-    "p04_a_node_069": {
-      "id": "p04_a_node_069",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (1)",
-          "next_node": "p04_a_node_070",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المصدر الغامض (2)",
-          "next_node": "p04_a_node_006",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 44
-    },
-    "p04_a_node_070": {
-      "id": "p04_a_node_070",
-      "text_ar": "في ساحة القلعة الطافية، تسمع صوتاً يناديك باسمك القديم.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_071",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع الأثر السحري (2)",
-          "next_node": "p04_a_node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "p04_a_node_071": {
-      "id": "p04_a_node_071",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، تنبت زهور نارية أينما وطئت قدمك.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_072",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (2)",
-          "next_node": "p04_a_node_062",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 32
-    },
-    "p04_a_node_072": {
-      "id": "p04_a_node_072",
-      "text_ar": "بجوار أنقاض معبد الشمس، تتحرك الظلال حولك كأنها تتآمر ضدك.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "هاجم التهديد الواضح (1)",
-          "next_node": "p04_a_node_073",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (2)",
-          "next_node": "p04_a_node_085",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p04_a_node_073": {
-      "id": "p04_a_node_073",
-      "text_ar": "في ساحة القلعة الطافية، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (1)",
-          "next_node": "p04_a_node_074",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_075",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ المعدات المعطلة (3)",
-          "next_node": "p04_a_node_074",
-          "required_archetype": "الحارس"
-        }
-      ],
-      "reward_xp": 47
-    },
-    "p04_a_node_074": {
-      "id": "p04_a_node_074",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_075",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_078",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 16
-    },
-    "p04_a_node_075": {
-      "id": "p04_a_node_075",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تنبت زهور نارية أينما وطئت قدمك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (1)",
-          "next_node": "p04_a_node_076",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_003",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 23
-    },
-    "p04_a_node_076": {
-      "id": "p04_a_node_076",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_077",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (2)",
-          "next_node": "p04_a_node_050",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 41
-    },
-    "p04_a_node_077": {
-      "id": "p04_a_node_077",
-      "text_ar": "بجوار أنقاض معبد الشمس، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المصدر الغامض (1)",
-          "next_node": "p04_a_node_078",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p04_a_node_029",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "استكشف التهديد الواضح (3)",
-          "next_node": "p04_a_node_078",
-          "required_archetype": "الرائي"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p04_a_node_078": {
-      "id": "p04_a_node_078",
-      "text_ar": "على ضفاف نهر الذهب السائل، تهب رياح قوية تحمل رائحة الرماد.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ الأثر السحري (1)",
-          "next_node": "p04_a_node_079",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_094",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 45
-    },
-    "p04_a_node_079": {
-      "id": "p04_a_node_079",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المصدر الغامض (1)",
-          "next_node": "p04_a_node_080",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المعدات المعطلة (2)",
-          "next_node": "p04_a_node_025",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 38
-    },
-    "p04_a_node_080": {
-      "id": "p04_a_node_080",
-      "text_ar": "في أعماق غابة الأرواح المنسية، يخرج وحش صغير يحاول إرشادك لشيء ما.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المعدات المعطلة (1)",
-          "next_node": "p04_a_node_081",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف الأثر السحري (2)",
-          "next_node": "p04_a_node_017",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "هاجم المعدات المعطلة (3)",
-          "next_node": "p04_a_node_081",
-          "required_archetype": "الظل"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p04_a_node_081": {
-      "id": "p04_a_node_081",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_082",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (2)",
-          "next_node": "p04_a_node_067",
-          "skill_check": "agility"
-        },
-        {
-          "text_ar": "تفاوض بشأن المعدات المعطلة (3)",
-          "next_node": "p04_a_node_082",
-          "required_archetype": "الرائي"
-        }
-      ],
-      "reward_xp": 18
-    },
-    "p04_a_node_082": {
-      "id": "p04_a_node_082",
-      "text_ar": "بجوار أنقاض معبد الشمس، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_083",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (2)",
-          "next_node": "p04_a_node_089",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 37
-    },
-    "p04_a_node_083": {
-      "id": "p04_a_node_083",
-      "text_ar": "داخل الكهف الكريستالي النابض، تسمع صوتاً يناديك باسمك القديم.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المصدر الغامض (1)",
-          "next_node": "p04_a_node_084",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو التهديد الواضح (2)",
-          "next_node": "p04_a_node_017",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "p04_a_node_084": {
-      "id": "p04_a_node_084",
-      "text_ar": "في أعماق غابة الأرواح المنسية، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "هاجم الأثر السحري (1)",
-          "next_node": "p04_a_node_085",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو الأثر السحري (2)",
-          "next_node": "p04_a_node_011",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "p04_a_node_085": {
-      "id": "p04_a_node_085",
-      "text_ar": "داخل الكهف الكريستالي النابض، تسمع صوتاً يناديك باسمك القديم.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استكشف المعدات المعطلة (1)",
-          "next_node": "p04_a_node_086",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
-          "next_node": "p04_a_node_061",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 36
-    },
-    "p04_a_node_086": {
-      "id": "p04_a_node_086",
-      "text_ar": "بجوار أنقاض معبد الشمس، تسمع صوتاً يناديك باسمك القديم.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_087",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_049",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 35
-    },
-    "p04_a_node_087": {
-      "id": "p04_a_node_087",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تنبت زهور نارية أينما وطئت قدمك.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_088",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استكشف المعدات المعطلة (2)",
-          "next_node": "p04_a_node_068",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 15
-    },
-    "p04_a_node_088": {
-      "id": "p04_a_node_088",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، تجد صندوقاً خشبياً يرتجف وكأن بداخله قلب ينبض.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_089",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (2)",
-          "next_node": "p04_a_node_000",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 27
-    },
-    "p04_a_node_089": {
-      "id": "p04_a_node_089",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تهب رياح قوية تحمل رائحة الرماد.\n\nهل تتقدم بشجاعة أم تتراجع بحذر؟",
-      "choices": [
-        {
-          "text_ar": "تسلل نحو المنطقة المظلمة (1)",
-          "next_node": "p04_a_node_090",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "هاجم المعدات المعطلة (2)",
-          "next_node": "p04_a_node_052",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 43
-    },
-    "p04_a_node_090": {
-      "id": "p04_a_node_090",
-      "text_ar": "على قمة الجبل الجليدي الأزرق، يظهر أمامك شبح محارب يحمل سيفاً مكسوراً.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "هاجم المعدات المعطلة (1)",
-          "next_node": "p04_a_node_091",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_080",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 24
-    },
-    "p04_a_node_091": {
-      "id": "p04_a_node_091",
-      "text_ar": "أمام بوابة الأبعاد المكسورة، تجد صندوقاً خشبياً يرتجف وكأن بداخله قلب ينبض.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "تراجع التهديد الواضح (1)",
-          "next_node": "p04_a_node_092",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "استخدم ذكاءك لـ الأثر السحري (2)",
-          "next_node": "p04_a_node_094",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p04_a_node_092": {
-      "id": "p04_a_node_092",
-      "text_ar": "بجوار أنقاض معبد الشمس، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_093",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 13
-    },
-    "p04_a_node_093": {
-      "id": "p04_a_node_093",
-      "text_ar": "في وادي الهمسات السحيق، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nكيف ستتعامل مع هذا التهديد المبطن؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (1)",
-          "next_node": "p04_a_node_094",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_093",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 30
-    },
-    "p04_a_node_094": {
-      "id": "p04_a_node_094",
-      "text_ar": "في وسط بحيرة اللوتس المضيئة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تثق في هذه الظاهرة الغريبة؟",
-      "choices": [
-        {
-          "text_ar": "تفاوض بشأن الأثر السحري (1)",
-          "next_node": "p04_a_node_095",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تفاوض بشأن التهديد الواضح (2)",
-          "next_node": "p04_a_node_068",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 25
-    },
-    "p04_a_node_095": {
-      "id": "p04_a_node_095",
-      "text_ar": "بجوار أنقاض معبد الشمس، تنبت زهور نارية أينما وطئت قدمك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (1)",
-          "next_node": "p04_a_node_096",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع الأثر السحري (2)",
-          "next_node": "p04_a_node_092",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 11
-    },
-    "p04_a_node_096": {
-      "id": "p04_a_node_096",
-      "text_ar": "تحت جذور شجرة الحياة العملاقة، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nهل تجرؤ على لمس هذا اللغز؟",
-      "choices": [
-        {
-          "text_ar": "تراجع الأثر السحري (1)",
-          "next_node": "p04_a_node_097",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو الأثر السحري (2)",
-          "next_node": "p04_a_node_039",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 29
-    },
-    "p04_a_node_097": {
-      "id": "p04_a_node_097",
-      "text_ar": "على ضفاف نهر الذهب السائل، يتوقف الزمن للحظة، وترى رؤية من المستقبل.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استكشف التهديد الواضح (1)",
-          "next_node": "p04_a_node_098",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تسلل نحو المصدر الغامض (2)",
-          "next_node": "p04_a_node_056",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 33
-    },
-    "p04_a_node_098": {
-      "id": "p04_a_node_098",
-      "text_ar": "في ساحة القلعة الطافية، تسقط قطرة من السماء وتحول الأرض إلى زجاج.\n\nماذا ستكون خطوتك التالية في هذا المجهول؟",
-      "choices": [
-        {
-          "text_ar": "استخدم ذكاءك لـ التهديد الواضح (1)",
-          "next_node": "p04_a_node_099",
-          "skill_check": "intellect"
-        },
-        {
-          "text_ar": "تراجع المنطقة المظلمة (2)",
-          "next_node": "p04_a_node_025",
-          "skill_check": "agility"
-        }
-      ],
-      "reward_xp": 20
-    },
-    "p04_a_node_099": {
-      "id": "p04_a_node_099",
-      "text_ar": "على ضفاف نهر الذهب السائل، تلاحظ رموزاً سحرية تضيء فجأة تحت قدميك.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
-      "choices": [
-        {
-          "text_ar": "استكشف الأثر السحري (1)",
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
           "next_node": "p04_b_node_000",
-          "skill_check": "intellect"
+          "skill_check": "crafting",
+          "difficulty": 19,
+          "fail_next_node": "p04_a_node_009"
         },
         {
-          "text_ar": "تراجع المصدر الغامض (2)",
-          "next_node": "p04_a_node_041",
-          "skill_check": "agility"
+          "text_ar": "تراجع وابحث عن طريق بديل لتجنب المواجهة المباشرة.",
+          "next_node": "p04_b_node_000",
+          "skill_check": "stealth",
+          "difficulty": 10,
+          "fail_next_node": "p04_a_node_009"
+        },
+        {
+          "text_ar": "استخدم ذكائك لفك الرموز الغامضة وفهم طبيعة المكان.",
+          "next_node": "p04_b_node_000",
+          "skill_check": "magic",
+          "difficulty": 19,
+          "fail_next_node": "p04_a_node_009"
         }
-      ],
-      "reward_xp": 33,
-      "next_part_id": "p04_b"
+      ]
     }
-  }
+  },
+  "next_part_id": "p04_b"
 }
