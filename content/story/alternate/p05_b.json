@@ -1746,19 +1746,14 @@
       "text_ar": "بينما تتقدم في هذا العالم المجهول، تهب رياح قوية تحمل رائحة الرماد.\n\nأي مسار ستتخذ عندما يغيب الضوء؟",
       "choices": [
         {
-          "text_ar": "تفاوض بشأن التهديد الواضح (1)",
-          "next_node": "p01_a_node_000",
+          "text_ar": "اختر مسار الخاتمة المتزنة",
+          "ending_id": "alternate_ending_light",
           "skill_check": "intellect"
         },
         {
-          "text_ar": "هاجم التهديد الواضح (2)",
-          "next_node": "p05_b_node_091",
+          "text_ar": "اختر مسار الخاتمة الجريئة",
+          "ending_id": "alternate_ending_shadow",
           "skill_check": "agility"
-        },
-        {
-          "text_ar": "استكشف الأثر السحري (3)",
-          "next_node": "p01_a_node_000",
-          "required_archetype": "الخارج عن القانون"
         }
       ],
       "reward_xp": 17,

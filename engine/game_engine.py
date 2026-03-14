@@ -3,13 +3,37 @@ import os
 from typing import Dict, Any, List, Optional
 from domain.models import Job, Item
 
+
 class GameEngine:
     def __init__(self, content_dir: str = "content"):
         self.content_dir = content_dir
         self.jobs_cache: List[Job] = []
         self.shop_items_cache: List[Item] = []
+        self.archetype_name_to_id: Dict[str, str] = {}
+        self.load_archetypes()
         self.load_jobs()
         self.load_shop()
+
+    def load_archetypes(self):
+        """Load mapping to normalize Arabic archetype names to canonical IDs."""
+        defs_path = os.path.join(self.content_dir, "characters", "character_defs.json")
+        if not os.path.exists(defs_path):
+            return
+        try:
+            with open(defs_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            for a in data.get('archetypes', []):
+                archetype_id = a.get('id')
+                name_ar = a.get('name_ar')
+                if isinstance(archetype_id, str) and isinstance(name_ar, str):
+                    self.archetype_name_to_id[name_ar] = archetype_id
+        except Exception as e:
+            print(f"Error loading archetypes {defs_path}: {e}")
+
+    def normalize_archetype(self, archetype: str) -> str:
+        if not isinstance(archetype, str):
+            return "general"
+        return self.archetype_name_to_id.get(archetype, archetype)
 
     def load_jobs(self):
         """Loads JSON job files into memory."""
@@ -69,10 +93,10 @@ class GameEngine:
     def get_available_jobs(self, archetype: str, count: int = 3) -> List[Job]:
         """Returns a random selection of jobs matching the archetype or general jobs."""
         import random
-        valid_jobs = [j for j in self.jobs_cache if j.archetype == archetype or j.archetype == "general"]
+        normalized_archetype = self.normalize_archetype(archetype)
+        valid_jobs = [j for j in self.jobs_cache if j.archetype == normalized_archetype or j.archetype == "general"]
         if not valid_jobs:
             return []
-        # Return a random sample up to 'count'
         return random.sample(valid_jobs, min(len(valid_jobs), count))
 
     def get_shop_items(self, count: int = 5) -> List[Item]:

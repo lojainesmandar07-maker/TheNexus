@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# Local generated audit report (do not track in PRs)
+AI_REVIEW_REPORT.md
