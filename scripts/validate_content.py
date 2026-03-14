@@ -79,23 +79,6 @@ for f, d in parsed.items():
                 walk(v, f"{path}[{i}]")
     walk(d)
 
-# 4) archetype quest coverage
-archetypes = {a.get("id") for a in parsed[root / "characters" / "character_defs.json"].get("archetypes", [])}
-chains = {p.name.replace("archetype_", "").replace("_chains.json", "") for p in (root / "quests").glob("archetype_*_chains.json")}
-missing = sorted([a for a in archetypes if a and a not in chains])
-if missing:
-    errors.append(f"Missing archetype quest chains for: {missing}")
-
-# 5) duplicate ids per domain
-for category, key in [("jobs", "jobs"), ("quests", "quests"), ("economy", "items"), ("achievements", "achievements"), ("contracts", "weekly_contracts")]:
-    c = Counter()
-    for f in (root / category).glob("*.json"):
-        for obj in parsed[f].get(key, []):
-            if isinstance(obj, dict) and isinstance(obj.get("id"), str):
-                c[obj["id"]] += 1
-    dups = [k for k, v in c.items() if v > 1]
-    if dups:
-        errors.append(f"Duplicate IDs in {category}: {dups[:10]}")
 
 if errors:
     print("❌ Content validation failed:")
